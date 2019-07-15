@@ -1,0 +1,12 @@
+name: shodan
+version: 0.0.1
+
+authors:
+  - MiloSec
+
+description: |
+  Beta Unofficial Shodan library
+
+crystal: 0.19.2
+
+license: MIT
