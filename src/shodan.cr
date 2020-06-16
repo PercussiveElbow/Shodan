@@ -1,79 +1,39 @@
-require "./shodan/request_helper.cr"
+require "http/client"
+require "json"
+require "./shodan/*"
 
 module Shodan
-  class API
+    class Client
+        def initialize(@api_key : String)
 
-    def initialize(api_key :  String)
-      api_key
-      @base = RequestHelper.new(api_key) 
+        end
+
+        def host(host_ip : String)
+            response = HTTP::Client.get("https://api.shodan.io/shodan/host/#{host_ip}?key=#{@api_key}")
+            Client.check_status_code(response)
+            begin
+                host_info = Shodan::Host.from_json(response.body)
+                return host_info
+            rescue ex : JSON::Error
+                raise ShodanClientException.new(ex.to_s)
+            end
+        end
+
+        def self.check_status_code(response)
+            if response.status_code != 200
+                if response.status_code == 429
+                    raise ShodanRateLimitingException.new("Rate limit exceeded.")
+                end
+                raise ShodanAPIException.new("Non 200 response from host endpoint. #{response.status_code}")
+            end
+        end
+
+        class ShodanClientException < Exception 
+        end
+        class ShodanRateLimitingException < Exception
+        end
+        class ShodanAPIException < Exception 
+        end
     end
 
-    ### Search Methods 
-    def host(ip,params={} of String => String)
-      @base.get_req("shodan/host/#{ip}", extra_params: params)
-    end
-
-    def count(query,facets="")
-      @base.get_req("shodan/host/count",query: query, facets: facets)
-    end
-
-    def search(query,facets="",params ={} of String => String)
-      @base.get_req("shodan/host/search",query: query,facets: facets, extra_params: params)
-    end
-
-    def tokens(query)
-      @base.get_req("shodan/host/search/tokens",query: query)
-    end
-
-    def ports
-      @base.get_req("shodan/ports")
-    end
-
-    ### On Demand Scanning Methods
-    def protocols
-      @base.get_req("shodan/protocols")
-    end
-
-
-    ### Network Alerts
-
-
-    ### Directory methods
-
-
-    ### Bulk Data (Not implemented as enterprise only)
-    ### Manage Org (Not implemented as enterprise only)
-
-    ### DNS Methods
-    def dns_domain(domain)
-      @base.get_req("dns/domain/#{domain}")
-    end
-
-    def dns_resolve(host_names)
-      @base.get_req("dns/resolve",extra_params:  {"hostnames" => host_names})
-    end
-
-    def dns_reverse(ips)
-      @base.get_req("dns/reverse",extra_params:  {"ips" => ips})
-    end
-
-    ### Utility
-    def http_headers
-      @base.get_req("tools/httpheaders")
-    end
-
-    def myip
-      @base.get_req("tools/myip")
-    end
-
-    ### Status
-    def info
-      @base.get_req("api-info")
-    end
-
-    ## Experimental 
-    def honeyscore(ip)
-      @base.get_req("labs/honeyscore/#{ip}")
-    end
-  end
 end
