@@ -30,7 +30,7 @@ module Shodan
         property expires : String? 
         property expired : Bool?
         property version : Int32? 
-        property extensions : Array(String)?
+        property extensions : Array(HostDataSSLExtensions)?
         property fingerprint : Hash(String,String)?
         property serial : Int64? 
     end
@@ -39,5 +39,10 @@ module Shodan
         property version : String? 
         property bits : Int32?
         property name : String? 
+    end
+
+    struct HostDataSSLExtensions include JSON::Serializable
+        property data : String?
+        property name : String?
     end
 end
