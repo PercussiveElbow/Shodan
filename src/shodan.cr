@@ -10,7 +10,7 @@ module Shodan
 
         def host(host_ip : String)
             response = HTTP::Client.get("https://api.shodan.io/shodan/host/#{host_ip}?key=#{@api_key}")
-            Client.check_status_code(response)
+            Client.check_status_code(response, host_ip)
             begin
                 host_info = Shodan::Host.from_json(response.body)
                 return host_info
@@ -19,10 +19,13 @@ module Shodan
             end
         end
 
-        def self.check_status_code(response)
+        def self.check_status_code(response, host_ip : String)
             if response.status_code != 200
                 if response.status_code == 429
                     raise ShodanRateLimitingException.new("Rate limit exceeded.")
+                end
+                if response.status_code == 404
+                    raise ShodanHostNotfoundException.new("Host #{host_ip} not found on Shodan.")
                 end
                 raise ShodanAPIException.new("Non 200 response from host endpoint. #{response.status_code}")
             end
@@ -33,6 +36,8 @@ module Shodan
         class ShodanRateLimitingException < Exception
         end
         class ShodanAPIException < Exception 
+        end
+        class ShodanHostNotfoundException < Exception
         end
     end
 
