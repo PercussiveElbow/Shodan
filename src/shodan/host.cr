@@ -31,7 +31,7 @@ module Shodan
 
         struct HostData include JSON::Serializable
             # ip and isp
-            property ip : String?
+            property ip : Int64?
             property ip_str : String?
             property isp : String?
             property asn : String? 
