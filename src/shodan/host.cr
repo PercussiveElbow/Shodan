@@ -12,7 +12,7 @@ module Shodan
         property postal_code : String?
         property city : String?
         property country_name : String?
-        property dma_code : String?
+        property dma_code : Int32?
         property longitude : Float64?
         property latitude : Float64?
         # hostnames
@@ -31,7 +31,7 @@ module Shodan
 
         struct HostData include JSON::Serializable
             # ip and isp
-            property ip : Int64?
+            property ip : String?
             property ip_str : String?
             property isp : String?
             property asn : String? 
@@ -66,7 +66,7 @@ module Shodan
             property country_code3 : String?
             property country_name : String?
             property postal_code : String?
-            property dma_code : String? 
+            property dma_code : Int32? 
             property country_code : String? 
         end
     end
