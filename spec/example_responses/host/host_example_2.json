@@ -1,0 +1,151 @@
+{
+    "region_code": "SP",
+    "ip": 1,
+    "postal_code": null,
+    "country_code": "BR",
+    "city": "Birigui",
+    "dma_code": null,
+    "last_update": "2020-07-29T18:37:27.509865",
+    "latitude": -21.2405,
+    "tags": [
+        "compromised"
+    ],
+    "area_code": null,
+    "country_name": "Brazil",
+    "hostnames": [],
+    "org": "Ensite Brasil Telecomunicacoes Ltda - ME",
+    "data": [
+        {
+            "_shodan": {
+                "options": {},
+                "id": "1",
+                "module": "ubiquiti-discover",
+                "crawler": "1"
+            },
+            "product": "LC5",
+            "hash": -1690672489,
+            "version": "XS5.ar2313.v4.0.2.4983.120420.1118",
+            "tags": [
+                "compromised"
+            ],
+            "opts": {
+                "raw": "1"
+            },
+            "ip": 1,
+            "isp": "Ensite Brasil Telecomunicacoes Ltda - ME",
+            "os": null,
+            "port": 10001,
+            "hostnames": [],
+            "location": {
+                "city": "Birigui",
+                "region_code": "SP",
+                "area_code": null,
+                "longitude": -50.3405,
+                "country_code3": null,
+                "country_name": "Brazil",
+                "postal_code": null,
+                "dma_code": null,
+                "country_code": "BR",
+                "latitude": -21.2405
+            },
+            "timestamp": "2020-07-29T18:37:27.509865",
+            "domains": [],
+            "org": "Ensite Brasil Telecomunicacoes Ltda - ME",
+            "data": "Ubiquiti Networks Device\nIP: 1\nMAC: 00:15:6d:e2:7a:b6\nAlternate IP: 1\nAlternate MAC: 00:15:6d:e3:7a:b6\nHostname: HACKED-ROUTER-HELP-SOS-HAD-DUPE-PASSWORD\nProduct: LC5\nVersion: XS5.ar2313.v4.0.2.4983.120420.1118\n",
+            "asn": "AS28263",
+            "transport": "udp",
+            "ip_str": "1"
+        },
+        {
+            "info": "protocol 2.0",
+            "_shodan": {
+                "id": "1",
+                "options": {},
+                "ptr": true,
+                "module": "ssh",
+                "crawler": "1"
+            },
+            "product": "Dropbear sshd",
+            "hash": -856277569,
+            "version": "0.51",
+            "location": {
+                "city": "Birigui",
+                "region_code": "SP",
+                "area_code": null,
+                "longitude": -50.3405,
+                "country_code3": null,
+                "country_name": "Brazil",
+                "postal_code": null,
+                "dma_code": null,
+                "country_code": "BR",
+                "latitude": -21.2405
+            },
+            "opts": {},
+            "ip": 1,
+            "isp": "Ensite Brasil Telecomunicacoes Ltda - ME",
+            "os": null,
+            "cpe": [
+                "cpe:/o:linux:linux_kernel"
+            ],
+            "port": 22,
+            "hostnames": [],
+            "ssh": {
+                "hassh": "fb27c47932035d6a3fd2f212f5b9bc2c",
+                "fingerprint": "07:6c:c1:6e:ed:6d:39:71:89:01:49:59:30:79:b1:fb",
+                "mac": "hmac-md5",
+                "cipher": "aes128-cbc",
+                "key": "AAAAB3NzaC1yc2EAAAADAQABAAAAgwCKcwFoLNv2j3k9dbyVDlXqrxW+sZmzbFd5iDJKYiGARV2t\nfDxJlAMF4rmcZf4q5hshMaiuF22hl8jCQ/fZzxP2LQcnpEHpi+eA2SHG3hZphKbI1+IdYqB+svPA\nrGUF81eObospv8bEwWYglKB0PkWxRRzszNudCrPICJlzxmK+Satp\n",
+                "kex": {
+                    "languages": [
+                        ""
+                    ],
+                    "server_host_key_algorithms": [
+                        "ssh-rsa",
+                        "ssh-dss"
+                    ],
+                    "encryption_algorithms": [
+                        "aes128-cbc",
+                        "3des-cbc",
+                        "aes256-cbc",
+                        "twofish256-cbc",
+                        "twofish-cbc",
+                        "twofish128-cbc",
+                        "blowfish-cbc"
+                    ],
+                    "kex_follows": false,
+                    "unused": 0,
+                    "kex_algorithms": [
+                        "diffie-hellman-group1-sha1"
+                    ],
+                    "compression_algorithms": [
+                        "none"
+                    ],
+                    "mac_algorithms": [
+                        "hmac-sha1-96",
+                        "hmac-sha1",
+                        "hmac-md5"
+                    ]
+                },
+                "type": "ssh-rsa"
+            },
+            "timestamp": "2020-06-30T09:05:59.342919",
+            "domains": [],
+            "org": "Ensite Brasil Telecomunicacoes Ltda - ME",
+            "data": "SSH-2.0-dropbear_0.51\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAAAgwCKcwFoLNv2j3k9dbyVDlXqrxW+sZmzbFd5iDJKYiGARV2t\nfDxJlAMF4rmcZf4q5hshMaiuF22hl8jCQ/fZzxP2LQcnpEHpi+eA2SHG3hZphKbI1+IdYqB+svPA\nrGUF81eObospv8bEwWYglKB0PkWxRRzszNudCrPICJlzxmK+Satp\nFingerprint: 07:6c:c1:6e:ed:6d:39:71:89:01:49:59:30:79:b1:fb\n\nKex Algorithms:\n\tdiffie-hellman-group1-sha1\n\nServer Host Key Algorithms:\n\tssh-rsa\n\tssh-dss\n\nEncryption Algorithms:\n\taes128-cbc\n\t3des-cbc\n\taes256-cbc\n\ttwofish256-cbc\n\ttwofish-cbc\n\ttwofish128-cbc\n\tblowfish-cbc\n\nMAC Algorithms:\n\thmac-sha1-96\n\thmac-sha1\n\thmac-md5\n\nCompression Algorithms:\n\tnone\n\n",
+            "asn": "AS28263",
+            "transport": "tcp",
+            "ip_str": "1"
+        }
+    ],
+    "asn": "AS28263",
+    "isp": "Ensite Brasil Telecomunicacoes Ltda - ME",
+    "longitude": -50.3405,
+    "country_code3": null,
+    "domains": [],
+    "ip_str": "1",
+    "os": null,
+    "ports": [
+        10001,
+        22
+    ]
+}

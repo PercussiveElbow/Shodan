@@ -1,0 +1,78 @@
+{
+    "region_code": null,
+    "ip": 134744072,
+    "postal_code": null,
+    "country_code": "US",
+    "city": null,
+    "dma_code": null,
+    "last_update": "2020-07-29T18:40:59.686079",
+    "latitude": 37.751,
+    "tags": [],
+    "area_code": null,
+    "country_name": "United States",
+    "hostnames": [
+        "dns.google"
+    ],
+    "org": "Google",
+    "data": [
+        {
+            "_shodan": {
+                "id": "1",
+                "options": {},
+                "ptr": true,
+                "module": "dns-udp",
+                "crawler": "1"
+            },
+            "hash": -553166942,
+            "os": null,
+            "opts": {
+                "raw": "1"
+            },
+            "ip": 134744072,
+            "isp": "Google",
+            "port": 53,
+            "hostnames": [
+                "dns.google"
+            ],
+            "location": {
+                "city": null,
+                "region_code": null,
+                "area_code": null,
+                "longitude": -97.822,
+                "country_code3": null,
+                "country_name": "United States",
+                "postal_code": null,
+                "dma_code": null,
+                "country_code": "US",
+                "latitude": 37.751
+            },
+            "dns": {
+                "resolver_hostname": null,
+                "recursive": true,
+                "resolver_id": null,
+                "software": null
+            },
+            "timestamp": "2020-07-29T18:40:59.686079",
+            "domains": [
+                "dns.google"
+            ],
+            "org": "Google",
+            "data": "\nRecursion: enabled",
+            "asn": "AS15169",
+            "transport": "udp",
+            "ip_str": "8.8.8.8"
+        }
+    ],
+    "asn": "AS15169",
+    "isp": "Google",
+    "longitude": -97.822,
+    "country_code3": null,
+    "domains": [
+        "dns.google"
+    ],
+    "ip_str": "8.8.8.8",
+    "os": null,
+    "ports": [
+        53
+    ]
+}

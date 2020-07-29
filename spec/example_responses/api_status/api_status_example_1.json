@@ -1,0 +1,15 @@
+{
+    "scan_credits": 100,
+    "usage_limits": {
+        "scan_credits": 100,
+        "query_credits": 100,
+        "monitored_ips": 100
+    },
+    "plan": "pro",
+    "https": false,
+    "unlocked": true,
+    "query_credits": 100,
+    "monitored_ips": null,
+    "unlocked_left": 100,
+    "telnet": false
+}

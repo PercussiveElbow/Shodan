@@ -14,3 +14,6 @@ jobs:
     - name: Build
       run: crystal build -Dpreview_mt --error-trace --release src/shodan.cr
       id: build
+    - name: Run tests
+      run: crystal run spec/shodan_spec.cr
+      id: test

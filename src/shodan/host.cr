@@ -35,6 +35,7 @@ module Shodan
             property ip_str : String?
             property isp : String?
             property asn : String? 
+            property org : String?
             # hostnames and domain 
             property hostnames : Array(String)?
             property domains : Array(String)?
@@ -53,6 +54,7 @@ module Shodan
             property data : String?
             # extra deets
             property location : HostDataLocation?
+            property dns : HostDataDNS?
             property http : HostDataHTTP?
             property ssl : HostDataSSL? 
         end
@@ -69,5 +71,13 @@ module Shodan
             property dma_code : Int32? 
             property country_code : String? 
         end
+
+        struct HostDataDNS include JSON::Serializable
+            property resolver_hostname : String?
+            property recursive : Bool?
+            property resolver_id : String?
+            property software : String?
+        end
+
     end
 end
