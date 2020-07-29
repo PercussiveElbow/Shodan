@@ -48,8 +48,8 @@ end
 describe "Search Endpoints" do 
     host_response_1 = File.read("spec/example_responses/host/host_example_1.json")
     host_response_2 = File.read("spec/example_responses/host/host_example_2.json") # random compromised off front page
-    host_response_3 = File.read("spec/example_responses/host/host_example_3.json")
-    host_response_4 = File.read("spec/example_responses/host/host_example_4.json")
+    # host_response_3 = File.read("spec/example_responses/host/host_example_3.json")
+    # host_response_4 = File.read("spec/example_responses/host/host_example_4.json")
 
     WebMock.stub(:get, "https://api.shodan.io/shodan/host/8.8.8.8#{key_path}").to_return(status: 200, body: host_response_1)
     WebMock.stub(:get, "https://api.shodan.io/shodan/host/1.1.1.1#{key_path}").to_return(status: 200, body: host_response_2)
