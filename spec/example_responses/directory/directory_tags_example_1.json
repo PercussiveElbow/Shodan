@@ -1,0 +1,45 @@
+{
+    "matches": [
+        {
+            "count": 203,
+            "value": "webcam"
+        },
+        {
+            "count": 163,
+            "value": "cam"
+        },
+        {
+            "count": 151,
+            "value": "camera"
+        },
+        {
+            "count": 92,
+            "value": "router"
+        },
+        {
+            "count": 91,
+            "value": "ip"
+        },
+        {
+            "count": 90,
+            "value": "scada"
+        },
+        {
+            "count": 84,
+            "value": "server"
+        },
+        {
+            "count": 78,
+            "value": "ftp"
+        },
+        {
+            "count": 44,
+            "value": "http"
+        },
+        {
+            "count": 28,
+            "value": "cisco"
+        }
+    ],
+    "total": 7411
+}

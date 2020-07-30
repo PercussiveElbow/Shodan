@@ -1,0 +1,5138 @@
+{
+    "domain": "cnn.com",
+    "tags": [
+        "dmarc",
+        "facebook-verified",
+        "google-verified",
+        "ipv6",
+        "microsoft-office-365",
+        "spf"
+    ],
+    "data": [
+        {
+            "subdomain": "",
+            "type": "A",
+            "value": "151.101.1.67",
+            "last_seen": "2020-07-29T16:01:22.200392+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "A",
+            "value": "151.101.129.67",
+            "last_seen": "2020-07-29T16:01:22.197187+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "A",
+            "value": "151.101.65.67",
+            "last_seen": "2020-07-29T16:01:22.198459+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "A",
+            "value": "151.101.193.67",
+            "last_seen": "2020-07-29T16:01:22.195839+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "AAAA",
+            "value": "2a04:4e42::323",
+            "last_seen": "2020-07-29T16:01:22.202866+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "AAAA",
+            "value": "2a04:4e42:200::323",
+            "last_seen": "2020-07-29T16:01:22.204771+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "AAAA",
+            "value": "2a04:4e42:600::323",
+            "last_seen": "2020-07-29T16:01:22.205411+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "AAAA",
+            "value": "2a04:4e42:400::323",
+            "last_seen": "2020-07-29T16:01:22.201615+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "MX",
+            "value": "mxb-00241e02.gslb.pphosted.com",
+            "last_seen": "2020-07-18T02:20:40.381562+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "MX",
+            "value": "mxa-00241e02.gslb.pphosted.com",
+            "last_seen": "2020-07-18T02:20:40.382558+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "NS",
+            "value": "ns-1086.awsdns-07.org",
+            "last_seen": "2020-07-18T02:20:40.327410+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "NS",
+            "value": "ns-1630.awsdns-11.co.uk",
+            "last_seen": "2020-07-18T02:20:40.329425+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "NS",
+            "value": "ns-47.awsdns-05.com",
+            "last_seen": "2020-07-18T02:20:40.328486+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "NS",
+            "value": "ns-576.awsdns-08.net",
+            "last_seen": "2020-07-18T02:20:40.329942+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "SOA",
+            "value": "ns-47.awsdns-05.com",
+            "last_seen": "2020-07-18T02:20:40.383852+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "528183251-4422019",
+            "last_seen": "2020-07-18T02:20:40.334831+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "667921863-4422007",
+            "last_seen": "2020-07-18T02:20:40.342737+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "764482256-4422025",
+            "last_seen": "2020-07-18T02:20:40.356193+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "globalsign-domain-verification=-Q7umwx2mj164XwLa0PsoUaWe2HBhta50GjggsT98f",
+            "last_seen": "2020-07-18T02:20:40.363006+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "_globalsign-domain-verification=2lybn8Z2GKCTHNehPEREKdz_jh5SahShpwOeRqCWjl",
+            "last_seen": "2020-07-18T02:20:40.378800+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "google-site-verification=_QivaXNjhXy-V1y_YqrycXdAWZi2mVrcwbXerX6THeY",
+            "last_seen": "2020-07-18T02:20:40.340686+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "facebook-domain-verification=xszi21kow2trmw3xt3ph6s631zyu3i",
+            "last_seen": "2020-07-18T02:20:40.380340+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "cisco-ci-domain-verification=4a1c92ef69fe42f8125c3ca9ce0696dcf6cc16fa80243257de578af593d19548",
+            "last_seen": "2020-07-18T02:20:40.366660+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "755973593-4422016",
+            "last_seen": "2020-07-18T02:20:40.369496+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "349997471-4422043",
+            "last_seen": "2020-07-18T02:20:40.337402+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "294913881-4422049",
+            "last_seen": "2020-07-18T02:20:40.358103+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "_globalsign-domain-verification=yTw3T3KnyIyTB1xG2GvVhl1zWJlFp-WqmNskdVI_65",
+            "last_seen": "2020-07-18T02:20:40.353978+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "598362927-4422061",
+            "last_seen": "2020-07-18T02:20:40.330551+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "714321471-4421998",
+            "last_seen": "2020-07-18T02:20:40.372381+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "267933795-4422004",
+            "last_seen": "2020-07-18T02:20:40.375229+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "_globalsign-domain-verification=MK_ZKmss4D_DdzGOsssHxxBOK6hJc6LGycFvNOESdZ",
+            "last_seen": "2020-07-18T02:20:40.368034+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "688162515-4422037",
+            "last_seen": "2020-07-18T02:20:40.357242+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "globalsign-domain-verification=2lI5pahhCu_jg_2RC5GEdolQmAa4K7rhP7_OA-lZBK",
+            "last_seen": "2020-07-18T02:20:40.352816+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "adobe-idp-site-verification=279ead95-3581-42b7-82f4-73c97f8cebfa",
+            "last_seen": "2020-07-18T02:20:40.371243+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "321159687-4422031",
+            "last_seen": "2020-07-18T02:20:40.333443+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "133461244-4422058",
+            "last_seen": "2020-07-18T02:20:40.365929+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "782989862-4417942",
+            "last_seen": "2020-07-18T02:20:40.354802+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "ms=ms97284866",
+            "last_seen": "2020-07-18T02:20:40.364599+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "826218936-4422046",
+            "last_seen": "2020-07-18T02:20:40.360413+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "2baPGrmeo+RwsWdIdq/gIVSEWNb4tC9mLGQu0j4l/mduqhm06T+V9vNLXsauLyH9FwMZJSRHvj/YHGKOVWRylw==",
+            "last_seen": "2020-07-18T02:20:40.367161+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "754516718-4422064",
+            "last_seen": "2020-07-18T02:20:40.351155+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "882269757-4422010",
+            "last_seen": "2020-07-18T02:20:40.338568+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "287893558-4422013",
+            "last_seen": "2020-07-18T02:20:40.374672+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "691244352-4422022",
+            "last_seen": "2020-07-18T02:20:40.339517+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "178953534-4422001",
+            "last_seen": "2020-07-18T02:20:40.348815+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "v=spf1 include:cnn.com._nspf.vali.email include:%{i}._ip.%{h}._ehlo.%{d}._spf.vali.email ~all",
+            "last_seen": "2020-07-18T02:20:40.347630+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "_globalsign-domain-verification=5ckEJ4VIhQ6weCdCfmfzQPVP6ED1LtCX9jw1OKX5Mv",
+            "last_seen": "2020-07-18T02:20:40.358590+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "299762315-4422055",
+            "last_seen": "2020-07-18T02:20:40.344401+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "228426766-4422034",
+            "last_seen": "2020-07-18T02:20:40.349815+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "186844776-4422028",
+            "last_seen": "2020-07-18T02:20:40.346333+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "_globalsign-domain-verification=S6DssfjyL_2kgK4I2Ae_1cdPfwqRRBfB9-3ZhRGMRj",
+            "last_seen": "2020-07-18T02:20:40.373453+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "553992719-4400647",
+            "last_seen": "2020-07-18T02:20:40.361398+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "353665828-4422052",
+            "last_seen": "2020-07-18T02:20:40.331602+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "MS=ms66433104",
+            "last_seen": "2020-07-18T02:20:40.379606+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "126953328-4422040",
+            "last_seen": "2020-07-18T02:20:40.377473+00:00"
+        },
+        {
+            "subdomain": "",
+            "type": "TXT",
+            "value": "d1xTs9+kADZZSz3bPphLpkMXXxBGjqn5vsQHhi2M6lo0r8AdIbm6j8LfQXPujsywVgeGSP+AXWX0vO9Iep5cUg==",
+            "last_seen": "2020-07-18T02:20:40.376389+00:00"
+        },
+        {
+            "subdomain": "_dmarc",
+            "type": "TXT",
+            "value": "v=DMARC1; p=reject; rua=mailto:dmarc_agg@vali.email,mailto:tw@rua.agari.com; ruf=mailto:tw@ruf.agari.com",
+            "last_seen": "2020-07-18T02:20:40.325134+00:00"
+        },
+        {
+            "subdomain": "a.mw",
+            "type": "CNAME",
+            "value": "mw.cnn.com",
+            "last_seen": "2020-07-18T02:21:33.623828+00:00"
+        },
+        {
+            "subdomain": "ablink.emailalerts",
+            "type": "CNAME",
+            "value": "sendgrid.net",
+            "last_seen": "2020-07-19T17:31:12.284468+00:00"
+        },
+        {
+            "subdomain": "ac360.blogs",
+            "type": "CNAME",
+            "value": "cnnac360.wordpress.com",
+            "last_seen": "2020-07-18T02:32:33.467055+00:00"
+        },
+        {
+            "subdomain": "access",
+            "type": "A",
+            "value": "64.20.247.69",
+            "last_seen": "2020-07-18T02:20:40.276034+00:00"
+        },
+        {
+            "subdomain": "account",
+            "type": "A",
+            "value": "64.236.22.92",
+            "last_seen": "2020-07-18T02:20:48.491163+00:00"
+        },
+        {
+            "subdomain": "account",
+            "type": "A",
+            "value": "64.236.29.92",
+            "last_seen": "2020-07-18T02:20:48.489197+00:00"
+        },
+        {
+            "subdomain": "adfeature",
+            "type": "A",
+            "value": "103.23.78.117",
+            "last_seen": "2020-07-18T02:43:28.000015+00:00"
+        },
+        {
+            "subdomain": "admin.on",
+            "type": "CNAME",
+            "value": "bitly.com",
+            "last_seen": "2020-07-18T02:44:49.310830+00:00"
+        },
+        {
+            "subdomain": "admin.ref.alertshub",
+            "type": "CNAME",
+            "value": "publishing-nonprod-internal-shared-eks-dx.cnnio.net",
+            "last_seen": "2020-07-22T04:28:11.393367+00:00"
+        },
+        {
+            "subdomain": "advertisementfeature",
+            "type": "A",
+            "value": "34.252.63.177",
+            "last_seen": "2020-07-18T02:49:08.829003+00:00"
+        },
+        {
+            "subdomain": "afghanistan.blogs",
+            "type": "CNAME",
+            "value": "cnnafghanistan.wordpress.com",
+            "last_seen": "2020-07-18T02:53:02.087129+00:00"
+        },
+        {
+            "subdomain": "agility",
+            "type": "CNAME",
+            "value": "turner.edge.nc0.co",
+            "last_seen": "2020-07-19T17:24:06.974723+00:00"
+        },
+        {
+            "subdomain": "alerts",
+            "type": "CNAME",
+            "value": "www.cnn.com",
+            "last_seen": "2020-07-18T02:20:35.683226+00:00"
+        },
+        {
+            "subdomain": "alertshub",
+            "type": "CNAME",
+            "value": "alertshub.cnn.io",
+            "last_seen": "2020-07-19T04:52:01.915475+00:00"
+        },
+        {
+            "subdomain": "am.blogs",
+            "type": "CNAME",
+            "value": "cnnamfix.wordpress.com",
+            "last_seen": "2020-07-18T02:20:48.701603+00:00"
+        },
+        {
+            "subdomain": "amanpour.blogs",
+            "type": "CNAME",
+            "value": "cnniamanpour.wordpress.com",
+            "last_seen": "2020-07-18T02:20:40.546344+00:00"
+        },
+        {
+            "subdomain": "amfix.blogs",
+            "type": "CNAME",
+            "value": "cnnamfix.wordpress.com",
+            "last_seen": "2020-07-18T03:32:55.955417+00:00"
+        },
+        {
+            "subdomain": "amp",
+            "type": "CNAME",
+            "value": "p.global-ssl.fastly.net",
+            "last_seen": "2020-07-18T03:34:41.358795+00:00"
+        },
+        {
+            "subdomain": "amp-ref",
+            "type": "CNAME",
+            "value": "ref.amp.cnn.io",
+            "last_seen": "2020-07-21T20:39:53.900390+00:00"
+        },
+        {
+            "subdomain": "amp-staging",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-15T23:16:31.033034+00:00"
+        },
+        {
+            "subdomain": "api",
+            "type": "CNAME",
+            "value": "api.cnn.com.vgtf.net",
+            "last_seen": "2020-07-18T02:20:34.304253+00:00"
+        },
+        {
+            "subdomain": "api.electiontracker",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-20T13:52:02.888058+00:00"
+        },
+        {
+            "subdomain": "api.etp",
+            "type": "CNAME",
+            "value": "turner.map.fastly.net",
+            "last_seen": "2020-07-19T17:31:45.263330+00:00"
+        },
+        {
+            "subdomain": "api.platform",
+            "type": "CNAME",
+            "value": "prod.turner-tls.map.fastly.net",
+            "last_seen": "2020-07-19T17:34:05.110211+00:00"
+        },
+        {
+            "subdomain": "app.cnnespanol",
+            "type": "CNAME",
+            "value": "cnnee-pwabeta.firebaseapp.com",
+            "last_seen": "2020-07-21T07:05:30.520693+00:00"
+        },
+        {
+            "subdomain": "apple20.blogs.fortune",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-07T07:05:20.833595+00:00"
+        },
+        {
+            "subdomain": "apps.money",
+            "type": "A",
+            "value": "157.166.224.12",
+            "last_seen": "2020-07-29T19:29:08.547680+00:00"
+        },
+        {
+            "subdomain": "arabic",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-18T04:02:55.074913+00:00"
+        },
+        {
+            "subdomain": "archive.arabic",
+            "type": "CNAME",
+            "value": "prod-origin.archive.arabic.cnn.io",
+            "last_seen": "2020-07-18T04:05:25.186288+00:00"
+        },
+        {
+            "subdomain": "archives",
+            "type": "A",
+            "value": "157.166.226.110",
+            "last_seen": "2020-07-18T04:05:41.364927+00:00"
+        },
+        {
+            "subdomain": "asia",
+            "type": "CNAME",
+            "value": "asia.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-18T02:20:40.907071+00:00"
+        },
+        {
+            "subdomain": "askfsb.blogs.fsb",
+            "type": "CNAME",
+            "value": "www.money.com",
+            "last_seen": "2020-07-18T04:21:19.011835+00:00"
+        },
+        {
+            "subdomain": "asktheexpert.blogs.money",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-18T04:21:30.350936+00:00"
+        },
+        {
+            "subdomain": "asvcsem",
+            "type": "A",
+            "value": "157.166.226.206",
+            "last_seen": "2020-07-18T04:25:35.773743+00:00"
+        },
+        {
+            "subdomain": "at",
+            "type": "CNAME",
+            "value": "cnn.com",
+            "last_seen": "2020-07-18T04:25:47.680118+00:00"
+        },
+        {
+            "subdomain": "att.mw",
+            "type": "CNAME",
+            "value": "mw.cnn.com",
+            "last_seen": "2020-07-18T04:30:59.928335+00:00"
+        },
+        {
+            "subdomain": "aud-qai",
+            "type": "A",
+            "value": "157.166.245.85",
+            "last_seen": "2020-07-18T04:32:46.318726+00:00"
+        },
+        {
+            "subdomain": "aud-stage",
+            "type": "A",
+            "value": "157.166.245.87",
+            "last_seen": "2020-07-18T04:32:35.208367+00:00"
+        },
+        {
+            "subdomain": "audience",
+            "type": "CNAME",
+            "value": "cnn-dalton-prod.ids.turner.com",
+            "last_seen": "2020-07-18T04:32:50.964698+00:00"
+        },
+        {
+            "subdomain": "audience.qa",
+            "type": "CNAME",
+            "value": "cnn-dalton-qa.ids.turner.com",
+            "last_seen": "2020-07-21T10:10:25.359296+00:00"
+        },
+        {
+            "subdomain": "autoshow.blogs.cnnmoney",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-18T04:40:59.984643+00:00"
+        },
+        {
+            "subdomain": "backstory.blogs",
+            "type": "CNAME",
+            "value": "cnnibackstory.wordpress.com",
+            "last_seen": "2020-07-18T04:53:21.119614+00:00"
+        },
+        {
+            "subdomain": "bcalerts.money",
+            "type": "CNAME",
+            "value": "www.money.com",
+            "last_seen": "2020-07-18T05:16:37.984470+00:00"
+        },
+        {
+            "subdomain": "bccontent.ns",
+            "type": "A",
+            "value": "13.227.73.54",
+            "last_seen": "2020-07-18T05:16:47.987975+00:00"
+        },
+        {
+            "subdomain": "bccontent.ns",
+            "type": "A",
+            "value": "13.227.73.119",
+            "last_seen": "2020-07-18T05:16:47.987054+00:00"
+        },
+        {
+            "subdomain": "bccontent.ns",
+            "type": "A",
+            "value": "13.227.73.6",
+            "last_seen": "2020-07-18T05:16:47.986125+00:00"
+        },
+        {
+            "subdomain": "bccontent.ns",
+            "type": "A",
+            "value": "13.227.73.79",
+            "last_seen": "2020-07-18T05:16:47.984105+00:00"
+        },
+        {
+            "subdomain": "bccontent.ns",
+            "type": "A",
+            "value": "99.84.214.16",
+            "last_seen": "2020-07-13T05:06:31.382255+00:00"
+        },
+        {
+            "subdomain": "bccontent.ns",
+            "type": "A",
+            "value": "99.84.214.40",
+            "last_seen": "2020-07-13T05:06:31.381623+00:00"
+        },
+        {
+            "subdomain": "bccontent.ns",
+            "type": "A",
+            "value": "99.84.214.107",
+            "last_seen": "2020-07-13T05:06:31.380497+00:00"
+        },
+        {
+            "subdomain": "bccontent.ns",
+            "type": "A",
+            "value": "99.84.214.91",
+            "last_seen": "2020-07-13T05:06:31.379211+00:00"
+        },
+        {
+            "subdomain": "bccontent.ns",
+            "type": "A",
+            "value": "13.227.76.55",
+            "last_seen": "2020-07-07T08:24:18.520801+00:00"
+        },
+        {
+            "subdomain": "bccontent.ns",
+            "type": "A",
+            "value": "13.227.76.23",
+            "last_seen": "2020-07-07T08:24:18.517433+00:00"
+        },
+        {
+            "subdomain": "bccontent.ns",
+            "type": "A",
+            "value": "13.227.76.50",
+            "last_seen": "2020-07-07T08:24:18.512648+00:00"
+        },
+        {
+            "subdomain": "bccontent.ns",
+            "type": "A",
+            "value": "13.227.76.43",
+            "last_seen": "2020-07-07T08:24:18.510779+00:00"
+        },
+        {
+            "subdomain": "bccontent.ns",
+            "type": "A",
+            "value": "143.204.131.92",
+            "last_seen": "2020-07-04T18:11:50.131486+00:00"
+        },
+        {
+            "subdomain": "bccontent.ns",
+            "type": "A",
+            "value": "143.204.131.82",
+            "last_seen": "2020-07-04T18:11:50.130304+00:00"
+        },
+        {
+            "subdomain": "bccontent.ns",
+            "type": "A",
+            "value": "143.204.131.55",
+            "last_seen": "2020-07-04T18:11:50.129300+00:00"
+        },
+        {
+            "subdomain": "bccontent.ns",
+            "type": "A",
+            "value": "143.204.131.19",
+            "last_seen": "2020-07-04T18:11:50.125476+00:00"
+        },
+        {
+            "subdomain": "bccontent.ns",
+            "type": "A",
+            "value": "99.84.206.118",
+            "last_seen": "2020-06-30T20:36:25.456493+00:00"
+        },
+        {
+            "subdomain": "bccontent.ns",
+            "type": "A",
+            "value": "99.84.206.20",
+            "last_seen": "2020-06-30T20:36:25.455834+00:00"
+        },
+        {
+            "subdomain": "bccontent.ns",
+            "type": "A",
+            "value": "99.84.206.55",
+            "last_seen": "2020-06-30T20:36:25.455074+00:00"
+        },
+        {
+            "subdomain": "bccontent.ns",
+            "type": "A",
+            "value": "99.84.206.125",
+            "last_seen": "2020-06-30T20:36:25.454185+00:00"
+        },
+        {
+            "subdomain": "bcportfolio.money",
+            "type": "CNAME",
+            "value": "www.money.com",
+            "last_seen": "2020-07-18T05:17:33.157250+00:00"
+        },
+        {
+            "subdomain": "bea4",
+            "type": "CNAME",
+            "value": "bea4c.v.fwmrm.net",
+            "last_seen": "2020-07-18T05:18:59.498602+00:00"
+        },
+        {
+            "subdomain": "bea4c",
+            "type": "CNAME",
+            "value": "bea4c.v.fwmrm.net",
+            "last_seen": "2020-07-21T07:08:44.768500+00:00"
+        },
+        {
+            "subdomain": "behindthescenes.blogs",
+            "type": "CNAME",
+            "value": "behindthescenes.blogs.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-13T05:11:38.531810+00:00"
+        },
+        {
+            "subdomain": "beta.next",
+            "type": "CNAME",
+            "value": "beta.next.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-18T05:36:41.199327+00:00"
+        },
+        {
+            "subdomain": "bigtech.blogs.fortune",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-18T05:45:36.798602+00:00"
+        },
+        {
+            "subdomain": "bingbosses.blogs.fortune",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-18T05:48:47.258398+00:00"
+        },
+        {
+            "subdomain": "bodareal.blogs",
+            "type": "CNAME",
+            "value": "bodareal.blogs.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-18T06:12:01.522059+00:00"
+        },
+        {
+            "subdomain": "bourdainlive",
+            "type": "CNAME",
+            "value": "cnn.site.scribblelive.com",
+            "last_seen": "2020-07-18T06:22:29.608589+00:00"
+        },
+        {
+            "subdomain": "brainstormtech.blogs.fortune",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-13T05:56:01.390044+00:00"
+        },
+        {
+            "subdomain": "broker.ng",
+            "type": "A",
+            "value": "157.166.239.88",
+            "last_seen": "2020-07-18T06:35:32.085218+00:00"
+        },
+        {
+            "subdomain": "broker.ng",
+            "type": "A",
+            "value": "157.166.248.140",
+            "last_seen": "2020-07-18T06:35:32.082764+00:00"
+        },
+        {
+            "subdomain": "business.blogs",
+            "type": "CNAME",
+            "value": "business.blogs.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-13T06:12:12.119006+00:00"
+        },
+        {
+            "subdomain": "buzz.money",
+            "type": "CNAME",
+            "value": "cnnmoneybuzzblog.wordpress.com",
+            "last_seen": "2020-07-18T06:51:33.560603+00:00"
+        },
+        {
+            "subdomain": "c.bea4",
+            "type": "CNAME",
+            "value": "bea4c.v.fwmrm.net",
+            "last_seen": "2020-07-22T02:52:37.282531+00:00"
+        },
+        {
+            "subdomain": "ca.commerce",
+            "type": "CNAME",
+            "value": "cnn.ca.maas.zetaglobal.net",
+            "last_seen": "2020-07-20T21:11:30.613744+00:00"
+        },
+        {
+            "subdomain": "ca.emailalerts",
+            "type": "CNAME",
+            "value": "cnn.ca.maas.zetaglobal.net",
+            "last_seen": "2020-07-20T21:11:27.904895+00:00"
+        },
+        {
+            "subdomain": "ca.newsletters",
+            "type": "CNAME",
+            "value": "cnn.ca.maas.zetaglobal.net",
+            "last_seen": "2020-07-20T21:11:30.401956+00:00"
+        },
+        {
+            "subdomain": "ca.transactional",
+            "type": "CNAME",
+            "value": "cnn.ca.maas.zetaglobal.net",
+            "last_seen": "2020-07-20T21:11:30.406063+00:00"
+        },
+        {
+            "subdomain": "caffertyfile.blogs",
+            "type": "CNAME",
+            "value": "cnncaffertyfile.wordpress.com",
+            "last_seen": "2020-07-18T02:20:34.267851+00:00"
+        },
+        {
+            "subdomain": "campbellbrown.blogs",
+            "type": "CNAME",
+            "value": "campbellbrown.blogs.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-29T12:27:40.277165+00:00"
+        },
+        {
+            "subdomain": "cdn",
+            "type": "CNAME",
+            "value": "ion-ma.turner.com.edgekey.net",
+            "last_seen": "2020-07-29T13:00:01.198616+00:00"
+        },
+        {
+            "subdomain": "center",
+            "type": "CNAME",
+            "value": "cnn-center-prod-anon.cnnio.net",
+            "last_seen": "2020-07-29T13:05:19.986046+00:00"
+        },
+        {
+            "subdomain": "cf",
+            "type": "CNAME",
+            "value": "cf.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-29T13:09:56.082639+00:00"
+        },
+        {
+            "subdomain": "cgi",
+            "type": "A",
+            "value": "157.166.226.115",
+            "last_seen": "2020-07-19T13:11:41.048351+00:00"
+        },
+        {
+            "subdomain": "cgi.money",
+            "type": "CNAME",
+            "value": "apps.money.cnn.com",
+            "last_seen": "2020-07-29T19:29:08.543808+00:00"
+        },
+        {
+            "subdomain": "channel",
+            "type": "A",
+            "value": "207.25.71.117",
+            "last_seen": "2020-07-18T02:20:40.488360+00:00"
+        },
+        {
+            "subdomain": "chasingthedragon.blogs.fortune",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-29T13:18:30.037893+00:00"
+        },
+        {
+            "subdomain": "cl",
+            "type": "A",
+            "value": "64.236.29.12",
+            "last_seen": "2020-07-29T13:42:49.885365+00:00"
+        },
+        {
+            "subdomain": "cl",
+            "type": "A",
+            "value": "64.236.22.12",
+            "last_seen": "2020-07-29T13:42:49.884514+00:00"
+        },
+        {
+            "subdomain": "cl",
+            "type": "A",
+            "value": "64.236.29.11",
+            "last_seen": "2020-07-29T13:42:49.886060+00:00"
+        },
+        {
+            "subdomain": "cl",
+            "type": "A",
+            "value": "64.236.22.11",
+            "last_seen": "2020-07-29T13:42:49.883668+00:00"
+        },
+        {
+            "subdomain": "cl.footballclub",
+            "type": "CNAME",
+            "value": "footballclub.cnn.com",
+            "last_seen": "2020-07-29T13:43:01.174455+00:00"
+        },
+        {
+            "subdomain": "client.appletv",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-19T17:30:36.595488+00:00"
+        },
+        {
+            "subdomain": "clients",
+            "type": "A",
+            "value": "66.9.53.137",
+            "last_seen": "2020-07-18T02:20:40.151919+00:00"
+        },
+        {
+            "subdomain": "cmdev-subscription.fortune",
+            "type": "A",
+            "value": "10.87.169.140",
+            "last_seen": "2020-07-21T12:12:56.948141+00:00"
+        },
+        {
+            "subdomain": "cnn.dyn",
+            "type": "A",
+            "value": "157.166.226.160",
+            "last_seen": "2020-07-29T13:52:40.560263+00:00"
+        },
+        {
+            "subdomain": "cnn.dyn",
+            "type": "A",
+            "value": "157.166.224.160",
+            "last_seen": "2020-07-29T13:52:40.559811+00:00"
+        },
+        {
+            "subdomain": "cnn.dyn",
+            "type": "A",
+            "value": "157.166.226.161",
+            "last_seen": "2020-07-29T13:52:40.559198+00:00"
+        },
+        {
+            "subdomain": "cnn.dyn",
+            "type": "A",
+            "value": "157.166.224.161",
+            "last_seen": "2020-07-29T13:52:40.560701+00:00"
+        },
+        {
+            "subdomain": "cnn.tmpstg",
+            "type": "A",
+            "value": "157.166.245.124",
+            "last_seen": "2020-07-29T13:52:29.490672+00:00"
+        },
+        {
+            "subdomain": "cnne-test",
+            "type": "CNAME",
+            "value": "cnnespanol-preprod.go-vip.net",
+            "last_seen": "2020-07-17T06:28:54.140443+00:00"
+        },
+        {
+            "subdomain": "cnne-test",
+            "type": "CNAME",
+            "value": "cnnespanol2.wordpress.com",
+            "last_seen": "2020-06-30T03:35:38.472576+00:00"
+        },
+        {
+            "subdomain": "cnnespanol",
+            "type": "CNAME",
+            "value": "cnnespanol.go-vip.net",
+            "last_seen": "2020-07-29T14:05:47.077250+00:00"
+        },
+        {
+            "subdomain": "cnnespanol",
+            "type": "CNAME",
+            "value": "cnnespanol2.wordpress.com",
+            "last_seen": "2020-06-30T22:57:07.398747+00:00"
+        },
+        {
+            "subdomain": "cnnfilmslive",
+            "type": "CNAME",
+            "value": "cnn.site.scribblelive.com",
+            "last_seen": "2020-07-29T13:52:34.516101+00:00"
+        },
+        {
+            "subdomain": "cnnfn",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-18T02:20:46.285802+00:00"
+        },
+        {
+            "subdomain": "cnnmcaja",
+            "type": "CNAME",
+            "value": "africa.cnnjournalistaward.com",
+            "last_seen": "2020-07-29T13:52:34.504923+00:00"
+        },
+        {
+            "subdomain": "cnnphotos.blogs",
+            "type": "CNAME",
+            "value": "cnnthemoment.wordpress.com",
+            "last_seen": "2020-07-29T13:52:36.088410+00:00"
+        },
+        {
+            "subdomain": "cnnpreprod.blogs",
+            "type": "CNAME",
+            "value": "cnnpreprod.wordpress.com",
+            "last_seen": "2020-07-21T11:27:44.332296+00:00"
+        },
+        {
+            "subdomain": "cnnpresents.blogs",
+            "type": "CNAME",
+            "value": "cnnpresents.wordpress.com",
+            "last_seen": "2020-07-18T08:24:28.868677+00:00"
+        },
+        {
+            "subdomain": "cnnpressroom.blogs",
+            "type": "CNAME",
+            "value": "cnnpressroom.wordpress.com",
+            "last_seen": "2020-07-18T02:20:48.708428+00:00"
+        },
+        {
+            "subdomain": "cnnpreview",
+            "type": "CNAME",
+            "value": "cnnpreview.turner.com",
+            "last_seen": "2020-07-29T13:52:33.695251+00:00"
+        },
+        {
+            "subdomain": "cnnradio",
+            "type": "CNAME",
+            "value": "cnnradio.wordpress.com",
+            "last_seen": "2020-07-29T13:52:38.121397+00:00"
+        },
+        {
+            "subdomain": "cnnstudentnews",
+            "type": "A",
+            "value": "157.166.224.112",
+            "last_seen": "2020-07-29T13:52:34.187078+00:00"
+        },
+        {
+            "subdomain": "cnnstudentnews",
+            "type": "A",
+            "value": "157.166.226.112",
+            "last_seen": "2020-07-29T13:52:34.186692+00:00"
+        },
+        {
+            "subdomain": "cnnstudentnews.blogs",
+            "type": "CNAME",
+            "value": "cnnstudentnews.wordpress.com",
+            "last_seen": "2020-07-29T13:52:29.403582+00:00"
+        },
+        {
+            "subdomain": "cnntechlive",
+            "type": "CNAME",
+            "value": "cnn.site.scribblelive.com",
+            "last_seen": "2020-07-29T13:52:34.023636+00:00"
+        },
+        {
+            "subdomain": "cnnuslive",
+            "type": "CNAME",
+            "value": "cnn.site.scribblelive.com",
+            "last_seen": "2020-07-29T13:52:38.300466+00:00"
+        },
+        {
+            "subdomain": "cnnworldlive",
+            "type": "CNAME",
+            "value": "cnn.site.scribblelive.com",
+            "last_seen": "2020-07-29T13:52:36.910917+00:00"
+        },
+        {
+            "subdomain": "collection",
+            "type": "CNAME",
+            "value": "cnn.pd.dmh.veritone.com",
+            "last_seen": "2020-07-29T13:59:18.789168+00:00"
+        },
+        {
+            "subdomain": "collections",
+            "type": "CNAME",
+            "value": "collection.cnn.com",
+            "last_seen": "2020-07-29T13:59:12.651909+00:00"
+        },
+        {
+            "subdomain": "commercial",
+            "type": "CNAME",
+            "value": "d3396k5sfd8fyh.cloudfront.net",
+            "last_seen": "2020-07-29T14:02:36.594744+00:00"
+        },
+        {
+            "subdomain": "commercial.int",
+            "type": "CNAME",
+            "value": "d3kdyflb3lxp6r.cloudfront.net",
+            "last_seen": "2020-07-15T12:20:27.380123+00:00"
+        },
+        {
+            "subdomain": "commercial.stg",
+            "type": "CNAME",
+            "value": "d1ri6196hq5r7k.cloudfront.net",
+            "last_seen": "2020-07-15T12:20:15.296285+00:00"
+        },
+        {
+            "subdomain": "community",
+            "type": "CNAME",
+            "value": "reflector.cnn.com",
+            "last_seen": "2020-07-18T02:20:44.305887+00:00"
+        },
+        {
+            "subdomain": "compositor.api",
+            "type": "CNAME",
+            "value": "global-nossl.fastly.net",
+            "last_seen": "2020-07-19T17:24:59.730232+00:00"
+        },
+        {
+            "subdomain": "connecttheworld.blogs",
+            "type": "CNAME",
+            "value": "cnniconnecttheworld.wordpress.com",
+            "last_seen": "2020-07-29T14:07:44.665419+00:00"
+        },
+        {
+            "subdomain": "contenidopatrocinado",
+            "type": "CNAME",
+            "value": "www.cnn.com",
+            "last_seen": "2020-07-21T07:08:48.507016+00:00"
+        },
+        {
+            "subdomain": "content",
+            "type": "CNAME",
+            "value": "cnn-content-api-prod.56m.vgtf.net",
+            "last_seen": "2020-07-18T02:20:38.586592+00:00"
+        },
+        {
+            "subdomain": "coupons",
+            "type": "CNAME",
+            "value": "cnnus.theme-a.com",
+            "last_seen": "2020-07-19T17:25:54.918822+00:00"
+        },
+        {
+            "subdomain": "crossfire.blogs",
+            "type": "CNAME",
+            "value": "cnncrossfire.wordpress.com",
+            "last_seen": "2020-07-29T14:25:23.564223+00:00"
+        },
+        {
+            "subdomain": "crossfirelive",
+            "type": "CNAME",
+            "value": "cnn.site.scribblelive.com",
+            "last_seen": "2020-07-29T14:25:28.452802+00:00"
+        },
+        {
+            "subdomain": "customad",
+            "type": "A",
+            "value": "207.25.71.155",
+            "last_seen": "2020-07-29T14:33:55.333140+00:00"
+        },
+        {
+            "subdomain": "customnews",
+            "type": "CNAME",
+            "value": "reflector.cnn.com",
+            "last_seen": "2020-07-29T14:34:19.237074+00:00"
+        },
+        {
+            "subdomain": "dailybriefing.blogs.fortune",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-29T14:42:01.901531+00:00"
+        },
+        {
+            "subdomain": "data",
+            "type": "CNAME",
+            "value": "ion-ma.turner.com.edgekey.net",
+            "last_seen": "2020-07-18T02:20:38.152253+00:00"
+        },
+        {
+            "subdomain": "datadev",
+            "type": "CNAME",
+            "value": "lsd-dev-56m.gslb.vgtf.net",
+            "last_seen": "2020-07-18T02:20:38.757018+00:00"
+        },
+        {
+            "subdomain": "dataint",
+            "type": "CNAME",
+            "value": "lsd-int-56m.gslb.vgtf.net",
+            "last_seen": "2020-07-21T11:45:50.002634+00:00"
+        },
+        {
+            "subdomain": "dataref",
+            "type": "CNAME",
+            "value": "lsd-ref-56m.gslb.vgtf.net",
+            "last_seen": "2020-07-22T09:16:05.080102+00:00"
+        },
+        {
+            "subdomain": "debates",
+            "type": "CNAME",
+            "value": "snappytv.com",
+            "last_seen": "2020-07-29T14:58:30.781376+00:00"
+        },
+        {
+            "subdomain": "debug.next",
+            "type": "CNAME",
+            "value": "7pacqnwm.cname.us.ngrok.io",
+            "last_seen": "2020-07-21T11:36:59.008467+00:00"
+        },
+        {
+            "subdomain": "dev-subscription.fortune",
+            "type": "A",
+            "value": "10.87.169.131",
+            "last_seen": "2020-07-21T12:12:55.521322+00:00"
+        },
+        {
+            "subdomain": "dev.alerts",
+            "type": "A",
+            "value": "157.166.255.14",
+            "last_seen": "2020-07-22T03:56:36.008264+00:00"
+        },
+        {
+            "subdomain": "dev.alertshub",
+            "type": "CNAME",
+            "value": "publishing-nonprod-external-shared-eks-dx.cnnio.net",
+            "last_seen": "2020-07-29T15:11:54.329969+00:00"
+        },
+        {
+            "subdomain": "dev.alertshub.services.ec2",
+            "type": "CNAME",
+            "value": "cnn-alertshub-api-dev-tf-1836043901.us-east-1.elb.amazonaws.com",
+            "last_seen": "2020-07-29T15:11:59.702704+00:00"
+        },
+        {
+            "subdomain": "dev.client.appletv",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-21T02:06:29.385520+00:00"
+        },
+        {
+            "subdomain": "dev.cnne-test",
+            "type": "CNAME",
+            "value": "dev-cnnee-pwa.firebaseapp.com",
+            "last_seen": "2020-07-17T06:28:50.679838+00:00"
+        },
+        {
+            "subdomain": "dev.directv.10f.go",
+            "type": "A",
+            "value": "157.166.254.8",
+            "last_seen": "2020-07-29T15:12:07.396407+00:00"
+        },
+        {
+            "subdomain": "dev.edition-m",
+            "type": "CNAME",
+            "value": "edition.dev.next.cnn.com",
+            "last_seen": "2020-07-20T22:49:41.022515+00:00"
+        },
+        {
+            "subdomain": "dev.money",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-21T23:00:45.203669+00:00"
+        },
+        {
+            "subdomain": "dev.next",
+            "type": "CNAME",
+            "value": "michonne-www-dev.cnnio.net",
+            "last_seen": "2020-07-29T15:12:17.208914+00:00"
+        },
+        {
+            "subdomain": "dev.us-m",
+            "type": "CNAME",
+            "value": "dev.www-m.cnn.com",
+            "last_seen": "2020-07-20T22:49:35.501769+00:00"
+        },
+        {
+            "subdomain": "dev.www-m",
+            "type": "CNAME",
+            "value": "dev.next.cnn.com",
+            "last_seen": "2020-07-20T22:49:40.368829+00:00"
+        },
+        {
+            "subdomain": "devapp.cnnespanol",
+            "type": "CNAME",
+            "value": "dev-cnnee-pwa.firebaseapp.com",
+            "last_seen": "2020-07-21T08:36:22.682710+00:00"
+        },
+        {
+            "subdomain": "developer",
+            "type": "CNAME",
+            "value": "developer.cnn.com.s3-website-us-east-1.amazonaws.com",
+            "last_seen": "2020-07-29T15:12:35.965857+00:00"
+        },
+        {
+            "subdomain": "digitalsmiths.sportsillustrated",
+            "type": "CNAME",
+            "value": "sidaily.com",
+            "last_seen": "2020-07-29T15:22:32.977314+00:00"
+        },
+        {
+            "subdomain": "download",
+            "type": "A",
+            "value": "207.25.71.91",
+            "last_seen": "2020-07-18T02:20:41.398852+00:00"
+        },
+        {
+            "subdomain": "drdrew.blogs",
+            "type": "CNAME",
+            "value": "hlntv.com",
+            "last_seen": "2020-07-29T15:47:47.653813+00:00"
+        },
+        {
+            "subdomain": "drgupta",
+            "type": "CNAME",
+            "value": "drgupta.cnn.srm.vitrue.com",
+            "last_seen": "2020-07-29T15:48:53.988101+00:00"
+        },
+        {
+            "subdomain": "dropbox",
+            "type": "CNAME",
+            "value": "dropbox.turner.com",
+            "last_seen": "2020-07-29T15:50:41.941233+00:00"
+        },
+        {
+            "subdomain": "dynaimage.cdn",
+            "type": "CNAME",
+            "value": "ion-ma.turner.com.edgekey.net",
+            "last_seen": "2020-07-29T15:58:48.341127+00:00"
+        },
+        {
+            "subdomain": "dynamic",
+            "type": "CNAME",
+            "value": "dynamic.si.cnn.com",
+            "last_seen": "2020-07-18T02:20:46.742393+00:00"
+        },
+        {
+            "subdomain": "dynamic.si",
+            "type": "CNAME",
+            "value": "cnnsi.com",
+            "last_seen": "2020-07-29T15:58:55.369348+00:00"
+        },
+        {
+            "subdomain": "e.commerce",
+            "type": "CNAME",
+            "value": "cnn.et.bm16.maas.zetaglobal.net",
+            "last_seen": "2020-07-20T21:11:31.980654+00:00"
+        },
+        {
+            "subdomain": "e.emailalerts",
+            "type": "CNAME",
+            "value": "cnn.et.bm16.maas.zetaglobal.net",
+            "last_seen": "2020-07-20T21:11:20.077222+00:00"
+        },
+        {
+            "subdomain": "e.newsletters",
+            "type": "CNAME",
+            "value": "cnn.et.bm16.maas.zetaglobal.net",
+            "last_seen": "2020-07-20T21:11:32.377634+00:00"
+        },
+        {
+            "subdomain": "e.transactional",
+            "type": "CNAME",
+            "value": "cnn.et.bm16.maas.zetaglobal.net",
+            "last_seen": "2020-07-20T21:11:20.393471+00:00"
+        },
+        {
+            "subdomain": "earlystart.blogs",
+            "type": "CNAME",
+            "value": "cnnearlystart.wordpress.com",
+            "last_seen": "2020-07-29T16:03:06.251859+00:00"
+        },
+        {
+            "subdomain": "eatocracy",
+            "type": "CNAME",
+            "value": "eatocracy.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-18T11:05:59.923390+00:00"
+        },
+        {
+            "subdomain": "edition",
+            "type": "A",
+            "value": "151.101.193.67",
+            "last_seen": "2020-07-29T16:10:47.154344+00:00"
+        },
+        {
+            "subdomain": "edition",
+            "type": "A",
+            "value": "151.101.1.67",
+            "last_seen": "2020-07-29T16:10:47.155413+00:00"
+        },
+        {
+            "subdomain": "edition",
+            "type": "A",
+            "value": "151.101.65.67",
+            "last_seen": "2020-07-29T16:10:47.152519+00:00"
+        },
+        {
+            "subdomain": "edition",
+            "type": "A",
+            "value": "151.101.129.67",
+            "last_seen": "2020-07-29T16:10:47.153370+00:00"
+        },
+        {
+            "subdomain": "edition",
+            "type": "AAAA",
+            "value": "2a04:4e42:200::323",
+            "last_seen": "2020-07-29T16:10:47.157779+00:00"
+        },
+        {
+            "subdomain": "edition",
+            "type": "AAAA",
+            "value": "2a04:4e42:400::323",
+            "last_seen": "2020-07-29T16:10:47.157234+00:00"
+        },
+        {
+            "subdomain": "edition",
+            "type": "AAAA",
+            "value": "2a04:4e42::323",
+            "last_seen": "2020-07-29T16:10:47.156279+00:00"
+        },
+        {
+            "subdomain": "edition",
+            "type": "AAAA",
+            "value": "2a04:4e42:600::323",
+            "last_seen": "2020-07-29T16:10:47.159047+00:00"
+        },
+        {
+            "subdomain": "edition-m",
+            "type": "CNAME",
+            "value": "edition.cnn.com",
+            "last_seen": "2020-07-29T16:10:47.150955+00:00"
+        },
+        {
+            "subdomain": "edition.beta.next",
+            "type": "CNAME",
+            "value": "edition.beta.next.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-29T16:10:48.162967+00:00"
+        },
+        {
+            "subdomain": "edition.cnnpreview",
+            "type": "CNAME",
+            "value": "cnnpreview.turner.com",
+            "last_seen": "2020-07-29T16:10:51.459484+00:00"
+        },
+        {
+            "subdomain": "edition.dev.next",
+            "type": "CNAME",
+            "value": "michonne-edition-dev.cnnio.net",
+            "last_seen": "2020-07-21T11:37:10.890500+00:00"
+        },
+        {
+            "subdomain": "edition.enable.next",
+            "type": "CNAME",
+            "value": "michonne-edition-enable.cnnio.net",
+            "last_seen": "2020-07-21T11:37:03.655765+00:00"
+        },
+        {
+            "subdomain": "edition.etrain.next",
+            "type": "CNAME",
+            "value": "michonne-edition-esand.cnnio.net",
+            "last_seen": "2020-07-21T11:37:02.137653+00:00"
+        },
+        {
+            "subdomain": "edition.i.cdn",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-29T16:10:47.681064+00:00"
+        },
+        {
+            "subdomain": "edition.politics.next",
+            "type": "CNAME",
+            "value": "michonne-edition-politics.cnnio.net",
+            "last_seen": "2020-07-21T11:37:08.969242+00:00"
+        },
+        {
+            "subdomain": "edition.preview",
+            "type": "CNAME",
+            "value": "preview-edition.api.cnn.io",
+            "last_seen": "2020-07-29T16:10:53.573147+00:00"
+        },
+        {
+            "subdomain": "edition.ref.next",
+            "type": "CNAME",
+            "value": "michonne-edition-ref.cnnio.net",
+            "last_seen": "2020-07-21T11:37:13.627462+00:00"
+        },
+        {
+            "subdomain": "edition.stage.next",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-29T16:10:50.218085+00:00"
+        },
+        {
+            "subdomain": "edition.stage2.next",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-20T12:34:02.244133+00:00"
+        },
+        {
+            "subdomain": "edition.stage3.next",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-20T12:34:54.381314+00:00"
+        },
+        {
+            "subdomain": "edition.sweet.next",
+            "type": "CNAME",
+            "value": "michonne-edition-sweet.cnnio.net",
+            "last_seen": "2020-07-21T11:37:03.843832+00:00"
+        },
+        {
+            "subdomain": "edition.terra.next",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-21T11:37:08.973156+00:00"
+        },
+        {
+            "subdomain": "edition.train.next",
+            "type": "CNAME",
+            "value": "michonne-edition-train.cnnio.net",
+            "last_seen": "2020-07-21T11:37:05.831126+00:00"
+        },
+        {
+            "subdomain": "edition.video.next",
+            "type": "CNAME",
+            "value": "michonne-edition-video.cnnio.net",
+            "last_seen": "2020-07-21T11:37:13.800909+00:00"
+        },
+        {
+            "subdomain": "edition1",
+            "type": "A",
+            "value": "157.166.224.45",
+            "last_seen": "2020-07-18T02:20:34.379806+00:00"
+        },
+        {
+            "subdomain": "edition2",
+            "type": "CNAME",
+            "value": "www2.edition.cnn.com",
+            "last_seen": "2020-07-18T02:20:42.478722+00:00"
+        },
+        {
+            "subdomain": "eightiesyourself",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-29T16:15:44.878392+00:00"
+        },
+        {
+            "subdomain": "election",
+            "type": "CNAME",
+            "value": "www.cnn.com",
+            "last_seen": "2020-07-18T02:20:37.413152+00:00"
+        },
+        {
+            "subdomain": "emailalerts",
+            "type": "A",
+            "value": "151.101.129.67",
+            "last_seen": "2020-07-19T17:30:14.068982+00:00"
+        },
+        {
+            "subdomain": "enable.next",
+            "type": "CNAME",
+            "value": "michonne-www-enable.cnnio.net",
+            "last_seen": "2020-07-21T11:37:06.019209+00:00"
+        },
+        {
+            "subdomain": "entertainmentlive",
+            "type": "CNAME",
+            "value": "cnn.site.scribblelive.com",
+            "last_seen": "2020-07-29T16:33:51.563212+00:00"
+        },
+        {
+            "subdomain": "etrain.next",
+            "type": "CNAME",
+            "value": "michonne-www-esand.cnnio.net",
+            "last_seen": "2020-07-21T11:37:13.829410+00:00"
+        },
+        {
+            "subdomain": "europe",
+            "type": "CNAME",
+            "value": "europe.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-18T02:20:40.291639+00:00"
+        },
+        {
+            "subdomain": "ey",
+            "type": "A",
+            "value": "207.25.71.230",
+            "last_seen": "2020-07-29T16:59:20.794736+00:00"
+        },
+        {
+            "subdomain": "fannation.sportsillustrated",
+            "type": "CNAME",
+            "value": "sidaily.com",
+            "last_seen": "2020-07-29T17:09:16.532828+00:00"
+        },
+        {
+            "subdomain": "fastforward.blogs.fortune",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-29T17:12:18.663229+00:00"
+        },
+        {
+            "subdomain": "fave-api",
+            "type": "CNAME",
+            "value": "fave.api.cnn.io",
+            "last_seen": "2020-07-19T17:25:55.241845+00:00"
+        },
+        {
+            "subdomain": "fave.edition",
+            "type": "CNAME",
+            "value": "edition.cnn.com",
+            "last_seen": "2020-07-20T12:34:11.461261+00:00"
+        },
+        {
+            "subdomain": "fave.edition.stage.next",
+            "type": "CNAME",
+            "value": "fave-michonne-edition-stage.api.cnn.io",
+            "last_seen": "2020-07-20T12:34:17.575278+00:00"
+        },
+        {
+            "subdomain": "fave.edition.stage2.next",
+            "type": "CNAME",
+            "value": "michonne-edition-stage2.cnnio.net",
+            "last_seen": "2020-07-20T12:34:11.417630+00:00"
+        },
+        {
+            "subdomain": "fave.edition.stage3.next",
+            "type": "CNAME",
+            "value": "michonne-edition-stage3.cnnio.net",
+            "last_seen": "2020-07-20T12:34:02.311761+00:00"
+        },
+        {
+            "subdomain": "fave.stage.next",
+            "type": "CNAME",
+            "value": "fave-michonne-stage.api.cnn.io",
+            "last_seen": "2020-07-20T12:34:07.573897+00:00"
+        },
+        {
+            "subdomain": "fave.stage2.next",
+            "type": "CNAME",
+            "value": "michonne-www-stage2.cnnio.net",
+            "last_seen": "2020-07-20T12:34:15.214394+00:00"
+        },
+        {
+            "subdomain": "fave.stage3.next",
+            "type": "CNAME",
+            "value": "michonne-www-stage3.cnnio.net",
+            "last_seen": "2020-07-20T12:34:19.345140+00:00"
+        },
+        {
+            "subdomain": "fave.www",
+            "type": "CNAME",
+            "value": "www.cnn.com",
+            "last_seen": "2020-07-20T12:34:01.810424+00:00"
+        },
+        {
+            "subdomain": "features.blogs.fortune",
+            "type": "CNAME",
+            "value": "fortune.com",
+            "last_seen": "2020-07-18T12:30:58.790527+00:00"
+        },
+        {
+            "subdomain": "finance.fortune",
+            "type": "CNAME",
+            "value": "fortune.com",
+            "last_seen": "2020-07-29T17:32:46.149580+00:00"
+        },
+        {
+            "subdomain": "football.si",
+            "type": "CNAME",
+            "value": "cnnsi.com",
+            "last_seen": "2020-07-29T17:53:47.865334+00:00"
+        },
+        {
+            "subdomain": "footballclub",
+            "type": "A",
+            "value": "83.170.96.185",
+            "last_seen": "2020-07-29T17:53:57.434922+00:00"
+        },
+        {
+            "subdomain": "form",
+            "type": "CNAME",
+            "value": "customers.pushplanet.com",
+            "last_seen": "2020-07-20T14:04:22.726809+00:00"
+        },
+        {
+            "subdomain": "formprocessor",
+            "type": "CNAME",
+            "value": "cnn-tippost-app.cnnio.net",
+            "last_seen": "2020-07-29T17:56:05.380215+00:00"
+        },
+        {
+            "subdomain": "forums",
+            "type": "A",
+            "value": "64.236.26.21",
+            "last_seen": "2020-07-29T17:57:50.422255+00:00"
+        },
+        {
+            "subdomain": "freshfaces.si",
+            "type": "CNAME",
+            "value": "cnnsi.com",
+            "last_seen": "2020-07-29T18:08:26.313503+00:00"
+        },
+        {
+            "subdomain": "fsbfeatures.blogs.fsb",
+            "type": "CNAME",
+            "value": "www.money.com",
+            "last_seen": "2020-07-29T18:11:40.866704+00:00"
+        },
+        {
+            "subdomain": "futureboy.blogs.fsb",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-29T18:17:51.026224+00:00"
+        },
+        {
+            "subdomain": "fyi",
+            "type": "A",
+            "value": "157.166.224.112",
+            "last_seen": "2020-07-29T18:19:15.989758+00:00"
+        },
+        {
+            "subdomain": "fyi",
+            "type": "A",
+            "value": "157.166.226.112",
+            "last_seen": "2020-07-29T18:19:15.990794+00:00"
+        },
+        {
+            "subdomain": "games",
+            "type": "CNAME",
+            "value": "www.cnn.com",
+            "last_seen": "2020-07-18T02:20:37.498176+00:00"
+        },
+        {
+            "subdomain": "games.si",
+            "type": "CNAME",
+            "value": "cnnsi.com",
+            "last_seen": "2020-07-29T18:24:24.264802+00:00"
+        },
+        {
+            "subdomain": "games.sportsillustrated",
+            "type": "CNAME",
+            "value": "sidaily.com",
+            "last_seen": "2020-07-29T18:24:29.391070+00:00"
+        },
+        {
+            "subdomain": "garmentos.blogs.fortune",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-29T18:27:14.956458+00:00"
+        },
+        {
+            "subdomain": "gdyn",
+            "type": "A",
+            "value": "157.166.226.168",
+            "last_seen": "2020-07-29T18:32:28.909882+00:00"
+        },
+        {
+            "subdomain": "gdyn",
+            "type": "A",
+            "value": "157.166.224.167",
+            "last_seen": "2020-07-29T18:32:28.912983+00:00"
+        },
+        {
+            "subdomain": "gdyn",
+            "type": "A",
+            "value": "157.166.226.167",
+            "last_seen": "2020-07-29T18:32:28.913668+00:00"
+        },
+        {
+            "subdomain": "gdyn",
+            "type": "A",
+            "value": "157.166.224.168",
+            "last_seen": "2020-07-29T18:32:28.912318+00:00"
+        },
+        {
+            "subdomain": "geekout.blogs",
+            "type": "CNAME",
+            "value": "cnngeekout.wordpress.com",
+            "last_seen": "2020-07-18T13:50:04.625151+00:00"
+        },
+        {
+            "subdomain": "generationrisk.blogs.money",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-29T18:36:03.066511+00:00"
+        },
+        {
+            "subdomain": "globalforum.blogs.fortune",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-29T18:51:35.968269+00:00"
+        },
+        {
+            "subdomain": "globalpublicsquare.blogs",
+            "type": "CNAME",
+            "value": "cnngps.wordpress.com",
+            "last_seen": "2020-07-18T02:20:46.645279+00:00"
+        },
+        {
+            "subdomain": "go",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-18T02:20:35.687757+00:00"
+        },
+        {
+            "subdomain": "goalmouth.blogs",
+            "type": "CNAME",
+            "value": "goalmouth.blogs.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-29T18:55:11.886969+00:00"
+        },
+        {
+            "subdomain": "golfcourse.si",
+            "type": "CNAME",
+            "value": "cnnsi.com",
+            "last_seen": "2020-07-18T14:18:24.081517+00:00"
+        },
+        {
+            "subdomain": "gowest.blogs.fortune",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-29T19:04:36.878228+00:00"
+        },
+        {
+            "subdomain": "greenwombat.blogs.fortune",
+            "type": "CNAME",
+            "value": "www.money.com",
+            "last_seen": "2020-07-29T19:13:54.056628+00:00"
+        },
+        {
+            "subdomain": "grouchygeek.blogs.fortune",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-29T19:17:09.074095+00:00"
+        },
+        {
+            "subdomain": "gw.money",
+            "type": "CNAME",
+            "value": "gw.cnnfn.com",
+            "last_seen": "2020-07-29T19:29:08.533824+00:00"
+        },
+        {
+            "subdomain": "headlinenews",
+            "type": "CNAME",
+            "value": "reflector.cnn.com",
+            "last_seen": "2020-07-29T19:58:52.420151+00:00"
+        },
+        {
+            "subdomain": "healthguides",
+            "type": "A",
+            "value": "13.225.224.65",
+            "last_seen": "2020-07-19T11:23:10.722429+00:00"
+        },
+        {
+            "subdomain": "healthguides",
+            "type": "A",
+            "value": "13.225.224.98",
+            "last_seen": "2020-07-19T11:23:10.721551+00:00"
+        },
+        {
+            "subdomain": "healthguides",
+            "type": "A",
+            "value": "13.225.224.103",
+            "last_seen": "2020-07-19T11:23:10.720452+00:00"
+        },
+        {
+            "subdomain": "healthguides",
+            "type": "A",
+            "value": "13.225.224.85",
+            "last_seen": "2020-07-19T11:23:10.718403+00:00"
+        },
+        {
+            "subdomain": "healthguides",
+            "type": "A",
+            "value": "99.84.238.110",
+            "last_seen": "2020-07-08T15:57:49.916866+00:00"
+        },
+        {
+            "subdomain": "healthguides",
+            "type": "A",
+            "value": "99.84.238.91",
+            "last_seen": "2020-07-08T15:57:49.914604+00:00"
+        },
+        {
+            "subdomain": "healthguides",
+            "type": "A",
+            "value": "99.84.238.51",
+            "last_seen": "2020-07-08T15:57:49.912157+00:00"
+        },
+        {
+            "subdomain": "healthguides",
+            "type": "A",
+            "value": "99.84.238.60",
+            "last_seen": "2020-07-08T15:57:49.908639+00:00"
+        },
+        {
+            "subdomain": "healthmakers",
+            "type": "A",
+            "value": "157.166.248.64",
+            "last_seen": "2020-07-29T20:00:05.073132+00:00"
+        },
+        {
+            "subdomain": "healthmakers",
+            "type": "A",
+            "value": "157.166.239.43",
+            "last_seen": "2020-07-29T20:00:05.073721+00:00"
+        },
+        {
+            "subdomain": "heroes",
+            "type": "A",
+            "value": "69.7.235.125",
+            "last_seen": "2020-07-29T20:09:46.591227+00:00"
+        },
+        {
+            "subdomain": "heroeslive",
+            "type": "CNAME",
+            "value": "cnn.site.scribblelive.com",
+            "last_seen": "2020-07-29T20:10:06.614539+00:00"
+        },
+        {
+            "subdomain": "i.cdn",
+            "type": "CNAME",
+            "value": "ion-ma.turner.com.edgekey.net",
+            "last_seen": "2020-07-29T20:53:14.033680+00:00"
+        },
+        {
+            "subdomain": "i.cdn.travel",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-29T20:53:22.706127+00:00"
+        },
+        {
+            "subdomain": "i2.cdn",
+            "type": "CNAME",
+            "value": "ion-ma.turner.com.edgekey.net",
+            "last_seen": "2020-07-29T20:53:37.726322+00:00"
+        },
+        {
+            "subdomain": "images.commerce",
+            "type": "CNAME",
+            "value": "cnn.images.maas.zetaglobal.net",
+            "last_seen": "2020-07-20T21:10:03.136292+00:00"
+        },
+        {
+            "subdomain": "images.emailalerts",
+            "type": "CNAME",
+            "value": "cnn.images.maas.zetaglobal.net",
+            "last_seen": "2020-07-20T21:09:49.420538+00:00"
+        },
+        {
+            "subdomain": "images.newsletters",
+            "type": "CNAME",
+            "value": "cnn.images.maas.zetaglobal.net",
+            "last_seen": "2020-07-20T21:10:03.116093+00:00"
+        },
+        {
+            "subdomain": "images.transactional",
+            "type": "CNAME",
+            "value": "cnn.images.maas.zetaglobal.net",
+            "last_seen": "2020-07-20T21:09:59.385262+00:00"
+        },
+        {
+            "subdomain": "imagesource",
+            "type": "A",
+            "value": "208.89.161.62",
+            "last_seen": "2020-07-29T21:08:20.249622+00:00"
+        },
+        {
+            "subdomain": "inamerica.blogs",
+            "type": "CNAME",
+            "value": "cnndefiningamerica.wordpress.com",
+            "last_seen": "2020-07-18T02:20:34.522192+00:00"
+        },
+        {
+            "subdomain": "inauguration",
+            "type": "CNAME",
+            "value": "snappytv.com",
+            "last_seen": "2020-07-29T21:13:52.454949+00:00"
+        },
+        {
+            "subdomain": "inhealth",
+            "type": "A",
+            "value": "100.20.40.101",
+            "last_seen": "2020-07-29T21:21:56.712725+00:00"
+        },
+        {
+            "subdomain": "inhealth",
+            "type": "A",
+            "value": "52.72.196.37",
+            "last_seen": "2020-07-18T16:55:47.768648+00:00"
+        },
+        {
+            "subdomain": "inhealth",
+            "type": "A",
+            "value": "52.89.162.0",
+            "last_seen": "2020-07-29T21:21:56.711488+00:00"
+        },
+        {
+            "subdomain": "inhealth",
+            "type": "A",
+            "value": "52.71.221.79",
+            "last_seen": "2020-07-18T16:55:47.767846+00:00"
+        },
+        {
+            "subdomain": "inhealth",
+            "type": "A",
+            "value": "52.43.178.13",
+            "last_seen": "2020-07-07T20:49:16.091969+00:00"
+        },
+        {
+            "subdomain": "insession.blogs",
+            "type": "CNAME",
+            "value": "hlntv.com",
+            "last_seen": "2020-07-29T21:25:16.290410+00:00"
+        },
+        {
+            "subdomain": "insideman.blogs",
+            "type": "CNAME",
+            "value": "insideman.blogs.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-29T21:25:37.393698+00:00"
+        },
+        {
+            "subdomain": "insidethemiddleeast.blogs",
+            "type": "CNAME",
+            "value": "insidethemiddleeast.blogs.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-29T21:25:34.968479+00:00"
+        },
+        {
+            "subdomain": "internationaldesk.blogs",
+            "type": "CNAME",
+            "value": "cnniinternationaldesk.wordpress.com",
+            "last_seen": "2020-07-18T02:20:48.578982+00:00"
+        },
+        {
+            "subdomain": "inthearena.blogs",
+            "type": "CNAME",
+            "value": "inthearena.blogs.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-29T21:33:03.438857+00:00"
+        },
+        {
+            "subdomain": "inthefield.blogs",
+            "type": "CNAME",
+            "value": "inthefield.blogs.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-29T21:32:54.187892+00:00"
+        },
+        {
+            "subdomain": "ireport",
+            "type": "CNAME",
+            "value": "www.cnn.com",
+            "last_seen": "2020-07-19T14:30:26.911417+00:00"
+        },
+        {
+            "subdomain": "ireportawards",
+            "type": "CNAME",
+            "value": "ireportawards.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-29T21:43:11.109535+00:00"
+        },
+        {
+            "subdomain": "japan",
+            "type": "A",
+            "value": "202.83.135.210",
+            "last_seen": "2020-07-29T22:03:39.172052+00:00"
+        },
+        {
+            "subdomain": "japan",
+            "type": "A",
+            "value": "202.83.135.211",
+            "last_seen": "2020-07-29T22:03:39.171256+00:00"
+        },
+        {
+            "subdomain": "jobsearch.money",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-29T22:23:26.532166+00:00"
+        },
+        {
+            "subdomain": "johnkingusa.blogs",
+            "type": "CNAME",
+            "value": "cnnjohnkingusa.wordpress.com",
+            "last_seen": "2020-07-29T22:25:41.908700+00:00"
+        },
+        {
+            "subdomain": "joybehar.blogs",
+            "type": "CNAME",
+            "value": "www.hlntv.com",
+            "last_seen": "2020-07-29T22:31:02.620516+00:00"
+        },
+        {
+            "subdomain": "larrykinglive.blogs",
+            "type": "CNAME",
+            "value": "cnnlarrykinglive.wordpress.com",
+            "last_seen": "2020-07-18T02:20:46.714603+00:00"
+        },
+        {
+            "subdomain": "legalpad.blogs.fortune",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-30T00:12:23.022167+00:00"
+        },
+        {
+            "subdomain": "lending",
+            "type": "CNAME",
+            "value": "p-web-nginx.lendingtree.com",
+            "last_seen": "2020-07-30T00:14:44.298129+00:00"
+        },
+        {
+            "subdomain": "li",
+            "type": "CNAME",
+            "value": "027453e65db868369316c7ac8ed535f5.edgekey.net",
+            "last_seen": "2020-07-19T17:25:54.669426+00:00"
+        },
+        {
+            "subdomain": "licensing",
+            "type": "CNAME",
+            "value": "collection.cnn.com",
+            "last_seen": "2020-07-18T02:20:38.723584+00:00"
+        },
+        {
+            "subdomain": "lightyears.blogs",
+            "type": "CNAME",
+            "value": "cnnlightyears.wordpress.com",
+            "last_seen": "2020-07-18T02:20:40.504174+00:00"
+        },
+        {
+            "subdomain": "link.mail.sportsillustrated",
+            "type": "CNAME",
+            "value": "sidaily.com",
+            "last_seen": "2020-07-30T00:29:42.178499+00:00"
+        },
+        {
+            "subdomain": "links",
+            "type": "CNAME",
+            "value": "sendgrid.net",
+            "last_seen": "2020-07-19T17:44:32.608014+00:00"
+        },
+        {
+            "subdomain": "lists",
+            "type": "CNAME",
+            "value": "cnnimail1.turner.com",
+            "last_seen": "2020-07-19T17:44:31.498882+00:00"
+        },
+        {
+            "subdomain": "lite",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-30T00:32:49.890027+00:00"
+        },
+        {
+            "subdomain": "live",
+            "type": "CNAME",
+            "value": "live.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-18T02:20:38.313832+00:00"
+        },
+        {
+            "subdomain": "localhost",
+            "type": "CNAME",
+            "value": "loopback.cnn.com",
+            "last_seen": "2020-07-18T02:20:36.142553+00:00"
+        },
+        {
+            "subdomain": "localhost.edition-m",
+            "type": "CNAME",
+            "value": "localhost.next.cnn.com",
+            "last_seen": "2020-07-20T22:49:31.859508+00:00"
+        },
+        {
+            "subdomain": "localhost.next",
+            "type": "A",
+            "value": "127.0.0.1",
+            "last_seen": "2020-07-20T22:49:40.178745+00:00"
+        },
+        {
+            "subdomain": "localhost.us-m",
+            "type": "CNAME",
+            "value": "localhost.www-m.cnn.com",
+            "last_seen": "2020-07-20T22:49:26.212848+00:00"
+        },
+        {
+            "subdomain": "localhost.www-m",
+            "type": "CNAME",
+            "value": "localhost.next.cnn.com",
+            "last_seen": "2020-07-20T22:49:35.875649+00:00"
+        },
+        {
+            "subdomain": "loopback",
+            "type": "A",
+            "value": "127.0.0.1",
+            "last_seen": "2020-07-19T17:44:30.858922+00:00"
+        },
+        {
+            "subdomain": "loudobbs.tv",
+            "type": "CNAME",
+            "value": "loudobbs.tv.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-30T00:48:24.739895+00:00"
+        },
+        {
+            "subdomain": "lyncdiscover",
+            "type": "CNAME",
+            "value": "webdir.online.lync.com",
+            "last_seen": "2020-07-19T17:44:30.433863+00:00"
+        },
+        {
+            "subdomain": "m",
+            "type": "CNAME",
+            "value": "lite.cnn.com",
+            "last_seen": "2020-07-19T12:08:23.005583+00:00"
+        },
+        {
+            "subdomain": "m.travel",
+            "type": "CNAME",
+            "value": "turner.map.fastly.net",
+            "last_seen": "2020-07-18T20:54:58.220475+00:00"
+        },
+        {
+            "subdomain": "mail",
+            "type": "A",
+            "value": "157.166.236.135",
+            "last_seen": "2020-07-21T16:41:11.609794+00:00"
+        },
+        {
+            "subdomain": "mail1.access",
+            "type": "A",
+            "value": "64.20.247.69",
+            "last_seen": "2020-07-18T22:11:24.467736+00:00"
+        },
+        {
+            "subdomain": "mail2",
+            "type": "A",
+            "value": "157.166.236.65",
+            "last_seen": "2020-07-18T02:20:41.336539+00:00"
+        },
+        {
+            "subdomain": "mail2.access",
+            "type": "A",
+            "value": "64.20.247.69",
+            "last_seen": "2020-07-18T22:11:54.780256+00:00"
+        },
+        {
+            "subdomain": "mail8.access",
+            "type": "A",
+            "value": "64.20.247.69",
+            "last_seen": "2020-07-18T22:12:58.543721+00:00"
+        },
+        {
+            "subdomain": "mailcar",
+            "type": "CNAME",
+            "value": "web-delivery-prod-public-shared-eks-prime.cnnio.net",
+            "last_seen": "2020-07-18T22:13:17.062817+00:00"
+        },
+        {
+            "subdomain": "management.fortune",
+            "type": "CNAME",
+            "value": "fortune.com",
+            "last_seen": "2020-07-18T22:20:33.810163+00:00"
+        },
+        {
+            "subdomain": "markets.money",
+            "type": "CNAME",
+            "value": "markets.cnn.io",
+            "last_seen": "2020-07-18T22:31:51.289388+00:00"
+        },
+        {
+            "subdomain": "markets.money.qai",
+            "type": "CNAME",
+            "value": "markets.qai.cnn.io",
+            "last_seen": "2020-07-18T22:31:49.633283+00:00"
+        },
+        {
+            "subdomain": "marquee.blogs",
+            "type": "CNAME",
+            "value": "cnnmarquee.wordpress.com",
+            "last_seen": "2020-07-18T02:20:35.917917+00:00"
+        },
+        {
+            "subdomain": "mediabiz.blogs.cnnmoney",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-18T22:55:06.852619+00:00"
+        },
+        {
+            "subdomain": "metrics",
+            "type": "CNAME",
+            "value": "cnn.122.2o7.net",
+            "last_seen": "2020-07-18T23:11:12.768869+00:00"
+        },
+        {
+            "subdomain": "mexico",
+            "type": "CNAME",
+            "value": "cnn.mx",
+            "last_seen": "2020-07-18T23:12:11.769090+00:00"
+        },
+        {
+            "subdomain": "millionaires.blogs.cnnmoney",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-18T23:24:44.620799+00:00"
+        },
+        {
+            "subdomain": "missing",
+            "type": "A",
+            "value": "66.128.225.61",
+            "last_seen": "2020-07-18T23:31:16.922742+00:00"
+        },
+        {
+            "subdomain": "mms",
+            "type": "CNAME",
+            "value": "mms.sp-prod.net",
+            "last_seen": "2020-07-19T17:24:04.652680+00:00"
+        },
+        {
+            "subdomain": "mobile",
+            "type": "A",
+            "value": "157.166.226.186",
+            "last_seen": "2020-07-18T02:20:48.324223+00:00"
+        },
+        {
+            "subdomain": "mobile",
+            "type": "A",
+            "value": "157.166.224.186",
+            "last_seen": "2020-07-18T02:20:48.325096+00:00"
+        },
+        {
+            "subdomain": "mobile1",
+            "type": "A",
+            "value": "157.166.224.186",
+            "last_seen": "2020-07-18T02:20:35.572725+00:00"
+        },
+        {
+            "subdomain": "mobile2",
+            "type": "A",
+            "value": "157.166.226.186",
+            "last_seen": "2020-07-18T02:20:48.905344+00:00"
+        },
+        {
+            "subdomain": "mobile3",
+            "type": "CNAME",
+            "value": "mobile.cnn.com",
+            "last_seen": "2020-07-18T02:20:48.320283+00:00"
+        },
+        {
+            "subdomain": "mobiletest",
+            "type": "CNAME",
+            "value": "mtest.cnn.com",
+            "last_seen": "2020-07-18T02:20:44.515651+00:00"
+        },
+        {
+            "subdomain": "mobileworldcongress.edition",
+            "type": "CNAME",
+            "value": "site.scribblelive.com",
+            "last_seen": "2020-07-18T23:40:18.452214+00:00"
+        },
+        {
+            "subdomain": "money",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-30T00:12:23.023247+00:00"
+        },
+        {
+            "subdomain": "moneyethics.blogs.money",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-18T23:46:18.903393+00:00"
+        },
+        {
+            "subdomain": "moneyfeatures.blogs.money",
+            "type": "CNAME",
+            "value": "www.money.com",
+            "last_seen": "2020-07-13T18:40:13.432237+00:00"
+        },
+        {
+            "subdomain": "moneyhelps.blogs.money",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-18T23:46:18.505019+00:00"
+        },
+        {
+            "subdomain": "mtest",
+            "type": "A",
+            "value": "157.166.245.78",
+            "last_seen": "2020-07-18T02:20:46.528769+00:00"
+        },
+        {
+            "subdomain": "mw",
+            "type": "CNAME",
+            "value": "m.cnn.com",
+            "last_seen": "2020-07-19T12:08:23.003483+00:00"
+        },
+        {
+            "subdomain": "mxp.blogs",
+            "type": "CNAME",
+            "value": "hlntv.com",
+            "last_seen": "2020-07-19T00:17:08.172815+00:00"
+        },
+        {
+            "subdomain": "my",
+            "type": "CNAME",
+            "value": "reflector.cnn.com",
+            "last_seen": "2020-07-18T02:20:46.753447+00:00"
+        },
+        {
+            "subdomain": "nancygrace.blogs",
+            "type": "CNAME",
+            "value": "hlntv.com",
+            "last_seen": "2020-07-19T00:33:58.055985+00:00"
+        },
+        {
+            "subdomain": "netlynews.blogs.fortune",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-19T00:50:23.812133+00:00"
+        },
+        {
+            "subdomain": "newday.blogs",
+            "type": "CNAME",
+            "value": "cnnnewday.wordpress.com",
+            "last_seen": "2020-07-18T02:20:48.516899+00:00"
+        },
+        {
+            "subdomain": "news.blogs",
+            "type": "CNAME",
+            "value": "cnnnews.wordpress.com",
+            "last_seen": "2020-07-18T02:20:35.991002+00:00"
+        },
+        {
+            "subdomain": "newsource",
+            "type": "CNAME",
+            "value": "newsource.ns.cnn.com",
+            "last_seen": "2020-07-18T02:20:48.396345+00:00"
+        },
+        {
+            "subdomain": "newsource-auth-api-530.ns",
+            "type": "A",
+            "value": "52.203.43.162",
+            "last_seen": "2020-07-19T17:28:03.402537+00:00"
+        },
+        {
+            "subdomain": "newsource-auth-api-530.ns",
+            "type": "A",
+            "value": "18.211.164.110",
+            "last_seen": "2020-07-08T22:15:48.908481+00:00"
+        },
+        {
+            "subdomain": "newsource-auth-api-530.ns",
+            "type": "A",
+            "value": "34.194.70.170",
+            "last_seen": "2020-07-19T17:28:03.404738+00:00"
+        },
+        {
+            "subdomain": "newsource-cdn-static.ns",
+            "type": "A",
+            "value": "13.227.73.20",
+            "last_seen": "2020-07-19T17:25:22.991408+00:00"
+        },
+        {
+            "subdomain": "newsource-cdn-static.ns",
+            "type": "A",
+            "value": "13.227.73.88",
+            "last_seen": "2020-07-19T17:25:22.990961+00:00"
+        },
+        {
+            "subdomain": "newsource-cdn-static.ns",
+            "type": "A",
+            "value": "13.227.73.53",
+            "last_seen": "2020-07-19T17:25:22.990399+00:00"
+        },
+        {
+            "subdomain": "newsource-cdn-static.ns",
+            "type": "A",
+            "value": "13.227.73.79",
+            "last_seen": "2020-07-19T17:25:22.988420+00:00"
+        },
+        {
+            "subdomain": "newsource-cdn-static.ns",
+            "type": "A",
+            "value": "13.225.224.52",
+            "last_seen": "2020-07-14T12:01:59.245555+00:00"
+        },
+        {
+            "subdomain": "newsource-cdn-static.ns",
+            "type": "A",
+            "value": "13.225.224.120",
+            "last_seen": "2020-07-14T12:01:59.245096+00:00"
+        },
+        {
+            "subdomain": "newsource-cdn-static.ns",
+            "type": "A",
+            "value": "13.225.224.91",
+            "last_seen": "2020-07-14T12:01:59.244717+00:00"
+        },
+        {
+            "subdomain": "newsource-cdn-static.ns",
+            "type": "A",
+            "value": "13.225.224.124",
+            "last_seen": "2020-07-14T12:01:59.243583+00:00"
+        },
+        {
+            "subdomain": "newsource-cdn-static.ns",
+            "type": "A",
+            "value": "13.33.60.42",
+            "last_seen": "2020-07-08T22:13:23.660490+00:00"
+        },
+        {
+            "subdomain": "newsource-cdn-static.ns",
+            "type": "A",
+            "value": "13.33.60.54",
+            "last_seen": "2020-07-08T22:13:23.659615+00:00"
+        },
+        {
+            "subdomain": "newsource-cdn-static.ns",
+            "type": "A",
+            "value": "13.33.60.92",
+            "last_seen": "2020-07-08T22:13:23.658762+00:00"
+        },
+        {
+            "subdomain": "newsource-cdn-static.ns",
+            "type": "A",
+            "value": "13.33.60.36",
+            "last_seen": "2020-07-08T22:13:23.655800+00:00"
+        },
+        {
+            "subdomain": "newsource-content-api-530.ns",
+            "type": "A",
+            "value": "52.203.43.162",
+            "last_seen": "2020-07-19T17:27:56.964958+00:00"
+        },
+        {
+            "subdomain": "newsource-content-api-530.ns",
+            "type": "A",
+            "value": "18.211.164.110",
+            "last_seen": "2020-07-08T22:15:58.779620+00:00"
+        },
+        {
+            "subdomain": "newsource-content-api-530.ns",
+            "type": "A",
+            "value": "34.194.70.170",
+            "last_seen": "2020-07-19T17:27:56.965816+00:00"
+        },
+        {
+            "subdomain": "newsource.ns",
+            "type": "A",
+            "value": "52.203.43.162",
+            "last_seen": "2020-07-20T10:42:00.006534+00:00"
+        },
+        {
+            "subdomain": "newsource.ns",
+            "type": "A",
+            "value": "18.211.164.110",
+            "last_seen": "2020-07-09T15:21:12.444349+00:00"
+        },
+        {
+            "subdomain": "newsource.ns",
+            "type": "A",
+            "value": "34.194.70.170",
+            "last_seen": "2020-07-20T10:42:00.005193+00:00"
+        },
+        {
+            "subdomain": "newsource1",
+            "type": "A",
+            "value": "207.25.71.92",
+            "last_seen": "2020-07-18T02:20:34.479250+00:00"
+        },
+        {
+            "subdomain": "newsource2",
+            "type": "A",
+            "value": "207.25.71.105",
+            "last_seen": "2020-07-18T02:20:38.004809+00:00"
+        },
+        {
+            "subdomain": "newsourcevideo",
+            "type": "A",
+            "value": "157.166.165.253",
+            "last_seen": "2020-07-19T00:57:08.115305+00:00"
+        },
+        {
+            "subdomain": "newsroom.blogs",
+            "type": "CNAME",
+            "value": "cnnnewsroom.wordpress.com",
+            "last_seen": "2020-07-18T02:20:48.687570+00:00"
+        },
+        {
+            "subdomain": "newsstream.blogs",
+            "type": "CNAME",
+            "value": "cnninewsstream.wordpress.com",
+            "last_seen": "2020-07-19T00:57:08.759874+00:00"
+        },
+        {
+            "subdomain": "now",
+            "type": "CNAME",
+            "value": "www.cnn.com",
+            "last_seen": "2020-07-20T17:13:09.749048+00:00"
+        },
+        {
+            "subdomain": "ntm.blogs",
+            "type": "CNAME",
+            "value": "ntm.blogs.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-19T01:38:03.470062+00:00"
+        },
+        {
+            "subdomain": "olympics.blogs",
+            "type": "CNAME",
+            "value": "olympics.blogs.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-13T20:23:46.860276+00:00"
+        },
+        {
+            "subdomain": "olympics.edition",
+            "type": "CNAME",
+            "value": "cnn.site.scribblelive.com",
+            "last_seen": "2020-07-19T02:00:48.186993+00:00"
+        },
+        {
+            "subdomain": "on",
+            "type": "A",
+            "value": "157.166.224.172",
+            "last_seen": "2020-07-19T02:02:30.013168+00:00"
+        },
+        {
+            "subdomain": "outfront.blogs",
+            "type": "CNAME",
+            "value": "cnnoutfront.wordpress.com",
+            "last_seen": "2020-07-18T02:20:34.340239+00:00"
+        },
+        {
+            "subdomain": "pagingdrgupta.blogs",
+            "type": "CNAME",
+            "value": "cnnpagingdrgupta.wordpress.com",
+            "last_seen": "2020-07-19T02:32:54.607542+00:00"
+        },
+        {
+            "subdomain": "parkerspitzer.blogs",
+            "type": "CNAME",
+            "value": "cnnparkerspitzer.wordpress.com",
+            "last_seen": "2020-07-19T02:41:32.594333+00:00"
+        },
+        {
+            "subdomain": "partner",
+            "type": "A",
+            "value": "34.241.110.107",
+            "last_seen": "2020-07-19T17:44:30.568181+00:00"
+        },
+        {
+            "subdomain": "partner.int",
+            "type": "A",
+            "value": "10.81.110.148",
+            "last_seen": "2020-07-22T04:59:55.732846+00:00"
+        },
+        {
+            "subdomain": "partner.stg",
+            "type": "A",
+            "value": "63.33.117.28",
+            "last_seen": "2020-07-22T05:01:29.727068+00:00"
+        },
+        {
+            "subdomain": "partners",
+            "type": "A",
+            "value": "5.250.178.144",
+            "last_seen": "2020-07-18T02:20:34.161652+00:00"
+        },
+        {
+            "subdomain": "phone",
+            "type": "CNAME",
+            "value": "phone.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-18T02:20:42.164209+00:00"
+        },
+        {
+            "subdomain": "piersmorgan.blogs",
+            "type": "CNAME",
+            "value": "cnnpiersmorgan.wordpress.com",
+            "last_seen": "2020-07-18T02:20:40.508252+00:00"
+        },
+        {
+            "subdomain": "podcast",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-18T02:20:40.606339+00:00"
+        },
+        {
+            "subdomain": "politicalticker",
+            "type": "CNAME",
+            "value": "cnnpoliticalticker.wordpress.com",
+            "last_seen": "2020-07-19T03:34:59.661985+00:00"
+        },
+        {
+            "subdomain": "politicalticker.blogs",
+            "type": "CNAME",
+            "value": "cnnpoliticalticker.wordpress.com",
+            "last_seen": "2020-07-18T02:20:38.903833+00:00"
+        },
+        {
+            "subdomain": "politics.next",
+            "type": "CNAME",
+            "value": "michonne-www-politics.cnnio.net",
+            "last_seen": "2020-07-21T11:37:13.691178+00:00"
+        },
+        {
+            "subdomain": "politicslive",
+            "type": "CNAME",
+            "value": "cnn.site.scribblelive.com",
+            "last_seen": "2020-07-19T03:34:59.072107+00:00"
+        },
+        {
+            "subdomain": "poll",
+            "type": "CNAME",
+            "value": "poll.turner.com",
+            "last_seen": "2020-07-18T02:20:49.450827+00:00"
+        },
+        {
+            "subdomain": "polls",
+            "type": "A",
+            "value": "157.166.226.163",
+            "last_seen": "2020-07-19T03:35:21.431716+00:00"
+        },
+        {
+            "subdomain": "polls.money",
+            "type": "CNAME",
+            "value": "polls.cnn.com",
+            "last_seen": "2020-07-19T03:35:21.430030+00:00"
+        },
+        {
+            "subdomain": "portfolio.money",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-13T21:37:47.705159+00:00"
+        },
+        {
+            "subdomain": "portfolio.train.money",
+            "type": "A",
+            "value": "216.218.134.246",
+            "last_seen": "2020-07-13T21:37:51.259593+00:00"
+        },
+        {
+            "subdomain": "postcards.blogs.fortune",
+            "type": "CNAME",
+            "value": "fortune.com",
+            "last_seen": "2020-07-19T03:42:16.794176+00:00"
+        },
+        {
+            "subdomain": "powerplay.blogs.fortune",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-19T03:44:04.852502+00:00"
+        },
+        {
+            "subdomain": "ppl",
+            "type": "CNAME",
+            "value": "emas1ppl1.turner.com",
+            "last_seen": "2020-07-19T03:45:12.829691+00:00"
+        },
+        {
+            "subdomain": "premium",
+            "type": "CNAME",
+            "value": "premium.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-19T03:49:57.005786+00:00"
+        },
+        {
+            "subdomain": "premium.asia",
+            "type": "CNAME",
+            "value": "edition2.cnn.com",
+            "last_seen": "2020-07-08T08:05:57.423819+00:00"
+        },
+        {
+            "subdomain": "premium.edition",
+            "type": "CNAME",
+            "value": "premium.edition.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-13T21:45:04.402713+00:00"
+        },
+        {
+            "subdomain": "premium.europe",
+            "type": "CNAME",
+            "value": "edition2.cnn.com",
+            "last_seen": "2020-07-13T21:45:05.960679+00:00"
+        },
+        {
+            "subdomain": "premium.si",
+            "type": "CNAME",
+            "value": "cnnsi.com",
+            "last_seen": "2020-07-19T03:50:04.931414+00:00"
+        },
+        {
+            "subdomain": "preview.dev.edition-m",
+            "type": "CNAME",
+            "value": "preview.edition.dev.next.cnn.com",
+            "last_seen": "2020-07-20T22:49:37.394609+00:00"
+        },
+        {
+            "subdomain": "preview.dev.money",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-21T23:00:45.084048+00:00"
+        },
+        {
+            "subdomain": "preview.dev.next",
+            "type": "CNAME",
+            "value": "dev.next.cnn.com",
+            "last_seen": "2020-07-21T11:37:15.054452+00:00"
+        },
+        {
+            "subdomain": "preview.dev.us-m",
+            "type": "CNAME",
+            "value": "preview.dev.www-m.cnn.com",
+            "last_seen": "2020-07-20T22:49:30.500033+00:00"
+        },
+        {
+            "subdomain": "preview.dev.www-m",
+            "type": "CNAME",
+            "value": "preview.dev.next.cnn.com",
+            "last_seen": "2020-07-20T22:49:41.018597+00:00"
+        },
+        {
+            "subdomain": "preview.edition-m",
+            "type": "CNAME",
+            "value": "edition.preview.cnn.com",
+            "last_seen": "2020-07-20T22:49:40.710089+00:00"
+        },
+        {
+            "subdomain": "preview.edition.dev.next",
+            "type": "CNAME",
+            "value": "edition.dev.next.cnn.com",
+            "last_seen": "2020-07-21T11:37:10.889597+00:00"
+        },
+        {
+            "subdomain": "preview.edition.enable.next",
+            "type": "CNAME",
+            "value": "edition.enable.next.cnn.com",
+            "last_seen": "2020-07-21T11:37:02.185687+00:00"
+        },
+        {
+            "subdomain": "preview.edition.etrain.next",
+            "type": "CNAME",
+            "value": "edition.etrain.next.cnn.com",
+            "last_seen": "2020-07-21T11:37:02.136610+00:00"
+        },
+        {
+            "subdomain": "preview.edition.politics.next",
+            "type": "CNAME",
+            "value": "edition.politics.next.cnn.com",
+            "last_seen": "2020-07-21T11:37:08.967612+00:00"
+        },
+        {
+            "subdomain": "preview.edition.ref.next",
+            "type": "CNAME",
+            "value": "edition.ref.next.cnn.com",
+            "last_seen": "2020-07-21T11:37:13.625928+00:00"
+        },
+        {
+            "subdomain": "preview.edition.stage.next",
+            "type": "CNAME",
+            "value": "michonne-edition-stage.cnnio.net",
+            "last_seen": "2020-07-21T07:08:41.728021+00:00"
+        },
+        {
+            "subdomain": "preview.edition.stage2.next",
+            "type": "CNAME",
+            "value": "michonne-edition-stage2.cnnio.net",
+            "last_seen": "2020-07-20T12:34:02.026858+00:00"
+        },
+        {
+            "subdomain": "preview.edition.stage3.next",
+            "type": "CNAME",
+            "value": "michonne-edition-stage3.cnnio.net",
+            "last_seen": "2020-07-20T12:34:57.193982+00:00"
+        },
+        {
+            "subdomain": "preview.edition.sweet.next",
+            "type": "CNAME",
+            "value": "edition.sweet.next.cnn.com",
+            "last_seen": "2020-07-21T11:37:03.843378+00:00"
+        },
+        {
+            "subdomain": "preview.edition.terra.next",
+            "type": "CNAME",
+            "value": "michonne-edition-terra.cnnio.net",
+            "last_seen": "2020-07-21T11:37:17.282333+00:00"
+        },
+        {
+            "subdomain": "preview.edition.train.next",
+            "type": "CNAME",
+            "value": "edition.train.next.cnn.com",
+            "last_seen": "2020-07-21T11:37:05.829216+00:00"
+        },
+        {
+            "subdomain": "preview.edition.video.next",
+            "type": "CNAME",
+            "value": "edition.video.next.cnn.com",
+            "last_seen": "2020-07-21T11:37:13.799871+00:00"
+        },
+        {
+            "subdomain": "preview.enable.next",
+            "type": "CNAME",
+            "value": "enable.next.cnn.com",
+            "last_seen": "2020-07-21T11:37:06.017837+00:00"
+        },
+        {
+            "subdomain": "preview.etrain.next",
+            "type": "CNAME",
+            "value": "etrain.next.cnn.com",
+            "last_seen": "2020-07-21T11:37:13.825581+00:00"
+        },
+        {
+            "subdomain": "preview.localhost.edition-m",
+            "type": "CNAME",
+            "value": "localhost.next.cnn.com",
+            "last_seen": "2020-07-20T22:49:30.114787+00:00"
+        },
+        {
+            "subdomain": "preview.localhost.us-m",
+            "type": "CNAME",
+            "value": "preview.localhost.www-m.cnn.com",
+            "last_seen": "2020-07-20T22:49:40.175773+00:00"
+        },
+        {
+            "subdomain": "preview.localhost.www-m",
+            "type": "CNAME",
+            "value": "localhost.next.cnn.com",
+            "last_seen": "2020-07-20T22:49:40.177492+00:00"
+        },
+        {
+            "subdomain": "preview.money",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-13T21:46:50.090132+00:00"
+        },
+        {
+            "subdomain": "preview.politics.next",
+            "type": "CNAME",
+            "value": "politics.next.cnn.com",
+            "last_seen": "2020-07-21T11:37:02.333867+00:00"
+        },
+        {
+            "subdomain": "preview.qa.edition-m",
+            "type": "CNAME",
+            "value": "preview.edition.enable.next.cnn.com",
+            "last_seen": "2020-07-20T22:49:36.828296+00:00"
+        },
+        {
+            "subdomain": "preview.qa.money",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-22T13:14:25.641765+00:00"
+        },
+        {
+            "subdomain": "preview.qa.www-m",
+            "type": "CNAME",
+            "value": "preview.enable.next.cnn.com",
+            "last_seen": "2020-07-20T22:49:36.896699+00:00"
+        },
+        {
+            "subdomain": "preview.ref.edition-m",
+            "type": "CNAME",
+            "value": "preview.edition.ref.next.cnn.com",
+            "last_seen": "2020-07-20T22:49:39.136434+00:00"
+        },
+        {
+            "subdomain": "preview.ref.money",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-22T13:14:22.423660+00:00"
+        },
+        {
+            "subdomain": "preview.ref.next",
+            "type": "CNAME",
+            "value": "ref.next.cnn.com",
+            "last_seen": "2020-07-20T22:49:40.722205+00:00"
+        },
+        {
+            "subdomain": "preview.ref.us-m",
+            "type": "CNAME",
+            "value": "preview.ref.www-m.cnn.com",
+            "last_seen": "2020-07-20T22:49:40.720030+00:00"
+        },
+        {
+            "subdomain": "preview.ref.www-m",
+            "type": "CNAME",
+            "value": "preview.ref.next.cnn.com",
+            "last_seen": "2020-07-20T22:49:40.720986+00:00"
+        },
+        {
+            "subdomain": "preview.stage.edition-m",
+            "type": "CNAME",
+            "value": "preview.edition.stage.next.cnn.com",
+            "last_seen": "2020-07-20T22:49:27.022532+00:00"
+        },
+        {
+            "subdomain": "preview.stage.next",
+            "type": "CNAME",
+            "value": "michonne-www-stage.cnnio.net",
+            "last_seen": "2020-07-21T07:08:44.992695+00:00"
+        },
+        {
+            "subdomain": "preview.stage.us-m",
+            "type": "CNAME",
+            "value": "preview.stage.www-m.cnn.com",
+            "last_seen": "2020-07-20T22:49:35.878782+00:00"
+        },
+        {
+            "subdomain": "preview.stage.www-m",
+            "type": "CNAME",
+            "value": "preview.stage.next.cnn.com",
+            "last_seen": "2020-07-20T22:49:39.439763+00:00"
+        },
+        {
+            "subdomain": "preview.stage2.next",
+            "type": "CNAME",
+            "value": "michonne-www-stage2.cnnio.net",
+            "last_seen": "2020-07-20T12:34:11.531007+00:00"
+        },
+        {
+            "subdomain": "preview.stage3.next",
+            "type": "CNAME",
+            "value": "michonne-www-stage3.cnnio.net",
+            "last_seen": "2020-07-20T12:34:00.033108+00:00"
+        },
+        {
+            "subdomain": "preview.sweet.next",
+            "type": "CNAME",
+            "value": "sweet.next.cnn.com",
+            "last_seen": "2020-07-21T11:37:15.018515+00:00"
+        },
+        {
+            "subdomain": "preview.terra.next",
+            "type": "CNAME",
+            "value": "michonne-www-terra.cnnio.net",
+            "last_seen": "2020-07-21T11:36:58.658634+00:00"
+        },
+        {
+            "subdomain": "preview.train.money",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-21T23:00:44.898191+00:00"
+        },
+        {
+            "subdomain": "preview.train.next",
+            "type": "CNAME",
+            "value": "train.next.cnn.com",
+            "last_seen": "2020-07-21T11:37:02.319892+00:00"
+        },
+        {
+            "subdomain": "preview.us-m",
+            "type": "CNAME",
+            "value": "preview.www-m.cnn.com",
+            "last_seen": "2020-07-20T22:49:26.045874+00:00"
+        },
+        {
+            "subdomain": "preview.video.next",
+            "type": "CNAME",
+            "value": "video.next.cnn.com",
+            "last_seen": "2020-07-21T11:37:17.908727+00:00"
+        },
+        {
+            "subdomain": "preview.www-m",
+            "type": "CNAME",
+            "value": "www.preview.cnn.com",
+            "last_seen": "2020-07-20T22:49:44.735915+00:00"
+        },
+        {
+            "subdomain": "preview2.ref.money",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-21T23:00:53.387586+00:00"
+        },
+        {
+            "subdomain": "prism.blogs",
+            "type": "CNAME",
+            "value": "prism.blogs.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-19T03:54:58.237523+00:00"
+        },
+        {
+            "subdomain": "prod.directv.10f.go",
+            "type": "A",
+            "value": "157.166.255.245",
+            "last_seen": "2020-07-19T03:57:49.361500+00:00"
+        },
+        {
+            "subdomain": "prodfix-subscription.fortune",
+            "type": "A",
+            "value": "10.87.169.142",
+            "last_seen": "2020-07-21T12:12:56.973150+00:00"
+        },
+        {
+            "subdomain": "profiles-int.sportsillustrated",
+            "type": "CNAME",
+            "value": "sidaily.com",
+            "last_seen": "2020-07-13T21:52:12.306785+00:00"
+        },
+        {
+            "subdomain": "profiles.sportsillustrated",
+            "type": "CNAME",
+            "value": "sidaily.com",
+            "last_seen": "2020-07-19T03:59:41.225611+00:00"
+        },
+        {
+            "subdomain": "proxy",
+            "type": "A",
+            "value": "64.236.18.7",
+            "last_seen": "2020-07-19T17:44:34.469779+00:00"
+        },
+        {
+            "subdomain": "qa-subscription",
+            "type": "A",
+            "value": "205.216.5.131",
+            "last_seen": "2020-07-21T18:06:22.412739+00:00"
+        },
+        {
+            "subdomain": "qa-subscription.fortune",
+            "type": "A",
+            "value": "205.216.5.131",
+            "last_seen": "2020-07-21T15:23:57.114761+00:00"
+        },
+        {
+            "subdomain": "qa.collection",
+            "type": "CNAME",
+            "value": "dmhcus001.qa.wzplatform.com",
+            "last_seen": "2020-07-19T04:17:28.891262+00:00"
+        },
+        {
+            "subdomain": "qa.edition-m",
+            "type": "CNAME",
+            "value": "edition.enable.next.cnn.com",
+            "last_seen": "2020-07-20T22:49:34.691399+00:00"
+        },
+        {
+            "subdomain": "qa.money",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-22T13:14:25.638189+00:00"
+        },
+        {
+            "subdomain": "qa.us-m",
+            "type": "CNAME",
+            "value": "qa.www-m.cnn.com",
+            "last_seen": "2020-07-20T22:49:39.146449+00:00"
+        },
+        {
+            "subdomain": "qa.www-m",
+            "type": "CNAME",
+            "value": "enable.next.cnn.com",
+            "last_seen": "2020-07-20T22:49:39.147259+00:00"
+        },
+        {
+            "subdomain": "qs.cnnfn",
+            "type": "CNAME",
+            "value": "qs.cnnfn.com",
+            "last_seen": "2020-07-19T04:23:03.363963+00:00"
+        },
+        {
+            "subdomain": "qs.money",
+            "type": "CNAME",
+            "value": "quote.money.cnn.com",
+            "last_seen": "2020-07-19T04:22:55.785473+00:00"
+        },
+        {
+            "subdomain": "questmeansbusiness.blogs",
+            "type": "CNAME",
+            "value": "questmeansbusiness.blogs.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-19T04:27:20.441823+00:00"
+        },
+        {
+            "subdomain": "quiz",
+            "type": "CNAME",
+            "value": "cgi.cnn.com",
+            "last_seen": "2020-07-08T08:44:59.139759+00:00"
+        },
+        {
+            "subdomain": "quote.money",
+            "type": "CNAME",
+            "value": "reflector.cnn.com",
+            "last_seen": "2020-07-19T04:28:36.005862+00:00"
+        },
+        {
+            "subdomain": "real",
+            "type": "A",
+            "value": "64.236.17.105",
+            "last_seen": "2020-07-19T04:47:29.173286+00:00"
+        },
+        {
+            "subdomain": "realestate.money",
+            "type": "CNAME",
+            "value": "cnnmoney.trulia.com",
+            "last_seen": "2020-07-19T04:47:41.583734+00:00"
+        },
+        {
+            "subdomain": "redalert",
+            "type": "CNAME",
+            "value": "alertshub.cnn.com",
+            "last_seen": "2020-07-19T04:52:01.914612+00:00"
+        },
+        {
+            "subdomain": "ref.alertshub",
+            "type": "CNAME",
+            "value": "publishing-nonprod-external-shared-eks-dx.cnnio.net",
+            "last_seen": "2020-07-19T04:55:11.525678+00:00"
+        },
+        {
+            "subdomain": "ref.alertshub.services.ec2",
+            "type": "CNAME",
+            "value": "cnn-alertshub-api-ref-tf-1247629897.us-east-1.elb.amazonaws.com",
+            "last_seen": "2020-07-13T22:34:18.591233+00:00"
+        },
+        {
+            "subdomain": "ref.edition-m",
+            "type": "CNAME",
+            "value": "edition.ref.next.cnn.com",
+            "last_seen": "2020-07-20T22:49:40.373828+00:00"
+        },
+        {
+            "subdomain": "ref.money",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-21T23:00:53.941935+00:00"
+        },
+        {
+            "subdomain": "ref.next",
+            "type": "CNAME",
+            "value": "michonne-www-ref.cnnio.net",
+            "last_seen": "2020-07-21T11:36:59.228666+00:00"
+        },
+        {
+            "subdomain": "ref.us-m",
+            "type": "CNAME",
+            "value": "ref.www-m.cnn.com",
+            "last_seen": "2020-07-20T22:49:37.800431+00:00"
+        },
+        {
+            "subdomain": "ref.www-m",
+            "type": "CNAME",
+            "value": "ref.next.cnn.com",
+            "last_seen": "2020-07-20T22:49:40.392343+00:00"
+        },
+        {
+            "subdomain": "ref2.money",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-19T04:55:11.119597+00:00"
+        },
+        {
+            "subdomain": "reflector",
+            "type": "A",
+            "value": "157.166.226.184",
+            "last_seen": "2020-07-29T20:31:29.855786+00:00"
+        },
+        {
+            "subdomain": "reflector",
+            "type": "A",
+            "value": "157.166.224.184",
+            "last_seen": "2020-07-29T20:31:29.857592+00:00"
+        },
+        {
+            "subdomain": "reftime.ng",
+            "type": "CNAME",
+            "value": "reftime.cnn.ngtv.io",
+            "last_seen": "2020-07-21T00:27:10.531149+00:00"
+        },
+        {
+            "subdomain": "related",
+            "type": "CNAME",
+            "value": "whitelabel.media.net",
+            "last_seen": "2020-07-19T17:24:17.801969+00:00"
+        },
+        {
+            "subdomain": "reliablesources.blogs",
+            "type": "CNAME",
+            "value": "cnnreliablesources.wordpress.com",
+            "last_seen": "2020-07-18T02:20:34.354249+00:00"
+        },
+        {
+            "subdomain": "religion.blogs",
+            "type": "CNAME",
+            "value": "cnnreligion.wordpress.com",
+            "last_seen": "2020-07-18T02:20:35.975816+00:00"
+        },
+        {
+            "subdomain": "reportcard",
+            "type": "A",
+            "value": "69.7.235.113",
+            "last_seen": "2020-07-13T22:42:19.364931+00:00"
+        },
+        {
+            "subdomain": "repository",
+            "type": "A",
+            "value": "157.166.246.208",
+            "last_seen": "2020-07-18T02:20:34.382153+00:00"
+        },
+        {
+            "subdomain": "ridingtheelephant.blogs.fortune",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-13T22:51:08.458377+00:00"
+        },
+        {
+            "subdomain": "robots",
+            "type": "A",
+            "value": "157.166.224.185",
+            "last_seen": "2020-07-19T17:44:32.391762+00:00"
+        },
+        {
+            "subdomain": "robots",
+            "type": "A",
+            "value": "157.166.226.185",
+            "last_seen": "2020-07-19T17:44:32.393559+00:00"
+        },
+        {
+            "subdomain": "rss",
+            "type": "CNAME",
+            "value": "i0bub0.feedproxy.ghs.google.com",
+            "last_seen": "2020-07-18T02:20:35.342665+00:00"
+        },
+        {
+            "subdomain": "salute.blogs",
+            "type": "CNAME",
+            "value": "hlntv.com",
+            "last_seen": "2020-07-19T06:01:36.609183+00:00"
+        },
+        {
+            "subdomain": "sandbox",
+            "type": "A",
+            "value": "207.25.71.114",
+            "last_seen": "2020-07-18T02:20:40.834807+00:00"
+        },
+        {
+            "subdomain": "sanjayguptamd.blogs",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-18T02:20:40.608977+00:00"
+        },
+        {
+            "subdomain": "satime.ng",
+            "type": "A",
+            "value": "157.166.248.65",
+            "last_seen": "2020-07-21T00:27:09.389613+00:00"
+        },
+        {
+            "subdomain": "satime.ng",
+            "type": "A",
+            "value": "157.166.238.111",
+            "last_seen": "2020-07-21T00:27:09.388747+00:00"
+        },
+        {
+            "subdomain": "schoolsofthought.blogs",
+            "type": "CNAME",
+            "value": "cnnschoolsofthought.wordpress.com",
+            "last_seen": "2020-07-18T02:20:40.363511+00:00"
+        },
+        {
+            "subdomain": "scitech.blogs",
+            "type": "CNAME",
+            "value": "cnnscitech.wordpress.com",
+            "last_seen": "2020-07-18T02:20:48.669594+00:00"
+        },
+        {
+            "subdomain": "screeningroom.blogs",
+            "type": "CNAME",
+            "value": "screeningroom.blogs.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-19T06:27:19.080153+00:00"
+        },
+        {
+            "subdomain": "sdc",
+            "type": "CNAME",
+            "value": "ion-ma.turner.com.edgekey.net",
+            "last_seen": "2020-07-19T06:28:49.732422+00:00"
+        },
+        {
+            "subdomain": "search",
+            "type": "CNAME",
+            "value": "search4.turner.com",
+            "last_seen": "2020-07-18T02:20:41.061519+00:00"
+        },
+        {
+            "subdomain": "search.arabic",
+            "type": "CNAME",
+            "value": "www.cnnarabic.com",
+            "last_seen": "2020-07-19T06:31:21.766705+00:00"
+        },
+        {
+            "subdomain": "search.beta",
+            "type": "A",
+            "value": "64.236.24.244",
+            "last_seen": "2020-07-19T06:31:13.728255+00:00"
+        },
+        {
+            "subdomain": "search.cnnstudentnews",
+            "type": "A",
+            "value": "157.166.224.164",
+            "last_seen": "2020-07-19T06:31:13.289118+00:00"
+        },
+        {
+            "subdomain": "search.cnnstudentnews",
+            "type": "A",
+            "value": "157.166.226.164",
+            "last_seen": "2020-07-19T06:31:13.287883+00:00"
+        },
+        {
+            "subdomain": "search.edition",
+            "type": "CNAME",
+            "value": "search.turner.com",
+            "last_seen": "2020-07-19T06:31:19.076025+00:00"
+        },
+        {
+            "subdomain": "search.money",
+            "type": "CNAME",
+            "value": "search.turner.com",
+            "last_seen": "2020-07-19T06:31:18.024529+00:00"
+        },
+        {
+            "subdomain": "search.moneymag",
+            "type": "A",
+            "value": "157.166.224.164",
+            "last_seen": "2020-07-19T06:31:20.029202+00:00"
+        },
+        {
+            "subdomain": "search.moneymag",
+            "type": "A",
+            "value": "157.166.226.164",
+            "last_seen": "2020-07-19T06:31:20.028392+00:00"
+        },
+        {
+            "subdomain": "search.si",
+            "type": "CNAME",
+            "value": "cnnsi.com",
+            "last_seen": "2020-07-19T06:31:30.321362+00:00"
+        },
+        {
+            "subdomain": "search.sportsillustrated",
+            "type": "CNAME",
+            "value": "sidaily.com",
+            "last_seen": "2020-07-19T06:31:24.518124+00:00"
+        },
+        {
+            "subdomain": "searchapp",
+            "type": "CNAME",
+            "value": "search4.turner.com",
+            "last_seen": "2020-07-19T06:31:26.147288+00:00"
+        },
+        {
+            "subdomain": "secondlife.blogs",
+            "type": "CNAME",
+            "value": "secondlife.blogs.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-19T06:32:50.020014+00:00"
+        },
+        {
+            "subdomain": "secure",
+            "type": "CNAME",
+            "value": "7667621.gigya-api.com",
+            "last_seen": "2020-07-19T17:44:34.229086+00:00"
+        },
+        {
+            "subdomain": "secure.money",
+            "type": "CNAME",
+            "value": "ion-ma.turner.com.edgekey.net",
+            "last_seen": "2020-07-19T06:34:20.061600+00:00"
+        },
+        {
+            "subdomain": "security.blogs",
+            "type": "CNAME",
+            "value": "cnnsecurity.wordpress.com",
+            "last_seen": "2020-07-19T06:35:41.897145+00:00"
+        },
+        {
+            "subdomain": "securityfiles.blogs",
+            "type": "CNAME",
+            "value": "securityfiles.blogs.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-19T06:35:50.430366+00:00"
+        },
+        {
+            "subdomain": "sendasalute",
+            "type": "CNAME",
+            "value": "cnn.com",
+            "last_seen": "2020-07-19T06:41:23.814531+00:00"
+        },
+        {
+            "subdomain": "services",
+            "type": "CNAME",
+            "value": "newsgraph.api.cnn.io",
+            "last_seen": "2020-07-18T02:20:35.676908+00:00"
+        },
+        {
+            "subdomain": "services.test",
+            "type": "CNAME",
+            "value": "cnn-nonprod.api.mashery.com",
+            "last_seen": "2020-07-19T06:48:02.855262+00:00"
+        },
+        {
+            "subdomain": "showcase",
+            "type": "CNAME",
+            "value": "showcase-cnn-prod-143490554.eu-west-1.elb.amazonaws.com",
+            "last_seen": "2020-07-21T04:56:21.125253+00:00"
+        },
+        {
+            "subdomain": "showcase.staging",
+            "type": "A",
+            "value": "34.253.195.212",
+            "last_seen": "2020-07-21T04:56:11.436149+00:00"
+        },
+        {
+            "subdomain": "si",
+            "type": "CNAME",
+            "value": "cnnsi.com",
+            "last_seen": "2020-07-19T07:11:27.162539+00:00"
+        },
+        {
+            "subdomain": "sip",
+            "type": "CNAME",
+            "value": "sipdir.online.lync.com",
+            "last_seen": "2020-07-18T02:20:40.053355+00:00"
+        },
+        {
+            "subdomain": "situationroom.blogs",
+            "type": "CNAME",
+            "value": "cnnsituationroom.wordpress.com",
+            "last_seen": "2020-07-18T02:20:40.568588+00:00"
+        },
+        {
+            "subdomain": "siu.blogs",
+            "type": "CNAME",
+            "value": "siu.blogs.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-19T07:23:25.422139+00:00"
+        },
+        {
+            "subdomain": "siwiki.sportsillustrated",
+            "type": "CNAME",
+            "value": "sidaily.com",
+            "last_seen": "2020-07-19T07:23:32.582946+00:00"
+        },
+        {
+            "subdomain": "smartlink",
+            "type": "CNAME",
+            "value": "turner.map.fastly.net",
+            "last_seen": "2020-07-14T00:30:19.274106+00:00"
+        },
+        {
+            "subdomain": "smetrics",
+            "type": "CNAME",
+            "value": "cnn.com.102.122.2o7.net",
+            "last_seen": "2020-07-19T07:34:41.633921+00:00"
+        },
+        {
+            "subdomain": "social-login",
+            "type": "CNAME",
+            "value": "social-cnn.sslproxy.gigya.com",
+            "last_seen": "2020-07-19T17:33:15.036692+00:00"
+        },
+        {
+            "subdomain": "sotu.blogs",
+            "type": "CNAME",
+            "value": "cnnsotu.wordpress.com",
+            "last_seen": "2020-07-19T07:51:10.244144+00:00"
+        },
+        {
+            "subdomain": "spoll",
+            "type": "A",
+            "value": "157.166.224.9",
+            "last_seen": "2020-07-19T08:02:40.515427+00:00"
+        },
+        {
+            "subdomain": "sponsorcontent",
+            "type": "CNAME",
+            "value": "www.cnn.com",
+            "last_seen": "2020-07-19T08:02:59.690151+00:00"
+        },
+        {
+            "subdomain": "sponsorcontent.beta.next",
+            "type": "CNAME",
+            "value": "sponsorcontent.beta.next.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-21T11:37:06.001405+00:00"
+        },
+        {
+            "subdomain": "sponsorcontent.dev.next",
+            "type": "CNAME",
+            "value": "dev.next.cnn.com",
+            "last_seen": "2020-07-21T11:37:10.862182+00:00"
+        },
+        {
+            "subdomain": "sponsorcontent.edition",
+            "type": "CNAME",
+            "value": "edition.cnn.com",
+            "last_seen": "2020-07-19T08:03:02.849183+00:00"
+        },
+        {
+            "subdomain": "sponsorcontent.edition.stage2.next",
+            "type": "CNAME",
+            "value": "edition.stage2.next.cnn.com",
+            "last_seen": "2020-07-20T12:34:02.242579+00:00"
+        },
+        {
+            "subdomain": "sponsorcontent.edition.stage3.next",
+            "type": "CNAME",
+            "value": "edition.stage3.next.cnn.com",
+            "last_seen": "2020-07-20T12:34:19.362870+00:00"
+        },
+        {
+            "subdomain": "sponsorcontent.enable.next",
+            "type": "CNAME",
+            "value": "enable.next.cnn.com",
+            "last_seen": "2020-07-21T11:37:06.013959+00:00"
+        },
+        {
+            "subdomain": "sponsorcontent.etrain.next",
+            "type": "CNAME",
+            "value": "etrain.next.cnn.com",
+            "last_seen": "2020-07-21T11:37:03.913372+00:00"
+        },
+        {
+            "subdomain": "sponsorcontent.go",
+            "type": "CNAME",
+            "value": "sponsorcontent.go.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-21T07:08:38.861245+00:00"
+        },
+        {
+            "subdomain": "sponsorcontent.money",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-19T08:02:46.345867+00:00"
+        },
+        {
+            "subdomain": "sponsorcontent.politics.next",
+            "type": "CNAME",
+            "value": "politics.next.cnn.com",
+            "last_seen": "2020-07-21T11:37:13.690030+00:00"
+        },
+        {
+            "subdomain": "sponsorcontent.ref.next",
+            "type": "CNAME",
+            "value": "ref.next.cnn.com",
+            "last_seen": "2020-07-21T11:36:59.227169+00:00"
+        },
+        {
+            "subdomain": "sponsorcontent.stage.next",
+            "type": "CNAME",
+            "value": "stage.next.cnn.com",
+            "last_seen": "2020-07-21T07:08:50.108194+00:00"
+        },
+        {
+            "subdomain": "sponsorcontent.stage2.next",
+            "type": "CNAME",
+            "value": "stage2.next.cnn.com",
+            "last_seen": "2020-07-20T12:34:54.320564+00:00"
+        },
+        {
+            "subdomain": "sponsorcontent.stage3.next",
+            "type": "CNAME",
+            "value": "stage3.next.cnn.com",
+            "last_seen": "2020-07-20T12:34:01.826313+00:00"
+        },
+        {
+            "subdomain": "sponsorcontent.sweet.next",
+            "type": "CNAME",
+            "value": "sweet.next.cnn.com",
+            "last_seen": "2020-07-21T11:37:04.170730+00:00"
+        },
+        {
+            "subdomain": "sponsorcontent.terra.next",
+            "type": "CNAME",
+            "value": "terra.next.cnn.com",
+            "last_seen": "2020-07-21T11:37:09.290925+00:00"
+        },
+        {
+            "subdomain": "sponsorcontent.train.next",
+            "type": "CNAME",
+            "value": "train.next.cnn.com",
+            "last_seen": "2020-07-21T11:37:03.668310+00:00"
+        },
+        {
+            "subdomain": "sponsorcontent.video.next",
+            "type": "CNAME",
+            "value": "video.next.cnn.com",
+            "last_seen": "2020-07-21T11:37:13.883185+00:00"
+        },
+        {
+            "subdomain": "sponsored-insights.money",
+            "type": "CNAME",
+            "value": "cnnmoneysponsored.wordpress.com",
+            "last_seen": "2020-07-19T08:02:55.422422+00:00"
+        },
+        {
+            "subdomain": "sports.si",
+            "type": "CNAME",
+            "value": "cnnsi.com",
+            "last_seen": "2020-07-19T08:04:06.884050+00:00"
+        },
+        {
+            "subdomain": "sports.sportsillustrated",
+            "type": "CNAME",
+            "value": "sidaily.com",
+            "last_seen": "2020-07-19T08:04:02.149042+00:00"
+        },
+        {
+            "subdomain": "sprint.mw",
+            "type": "CNAME",
+            "value": "mw.cnn.com",
+            "last_seen": "2020-07-19T08:05:46.308364+00:00"
+        },
+        {
+            "subdomain": "spurlocklive",
+            "type": "CNAME",
+            "value": "cnn.site.scribblelive.com",
+            "last_seen": "2020-07-19T08:06:18.196160+00:00"
+        },
+        {
+            "subdomain": "stage",
+            "type": "CNAME",
+            "value": "prod.turner-tls.map.fastly.net",
+            "last_seen": "2020-07-19T17:44:31.560921+00:00"
+        },
+        {
+            "subdomain": "stage.edition-m",
+            "type": "CNAME",
+            "value": "edition.stage.next.cnn.com",
+            "last_seen": "2020-07-20T22:49:41.311377+00:00"
+        },
+        {
+            "subdomain": "stage.edition.i.cdn",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-19T08:12:08.028716+00:00"
+        },
+        {
+            "subdomain": "stage.money",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-21T23:00:53.999168+00:00"
+        },
+        {
+            "subdomain": "stage.next",
+            "type": "A",
+            "value": "151.101.1.67",
+            "last_seen": "2020-07-21T07:08:50.109047+00:00"
+        },
+        {
+            "subdomain": "stage.next",
+            "type": "A",
+            "value": "151.101.193.67",
+            "last_seen": "2020-07-21T07:08:50.109982+00:00"
+        },
+        {
+            "subdomain": "stage.next",
+            "type": "A",
+            "value": "151.101.65.67",
+            "last_seen": "2020-07-21T07:08:50.111191+00:00"
+        },
+        {
+            "subdomain": "stage.next",
+            "type": "A",
+            "value": "151.101.129.67",
+            "last_seen": "2020-07-21T07:08:50.112016+00:00"
+        },
+        {
+            "subdomain": "stage.tours",
+            "type": "CNAME",
+            "value": "cnn-tours-stage.cnnio.net",
+            "last_seen": "2020-07-21T15:12:50.351341+00:00"
+        },
+        {
+            "subdomain": "stage.us-m",
+            "type": "CNAME",
+            "value": "stage.www-m.cnn.com",
+            "last_seen": "2020-07-20T22:49:37.558854+00:00"
+        },
+        {
+            "subdomain": "stage.www-m",
+            "type": "CNAME",
+            "value": "stage.next.cnn.com",
+            "last_seen": "2020-07-20T22:49:37.560131+00:00"
+        },
+        {
+            "subdomain": "stage.www.i.cdn",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-19T08:12:32.874490+00:00"
+        },
+        {
+            "subdomain": "stage2.edition.i.cdn",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-20T12:35:02.603134+00:00"
+        },
+        {
+            "subdomain": "stage2.next",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-20T12:34:54.321171+00:00"
+        },
+        {
+            "subdomain": "stage2.www.i.cdn",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-20T12:34:01.348027+00:00"
+        },
+        {
+            "subdomain": "stage3.edition.i.cdn",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-20T12:34:09.672673+00:00"
+        },
+        {
+            "subdomain": "stage3.next",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-20T12:34:08.820495+00:00"
+        },
+        {
+            "subdomain": "stage3.www.i.cdn",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-20T12:34:01.808624+00:00"
+        },
+        {
+            "subdomain": "staging.tour",
+            "type": "A",
+            "value": "209.18.111.58",
+            "last_seen": "2020-07-19T08:12:57.807055+00:00"
+        },
+        {
+            "subdomain": "stanleybing.blogs.fortune",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-19T08:14:06.955676+00:00"
+        },
+        {
+            "subdomain": "startingpoint.blogs",
+            "type": "CNAME",
+            "value": "cnnstartingpoint.wordpress.com",
+            "last_seen": "2020-07-19T08:15:44.424999+00:00"
+        },
+        {
+            "subdomain": "static",
+            "type": "CNAME",
+            "value": "i.cnn.net",
+            "last_seen": "2020-07-18T02:20:52.008267+00:00"
+        },
+        {
+            "subdomain": "static-is",
+            "type": "A",
+            "value": "208.89.161.63",
+            "last_seen": "2020-07-19T08:16:55.448451+00:00"
+        },
+        {
+            "subdomain": "static.arabic",
+            "type": "CNAME",
+            "value": "static.arabic.cnn.com.edgekey.net",
+            "last_seen": "2020-07-19T17:26:45.757224+00:00"
+        },
+        {
+            "subdomain": "store",
+            "type": "CNAME",
+            "value": "store-cnn-com.stackssl.net",
+            "last_seen": "2020-07-19T08:29:31.756820+00:00"
+        },
+        {
+            "subdomain": "streamer.money",
+            "type": "CNAME",
+            "value": "streamer.money.cnn.wallst.com",
+            "last_seen": "2020-07-19T17:24:44.151354+00:00"
+        },
+        {
+            "subdomain": "strombo.blogs",
+            "type": "CNAME",
+            "value": "reflector.cnn.com",
+            "last_seen": "2020-07-19T08:33:54.106314+00:00"
+        },
+        {
+            "subdomain": "studentnews",
+            "type": "A",
+            "value": "157.166.226.112",
+            "last_seen": "2020-07-19T08:35:38.736809+00:00"
+        },
+        {
+            "subdomain": "studentnews",
+            "type": "A",
+            "value": "157.166.224.112",
+            "last_seen": "2020-07-19T08:35:38.735836+00:00"
+        },
+        {
+            "subdomain": "style",
+            "type": "CNAME",
+            "value": "sandbox.cnn.com",
+            "last_seen": "2020-07-18T02:20:36.208584+00:00"
+        },
+        {
+            "subdomain": "subscription.fortune",
+            "type": "A",
+            "value": "206.132.7.71",
+            "last_seen": "2020-07-19T08:40:08.275464+00:00"
+        },
+        {
+            "subdomain": "sweet.next",
+            "type": "CNAME",
+            "value": "michonne-www-sweet.cnnio.net",
+            "last_seen": "2020-07-21T11:37:15.020071+00:00"
+        },
+        {
+            "subdomain": "talkback.blogs.fortune",
+            "type": "CNAME",
+            "value": "cnnfn.com",
+            "last_seen": "2020-07-19T09:09:49.046332+00:00"
+        },
+        {
+            "subdomain": "teamstore.si",
+            "type": "CNAME",
+            "value": "cnnsi.com",
+            "last_seen": "2020-07-19T09:22:08.054893+00:00"
+        },
+        {
+            "subdomain": "tech",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-19T17:44:33.954164+00:00"
+        },
+        {
+            "subdomain": "tech.fortune",
+            "type": "CNAME",
+            "value": "fortune.com",
+            "last_seen": "2020-07-19T09:23:00.363519+00:00"
+        },
+        {
+            "subdomain": "techland.blogs.fortune",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-19T09:23:17.426730+00:00"
+        },
+        {
+            "subdomain": "terra.next",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-21T11:37:09.292336+00:00"
+        },
+        {
+            "subdomain": "thebrief.blogs",
+            "type": "CNAME",
+            "value": "thebrief.blogs.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-19T09:42:23.847760+00:00"
+        },
+        {
+            "subdomain": "thebrowser.blogs.fortune",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-19T09:42:21.196405+00:00"
+        },
+        {
+            "subdomain": "thechart.blogs",
+            "type": "CNAME",
+            "value": "cnnpagingdrgupta.wordpress.com",
+            "last_seen": "2020-07-18T02:20:38.899051+00:00"
+        },
+        {
+            "subdomain": "thecnnfreedomproject.blogs",
+            "type": "CNAME",
+            "value": "cnnithecnnfreedomproject.wordpress.com",
+            "last_seen": "2020-07-18T02:20:40.861813+00:00"
+        },
+        {
+            "subdomain": "theforum",
+            "type": "CNAME",
+            "value": "theforum.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-19T09:46:17.812039+00:00"
+        },
+        {
+            "subdomain": "thegig.blogs.fortune",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-14T05:24:00.784809+00:00"
+        },
+        {
+            "subdomain": "thelead.blogs",
+            "type": "CNAME",
+            "value": "cnntapper.wordpress.com",
+            "last_seen": "2020-07-18T02:20:41.203453+00:00"
+        },
+        {
+            "subdomain": "thewheeldeal.blogs.fortune",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-19T10:00:02.961019+00:00"
+        },
+        {
+            "subdomain": "tickets.tour",
+            "type": "CNAME",
+            "value": "cnn-tours-prod-anon.cnnio.net",
+            "last_seen": "2020-07-19T10:07:02.427986+00:00"
+        },
+        {
+            "subdomain": "time.ng",
+            "type": "CNAME",
+            "value": "time.cnn.ngtv.io",
+            "last_seen": "2020-07-19T10:09:41.023973+00:00"
+        },
+        {
+            "subdomain": "tips.blogs",
+            "type": "CNAME",
+            "value": "hlntv.com",
+            "last_seen": "2020-07-19T10:11:59.037762+00:00"
+        },
+        {
+            "subdomain": "tmo.mw",
+            "type": "CNAME",
+            "value": "mw.cnn.com",
+            "last_seen": "2020-07-19T10:16:06.700749+00:00"
+        },
+        {
+            "subdomain": "tours",
+            "type": "CNAME",
+            "value": "cnn-tours-prod-anon.cnnio.net",
+            "last_seen": "2020-07-19T10:28:08.899889+00:00"
+        },
+        {
+            "subdomain": "train.money",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-21T23:00:57.256902+00:00"
+        },
+        {
+            "subdomain": "train.next",
+            "type": "CNAME",
+            "value": "michonne-www-train.cnnio.net",
+            "last_seen": "2020-07-21T11:37:13.317150+00:00"
+        },
+        {
+            "subdomain": "transcripts",
+            "type": "CNAME",
+            "value": "archives.cnn.com",
+            "last_seen": "2020-07-18T02:20:37.760036+00:00"
+        },
+        {
+            "subdomain": "travel",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-19T10:36:10.256262+00:00"
+        },
+        {
+            "subdomain": "travel-dev",
+            "type": "A",
+            "value": "54.251.42.42",
+            "last_seen": "2020-07-19T10:35:58.911191+00:00"
+        },
+        {
+            "subdomain": "traveledit",
+            "type": "A",
+            "value": "54.251.42.42",
+            "last_seen": "2020-07-19T10:36:29.797162+00:00"
+        },
+        {
+            "subdomain": "trends",
+            "type": "CNAME",
+            "value": "trends.cnn.com.vgtf.net",
+            "last_seen": "2020-07-18T02:20:38.395841+00:00"
+        },
+        {
+            "subdomain": "tsm",
+            "type": "A",
+            "value": "157.166.226.239",
+            "last_seen": "2020-07-20T08:33:14.340399+00:00"
+        },
+        {
+            "subdomain": "tv-europe",
+            "type": "A",
+            "value": "64.236.9.215",
+            "last_seen": "2020-07-19T10:53:26.094163+00:00"
+        },
+        {
+            "subdomain": "ukelection.blogs",
+            "type": "CNAME",
+            "value": "ukelection.blogs.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-19T11:04:12.812869+00:00"
+        },
+        {
+            "subdomain": "unveiled.blogs",
+            "type": "CNAME",
+            "value": "unveiled.blogs.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-19T11:13:15.284865+00:00"
+        },
+        {
+            "subdomain": "us",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-20T22:49:40.698371+00:00"
+        },
+        {
+            "subdomain": "us-m",
+            "type": "CNAME",
+            "value": "us.cnn.com",
+            "last_seen": "2020-07-20T22:49:40.697111+00:00"
+        },
+        {
+            "subdomain": "v4v6",
+            "type": "A",
+            "value": "157.166.226.26",
+            "last_seen": "2020-07-19T11:23:48.449522+00:00"
+        },
+        {
+            "subdomain": "v4v6",
+            "type": "A",
+            "value": "157.166.226.25",
+            "last_seen": "2020-07-19T11:23:48.450250+00:00"
+        },
+        {
+            "subdomain": "v4v6",
+            "type": "AAAA",
+            "value": "2620:100:e000:2000::1",
+            "last_seen": "2020-07-19T11:23:48.452125+00:00"
+        },
+        {
+            "subdomain": "v4v6",
+            "type": "AAAA",
+            "value": "2620:100:e000:8000::1",
+            "last_seen": "2020-07-19T11:23:48.451221+00:00"
+        },
+        {
+            "subdomain": "van",
+            "type": "A",
+            "value": "157.166.168.165",
+            "last_seen": "2020-07-19T11:27:59.879778+00:00"
+        },
+        {
+            "subdomain": "vault.sportsillustrated",
+            "type": "CNAME",
+            "value": "sidaily.com",
+            "last_seen": "2020-07-19T11:31:21.434341+00:00"
+        },
+        {
+            "subdomain": "verticals-static",
+            "type": "CNAME",
+            "value": "ion-ma.turner.com.edgekey.net",
+            "last_seen": "2020-07-19T17:24:30.133157+00:00"
+        },
+        {
+            "subdomain": "victory",
+            "type": "A",
+            "value": "64.236.27.33",
+            "last_seen": "2020-07-19T11:43:24.068223+00:00"
+        },
+        {
+            "subdomain": "vid",
+            "type": "CNAME",
+            "value": "vid.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-19T11:43:08.154172+00:00"
+        },
+        {
+            "subdomain": "video",
+            "type": "CNAME",
+            "value": "vxtreme.cnn.com",
+            "last_seen": "2020-07-18T02:20:35.778370+00:00"
+        },
+        {
+            "subdomain": "video.next",
+            "type": "CNAME",
+            "value": "michonne-www-video.cnnio.net",
+            "last_seen": "2020-07-21T11:37:17.909477+00:00"
+        },
+        {
+            "subdomain": "video1",
+            "type": "CNAME",
+            "value": "vxtreme.cnn.com",
+            "last_seen": "2020-07-18T02:20:36.191243+00:00"
+        },
+        {
+            "subdomain": "video3",
+            "type": "CNAME",
+            "value": "vxtreme.cnn.com",
+            "last_seen": "2020-07-18T02:20:36.162118+00:00"
+        },
+        {
+            "subdomain": "video4",
+            "type": "CNAME",
+            "value": "vxtreme.cnn.com",
+            "last_seen": "2020-07-18T02:20:40.228622+00:00"
+        },
+        {
+            "subdomain": "video5",
+            "type": "CNAME",
+            "value": "vxtreme.cnn.com",
+            "last_seen": "2020-07-18T02:20:36.159918+00:00"
+        },
+        {
+            "subdomain": "view.commerce",
+            "type": "CNAME",
+            "value": "cnn.view.maas.zetaglobal.net",
+            "last_seen": "2020-07-20T21:10:02.124936+00:00"
+        },
+        {
+            "subdomain": "view.emailalerts",
+            "type": "CNAME",
+            "value": "cnn.view.maas.zetaglobal.net",
+            "last_seen": "2020-07-20T21:09:59.484173+00:00"
+        },
+        {
+            "subdomain": "view.newsletters",
+            "type": "CNAME",
+            "value": "cnn.view.maas.zetaglobal.net",
+            "last_seen": "2020-07-20T21:10:02.230583+00:00"
+        },
+        {
+            "subdomain": "view.transactional",
+            "type": "CNAME",
+            "value": "cnn.view.maas.zetaglobal.net",
+            "last_seen": "2020-07-20T21:09:58.333681+00:00"
+        },
+        {
+            "subdomain": "vod",
+            "type": "A",
+            "value": "207.25.79.213",
+            "last_seen": "2020-07-19T17:44:32.673585+00:00"
+        },
+        {
+            "subdomain": "vxtreme",
+            "type": "A",
+            "value": "207.25.79.133",
+            "last_seen": "2020-07-18T02:20:40.229840+00:00"
+        },
+        {
+            "subdomain": "vzw.mw",
+            "type": "CNAME",
+            "value": "mw.cnn.com",
+            "last_seen": "2020-07-19T12:08:23.001926+00:00"
+        },
+        {
+            "subdomain": "wallstreet.blogs.fortune",
+            "type": "CNAME",
+            "value": "fortunewallstreet.wordpress.com",
+            "last_seen": "2020-07-19T12:12:35.490272+00:00"
+        },
+        {
+            "subdomain": "wap",
+            "type": "CNAME",
+            "value": "mobile.cnn.com",
+            "last_seen": "2020-07-18T02:20:48.323036+00:00"
+        },
+        {
+            "subdomain": "weather",
+            "type": "CNAME",
+            "value": "cnn.com",
+            "last_seen": "2020-07-19T12:22:22.594323+00:00"
+        },
+        {
+            "subdomain": "weather.asia",
+            "type": "CNAME",
+            "value": "weather.cnn.com",
+            "last_seen": "2020-07-19T12:22:22.592707+00:00"
+        },
+        {
+            "subdomain": "weather.edition",
+            "type": "CNAME",
+            "value": "weather.cnn.com",
+            "last_seen": "2020-07-19T12:22:17.649323+00:00"
+        },
+        {
+            "subdomain": "weather.europe",
+            "type": "CNAME",
+            "value": "weather.cnn.com",
+            "last_seen": "2020-07-19T12:22:20.032127+00:00"
+        },
+        {
+            "subdomain": "weather1",
+            "type": "A",
+            "value": "157.166.254.117",
+            "last_seen": "2020-07-18T02:20:38.078092+00:00"
+        },
+        {
+            "subdomain": "weather2",
+            "type": "A",
+            "value": "157.166.224.117",
+            "last_seen": "2020-07-18T02:20:40.256488+00:00"
+        },
+        {
+            "subdomain": "websearch",
+            "type": "A",
+            "value": "64.236.16.224",
+            "last_seen": "2020-07-19T12:28:42.604271+00:00"
+        },
+        {
+            "subdomain": "websearch",
+            "type": "A",
+            "value": "64.236.16.225",
+            "last_seen": "2020-07-19T12:28:42.603336+00:00"
+        },
+        {
+            "subdomain": "websearch.edition",
+            "type": "CNAME",
+            "value": "websearch.cnn.com",
+            "last_seen": "2020-07-19T12:28:25.753085+00:00"
+        },
+        {
+            "subdomain": "websearch.money",
+            "type": "CNAME",
+            "value": "websearch.cnn.com",
+            "last_seen": "2020-07-19T12:28:26.674631+00:00"
+        },
+        {
+            "subdomain": "websearch.si",
+            "type": "CNAME",
+            "value": "cnnsi.com",
+            "last_seen": "2020-07-19T12:28:37.218240+00:00"
+        },
+        {
+            "subdomain": "whatsnext.blogs",
+            "type": "CNAME",
+            "value": "reflector.cnn.com",
+            "last_seen": "2020-07-19T12:41:51.853616+00:00"
+        },
+        {
+            "subdomain": "whitehouse.blogs",
+            "type": "CNAME",
+            "value": "cnnwhitehouse.wordpress.com",
+            "last_seen": "2020-07-19T12:43:46.916518+00:00"
+        },
+        {
+            "subdomain": "wireless",
+            "type": "CNAME",
+            "value": "reflector.cnn.com",
+            "last_seen": "2020-07-19T12:54:20.926054+00:00"
+        },
+        {
+            "subdomain": "workinsports.sportsillustrated",
+            "type": "CNAME",
+            "value": "sidaily.com",
+            "last_seen": "2020-07-19T13:03:21.524304+00:00"
+        },
+        {
+            "subdomain": "worldcup.edition",
+            "type": "CNAME",
+            "value": "cnn.site.scribblelive.com",
+            "last_seen": "2020-07-19T13:04:25.644394+00:00"
+        },
+        {
+            "subdomain": "worldreportconference",
+            "type": "A",
+            "value": "157.166.165.77",
+            "last_seen": "2020-07-19T13:04:50.610950+00:00"
+        },
+        {
+            "subdomain": "worldsport.blogs",
+            "type": "CNAME",
+            "value": "cnnigoalmouth.wordpress.com",
+            "last_seen": "2020-07-19T13:05:01.455366+00:00"
+        },
+        {
+            "subdomain": "ww2",
+            "type": "CNAME",
+            "value": "prod.turner-tls.map.fastly.net",
+            "last_seen": "2020-07-19T17:44:31.514333+00:00"
+        },
+        {
+            "subdomain": "www",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-21T07:08:48.508166+00:00"
+        },
+        {
+            "subdomain": "www-cgi",
+            "type": "CNAME",
+            "value": "cgi.cnn.com",
+            "last_seen": "2020-07-19T13:11:41.047119+00:00"
+        },
+        {
+            "subdomain": "www-m",
+            "type": "CNAME",
+            "value": "www.cnn.com",
+            "last_seen": "2020-07-19T13:11:39.947870+00:00"
+        },
+        {
+            "subdomain": "www.asia",
+            "type": "CNAME",
+            "value": "www.asia.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-19T13:29:03.070778+00:00"
+        },
+        {
+            "subdomain": "www.cnnespanol",
+            "type": "CNAME",
+            "value": "cnnespanol2.wordpress.com",
+            "last_seen": "2020-07-22T07:44:36.905769+00:00"
+        },
+        {
+            "subdomain": "www.collection",
+            "type": "CNAME",
+            "value": "collection.cnn.com",
+            "last_seen": "2020-07-20T16:13:38.929462+00:00"
+        },
+        {
+            "subdomain": "www.coupons",
+            "type": "CNAME",
+            "value": "coupons.cnn.com",
+            "last_seen": "2020-07-16T07:31:01.105578+00:00"
+        },
+        {
+            "subdomain": "www.edition",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-19T14:01:56.062208+00:00"
+        },
+        {
+            "subdomain": "www.europe",
+            "type": "CNAME",
+            "value": "www.europe.cnn.com.edgesuite.net",
+            "last_seen": "2020-07-19T14:05:52.052347+00:00"
+        },
+        {
+            "subdomain": "www.i.cdn",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-19T14:26:14.697520+00:00"
+        },
+        {
+            "subdomain": "www.ireport",
+            "type": "CNAME",
+            "value": "ireport.cnn.com",
+            "last_seen": "2020-07-19T14:30:25.506587+00:00"
+        },
+        {
+            "subdomain": "www.money",
+            "type": "CNAME",
+            "value": "money.cnn.com",
+            "last_seen": "2020-07-19T14:54:49.210354+00:00"
+        },
+        {
+            "subdomain": "www.ns",
+            "type": "CNAME",
+            "value": "newsource.ns.cnn.com",
+            "last_seen": "2020-07-20T10:42:00.003236+00:00"
+        },
+        {
+            "subdomain": "www.preview",
+            "type": "CNAME",
+            "value": "preview-www.api.cnn.io",
+            "last_seen": "2020-07-21T07:08:38.848097+00:00"
+        },
+        {
+            "subdomain": "www.studentnews",
+            "type": "A",
+            "value": "157.166.224.112",
+            "last_seen": "2020-07-19T15:34:43.534031+00:00"
+        },
+        {
+            "subdomain": "www.studentnews",
+            "type": "A",
+            "value": "157.166.226.112",
+            "last_seen": "2020-07-19T15:34:43.530854+00:00"
+        },
+        {
+            "subdomain": "www.travel",
+            "type": "CNAME",
+            "value": "turner-tls.map.fastly.net",
+            "last_seen": "2020-07-19T15:45:32.298424+00:00"
+        },
+        {
+            "subdomain": "www1",
+            "type": "A",
+            "value": "64.236.24.4",
+            "last_seen": "2020-07-18T02:20:40.429769+00:00"
+        },
+        {
+            "subdomain": "www2",
+            "type": "CNAME",
+            "value": "ion-ma.turner.com.edgekey.net",
+            "last_seen": "2020-07-18T02:20:40.996645+00:00"
+        },
+        {
+            "subdomain": "www2.edition",
+            "type": "CNAME",
+            "value": "www.edition.cnn.com.vgtf.net",
+            "last_seen": "2020-07-19T16:03:57.447907+00:00"
+        },
+        {
+            "subdomain": "www3",
+            "type": "A",
+            "value": "64.236.24.12",
+            "last_seen": "2020-07-18T02:20:38.079694+00:00"
+        },
+        {
+            "subdomain": "www4",
+            "type": "A",
+            "value": "64.236.16.52",
+            "last_seen": "2020-07-18T02:20:38.957486+00:00"
+        },
+        {
+            "subdomain": "www5",
+            "type": "A",
+            "value": "64.236.24.20",
+            "last_seen": "2020-07-18T02:20:37.695544+00:00"
+        },
+        {
+            "subdomain": "www6",
+            "type": "A",
+            "value": "64.236.16.84",
+            "last_seen": "2020-07-19T16:04:33.316035+00:00"
+        },
+        {
+            "subdomain": "xml",
+            "type": "CNAME",
+            "value": "robots.cnn.com",
+            "last_seen": "2020-07-19T17:44:32.391203+00:00"
+        },
+        {
+            "subdomain": "yourbottomline.blogs",
+            "type": "CNAME",
+            "value": "reflector.cnn.com",
+            "last_seen": "2020-07-19T16:50:23.954344+00:00"
+        },
+        {
+            "subdomain": "yourmoney.blogs",
+            "type": "CNAME",
+            "value": "cnnyourmoney.wordpress.com",
+            "last_seen": "2020-07-19T16:51:11.797323+00:00"
+        },
+        {
+            "subdomain": "ypwr.blogs",
+            "type": "CNAME",
+            "value": "cnnypwr.wordpress.com",
+            "last_seen": "2020-07-19T16:52:34.619248+00:00"
+        },
+        {
+            "subdomain": "z.cdn",
+            "type": "CNAME",
+            "value": "ion-ma.turner.com.edgekey.net",
+            "last_seen": "2020-07-19T16:58:29.433760+00:00"
+        }
+    ],
+    "subdomains": [
+        "_dmarc",
+        "a.mw",
+        "ablink.emailalerts",
+        "ac360.blogs",
+        "access",
+        "account",
+        "adfeature",
+        "admin.on",
+        "admin.ref.alertshub",
+        "advertisementfeature",
+        "afghanistan.blogs",
+        "agility",
+        "alerts",
+        "alertshub",
+        "am.blogs",
+        "amanpour.blogs",
+        "amfix.blogs",
+        "amp",
+        "amp-ref",
+        "amp-staging",
+        "api",
+        "api.electiontracker",
+        "api.etp",
+        "api.platform",
+        "app.cnnespanol",
+        "apple20.blogs.fortune",
+        "apps.money",
+        "arabic",
+        "archive.arabic",
+        "archives",
+        "asia",
+        "askfsb.blogs.fsb",
+        "asktheexpert.blogs.money",
+        "asvcsem",
+        "at",
+        "att.mw",
+        "aud-qai",
+        "aud-stage",
+        "audience",
+        "audience.qa",
+        "autoshow.blogs.cnnmoney",
+        "backstory.blogs",
+        "bcalerts.money",
+        "bccontent.ns",
+        "bcportfolio.money",
+        "bea4",
+        "bea4c",
+        "behindthescenes.blogs",
+        "beta.next",
+        "bigtech.blogs.fortune",
+        "bingbosses.blogs.fortune",
+        "bodareal.blogs",
+        "bourdainlive",
+        "brainstormtech.blogs.fortune",
+        "broker.ng",
+        "business.blogs",
+        "buzz.money",
+        "c.bea4",
+        "ca.commerce",
+        "ca.emailalerts",
+        "ca.newsletters",
+        "ca.transactional",
+        "caffertyfile.blogs",
+        "campbellbrown.blogs",
+        "cdn",
+        "center",
+        "cf",
+        "cgi",
+        "cgi.money",
+        "channel",
+        "chasingthedragon.blogs.fortune",
+        "cl",
+        "cl.footballclub",
+        "client.appletv",
+        "clients",
+        "cmdev-subscription.fortune",
+        "cnn.dyn",
+        "cnn.tmpstg",
+        "cnne-test",
+        "cnnespanol",
+        "cnnfilmslive",
+        "cnnfn",
+        "cnnmcaja",
+        "cnnphotos.blogs",
+        "cnnpreprod.blogs",
+        "cnnpresents.blogs",
+        "cnnpressroom.blogs",
+        "cnnpreview",
+        "cnnradio",
+        "cnnstudentnews",
+        "cnnstudentnews.blogs",
+        "cnntechlive",
+        "cnnuslive",
+        "cnnworldlive",
+        "collection",
+        "collections",
+        "commercial",
+        "commercial.int",
+        "commercial.stg",
+        "community",
+        "compositor.api",
+        "connecttheworld.blogs",
+        "contenidopatrocinado",
+        "content",
+        "coupons",
+        "crossfire.blogs",
+        "crossfirelive",
+        "customad",
+        "customnews",
+        "dailybriefing.blogs.fortune",
+        "data",
+        "datadev",
+        "dataint",
+        "dataref",
+        "debates",
+        "debug.next",
+        "dev-subscription.fortune",
+        "dev.alerts",
+        "dev.alertshub",
+        "dev.alertshub.services.ec2",
+        "dev.client.appletv",
+        "dev.cnne-test",
+        "dev.directv.10f.go",
+        "dev.edition-m",
+        "dev.money",
+        "dev.next",
+        "dev.us-m",
+        "dev.www-m",
+        "devapp.cnnespanol",
+        "developer",
+        "digitalsmiths.sportsillustrated",
+        "download",
+        "drdrew.blogs",
+        "drgupta",
+        "dropbox",
+        "dynaimage.cdn",
+        "dynamic",
+        "dynamic.si",
+        "e.commerce",
+        "e.emailalerts",
+        "e.newsletters",
+        "e.transactional",
+        "earlystart.blogs",
+        "eatocracy",
+        "edition",
+        "edition-m",
+        "edition.beta.next",
+        "edition.cnnpreview",
+        "edition.dev.next",
+        "edition.enable.next",
+        "edition.etrain.next",
+        "edition.i.cdn",
+        "edition.politics.next",
+        "edition.preview",
+        "edition.ref.next",
+        "edition.stage.next",
+        "edition.stage2.next",
+        "edition.stage3.next",
+        "edition.sweet.next",
+        "edition.terra.next",
+        "edition.train.next",
+        "edition.video.next",
+        "edition1",
+        "edition2",
+        "eightiesyourself",
+        "election",
+        "emailalerts",
+        "enable.next",
+        "entertainmentlive",
+        "etrain.next",
+        "europe",
+        "ey",
+        "fannation.sportsillustrated",
+        "fastforward.blogs.fortune",
+        "fave-api",
+        "fave.edition",
+        "fave.edition.stage.next",
+        "fave.edition.stage2.next",
+        "fave.edition.stage3.next",
+        "fave.stage.next",
+        "fave.stage2.next",
+        "fave.stage3.next",
+        "fave.www",
+        "features.blogs.fortune",
+        "finance.fortune",
+        "football.si",
+        "footballclub",
+        "form",
+        "formprocessor",
+        "forums",
+        "freshfaces.si",
+        "fsbfeatures.blogs.fsb",
+        "futureboy.blogs.fsb",
+        "fyi",
+        "games",
+        "games.si",
+        "games.sportsillustrated",
+        "garmentos.blogs.fortune",
+        "gdyn",
+        "geekout.blogs",
+        "generationrisk.blogs.money",
+        "globalforum.blogs.fortune",
+        "globalpublicsquare.blogs",
+        "go",
+        "goalmouth.blogs",
+        "golfcourse.si",
+        "gowest.blogs.fortune",
+        "greenwombat.blogs.fortune",
+        "grouchygeek.blogs.fortune",
+        "gw.money",
+        "headlinenews",
+        "healthguides",
+        "healthmakers",
+        "heroes",
+        "heroeslive",
+        "i.cdn",
+        "i.cdn.travel",
+        "i2.cdn",
+        "images.commerce",
+        "images.emailalerts",
+        "images.newsletters",
+        "images.transactional",
+        "imagesource",
+        "inamerica.blogs",
+        "inauguration",
+        "inhealth",
+        "insession.blogs",
+        "insideman.blogs",
+        "insidethemiddleeast.blogs",
+        "internationaldesk.blogs",
+        "inthearena.blogs",
+        "inthefield.blogs",
+        "ireport",
+        "ireportawards",
+        "japan",
+        "jobsearch.money",
+        "johnkingusa.blogs",
+        "joybehar.blogs",
+        "larrykinglive.blogs",
+        "legalpad.blogs.fortune",
+        "lending",
+        "li",
+        "licensing",
+        "lightyears.blogs",
+        "link.mail.sportsillustrated",
+        "links",
+        "lists",
+        "lite",
+        "live",
+        "localhost",
+        "localhost.edition-m",
+        "localhost.next",
+        "localhost.us-m",
+        "localhost.www-m",
+        "loopback",
+        "loudobbs.tv",
+        "lyncdiscover",
+        "m",
+        "m.travel",
+        "mail",
+        "mail1.access",
+        "mail2",
+        "mail2.access",
+        "mail8.access",
+        "mailcar",
+        "management.fortune",
+        "markets.money",
+        "markets.money.qai",
+        "marquee.blogs",
+        "mediabiz.blogs.cnnmoney",
+        "metrics",
+        "mexico",
+        "millionaires.blogs.cnnmoney",
+        "missing",
+        "mms",
+        "mobile",
+        "mobile1",
+        "mobile2",
+        "mobile3",
+        "mobiletest",
+        "mobileworldcongress.edition",
+        "money",
+        "moneyethics.blogs.money",
+        "moneyfeatures.blogs.money",
+        "moneyhelps.blogs.money",
+        "mtest",
+        "mw",
+        "mxp.blogs",
+        "my",
+        "nancygrace.blogs",
+        "netlynews.blogs.fortune",
+        "newday.blogs",
+        "news.blogs",
+        "newsource",
+        "newsource-auth-api-530.ns",
+        "newsource-cdn-static.ns",
+        "newsource-content-api-530.ns",
+        "newsource.ns",
+        "newsource1",
+        "newsource2",
+        "newsourcevideo",
+        "newsroom.blogs",
+        "newsstream.blogs",
+        "now",
+        "ntm.blogs",
+        "olympics.blogs",
+        "olympics.edition",
+        "on",
+        "outfront.blogs",
+        "pagingdrgupta.blogs",
+        "parkerspitzer.blogs",
+        "partner",
+        "partner.int",
+        "partner.stg",
+        "partners",
+        "phone",
+        "piersmorgan.blogs",
+        "podcast",
+        "politicalticker",
+        "politicalticker.blogs",
+        "politics.next",
+        "politicslive",
+        "poll",
+        "polls",
+        "polls.money",
+        "portfolio.money",
+        "portfolio.train.money",
+        "postcards.blogs.fortune",
+        "powerplay.blogs.fortune",
+        "ppl",
+        "premium",
+        "premium.asia",
+        "premium.edition",
+        "premium.europe",
+        "premium.si",
+        "preview.dev.edition-m",
+        "preview.dev.money",
+        "preview.dev.next",
+        "preview.dev.us-m",
+        "preview.dev.www-m",
+        "preview.edition-m",
+        "preview.edition.dev.next",
+        "preview.edition.enable.next",
+        "preview.edition.etrain.next",
+        "preview.edition.politics.next",
+        "preview.edition.ref.next",
+        "preview.edition.stage.next",
+        "preview.edition.stage2.next",
+        "preview.edition.stage3.next",
+        "preview.edition.sweet.next",
+        "preview.edition.terra.next",
+        "preview.edition.train.next",
+        "preview.edition.video.next",
+        "preview.enable.next",
+        "preview.etrain.next",
+        "preview.localhost.edition-m",
+        "preview.localhost.us-m",
+        "preview.localhost.www-m",
+        "preview.money",
+        "preview.politics.next",
+        "preview.qa.edition-m",
+        "preview.qa.money",
+        "preview.qa.www-m",
+        "preview.ref.edition-m",
+        "preview.ref.money",
+        "preview.ref.next",
+        "preview.ref.us-m",
+        "preview.ref.www-m",
+        "preview.stage.edition-m",
+        "preview.stage.next",
+        "preview.stage.us-m",
+        "preview.stage.www-m",
+        "preview.stage2.next",
+        "preview.stage3.next",
+        "preview.sweet.next",
+        "preview.terra.next",
+        "preview.train.money",
+        "preview.train.next",
+        "preview.us-m",
+        "preview.video.next",
+        "preview.www-m",
+        "preview2.ref.money",
+        "prism.blogs",
+        "prod.directv.10f.go",
+        "prodfix-subscription.fortune",
+        "profiles-int.sportsillustrated",
+        "profiles.sportsillustrated",
+        "proxy",
+        "qa-subscription",
+        "qa-subscription.fortune",
+        "qa.collection",
+        "qa.edition-m",
+        "qa.money",
+        "qa.us-m",
+        "qa.www-m",
+        "qs.cnnfn",
+        "qs.money",
+        "questmeansbusiness.blogs",
+        "quiz",
+        "quote.money",
+        "real",
+        "realestate.money",
+        "redalert",
+        "ref.alertshub",
+        "ref.alertshub.services.ec2",
+        "ref.edition-m",
+        "ref.money",
+        "ref.next",
+        "ref.us-m",
+        "ref.www-m",
+        "ref2.money",
+        "reflector",
+        "reftime.ng",
+        "related",
+        "reliablesources.blogs",
+        "religion.blogs",
+        "reportcard",
+        "repository",
+        "ridingtheelephant.blogs.fortune",
+        "robots",
+        "rss",
+        "salute.blogs",
+        "sandbox",
+        "sanjayguptamd.blogs",
+        "satime.ng",
+        "schoolsofthought.blogs",
+        "scitech.blogs",
+        "screeningroom.blogs",
+        "sdc",
+        "search",
+        "search.arabic",
+        "search.beta",
+        "search.cnnstudentnews",
+        "search.edition",
+        "search.money",
+        "search.moneymag",
+        "search.si",
+        "search.sportsillustrated",
+        "searchapp",
+        "secondlife.blogs",
+        "secure",
+        "secure.money",
+        "security.blogs",
+        "securityfiles.blogs",
+        "sendasalute",
+        "services",
+        "services.test",
+        "showcase",
+        "showcase.staging",
+        "si",
+        "sip",
+        "situationroom.blogs",
+        "siu.blogs",
+        "siwiki.sportsillustrated",
+        "smartlink",
+        "smetrics",
+        "social-login",
+        "sotu.blogs",
+        "spoll",
+        "sponsorcontent",
+        "sponsorcontent.beta.next",
+        "sponsorcontent.dev.next",
+        "sponsorcontent.edition",
+        "sponsorcontent.edition.stage2.next",
+        "sponsorcontent.edition.stage3.next",
+        "sponsorcontent.enable.next",
+        "sponsorcontent.etrain.next",
+        "sponsorcontent.go",
+        "sponsorcontent.money",
+        "sponsorcontent.politics.next",
+        "sponsorcontent.ref.next",
+        "sponsorcontent.stage.next",
+        "sponsorcontent.stage2.next",
+        "sponsorcontent.stage3.next",
+        "sponsorcontent.sweet.next",
+        "sponsorcontent.terra.next",
+        "sponsorcontent.train.next",
+        "sponsorcontent.video.next",
+        "sponsored-insights.money",
+        "sports.si",
+        "sports.sportsillustrated",
+        "sprint.mw",
+        "spurlocklive",
+        "stage",
+        "stage.edition-m",
+        "stage.edition.i.cdn",
+        "stage.money",
+        "stage.next",
+        "stage.tours",
+        "stage.us-m",
+        "stage.www-m",
+        "stage.www.i.cdn",
+        "stage2.edition.i.cdn",
+        "stage2.next",
+        "stage2.www.i.cdn",
+        "stage3.edition.i.cdn",
+        "stage3.next",
+        "stage3.www.i.cdn",
+        "staging.tour",
+        "stanleybing.blogs.fortune",
+        "startingpoint.blogs",
+        "static",
+        "static-is",
+        "static.arabic",
+        "store",
+        "streamer.money",
+        "strombo.blogs",
+        "studentnews",
+        "style",
+        "subscription.fortune",
+        "sweet.next",
+        "talkback.blogs.fortune",
+        "teamstore.si",
+        "tech",
+        "tech.fortune",
+        "techland.blogs.fortune",
+        "terra.next",
+        "thebrief.blogs",
+        "thebrowser.blogs.fortune",
+        "thechart.blogs",
+        "thecnnfreedomproject.blogs",
+        "theforum",
+        "thegig.blogs.fortune",
+        "thelead.blogs",
+        "thewheeldeal.blogs.fortune",
+        "tickets.tour",
+        "time.ng",
+        "tips.blogs",
+        "tmo.mw",
+        "tours",
+        "train.money",
+        "train.next",
+        "transcripts",
+        "travel",
+        "travel-dev",
+        "traveledit",
+        "trends",
+        "tsm",
+        "tv-europe",
+        "ukelection.blogs",
+        "unveiled.blogs",
+        "us",
+        "us-m",
+        "v4v6",
+        "van",
+        "vault.sportsillustrated",
+        "verticals-static",
+        "victory",
+        "vid",
+        "video",
+        "video.next",
+        "video1",
+        "video3",
+        "video4",
+        "video5",
+        "view.commerce",
+        "view.emailalerts",
+        "view.newsletters",
+        "view.transactional",
+        "vod",
+        "vxtreme",
+        "vzw.mw",
+        "wallstreet.blogs.fortune",
+        "wap",
+        "weather",
+        "weather.asia",
+        "weather.edition",
+        "weather.europe",
+        "weather1",
+        "weather2",
+        "websearch",
+        "websearch.edition",
+        "websearch.money",
+        "websearch.si",
+        "whatsnext.blogs",
+        "whitehouse.blogs",
+        "wireless",
+        "workinsports.sportsillustrated",
+        "worldcup.edition",
+        "worldreportconference",
+        "worldsport.blogs",
+        "ww2",
+        "www",
+        "www-cgi",
+        "www-m",
+        "www.asia",
+        "www.cnnespanol",
+        "www.collection",
+        "www.coupons",
+        "www.edition",
+        "www.europe",
+        "www.i.cdn",
+        "www.ireport",
+        "www.money",
+        "www.ns",
+        "www.preview",
+        "www.studentnews",
+        "www.travel",
+        "www1",
+        "www2",
+        "www2.edition",
+        "www3",
+        "www4",
+        "www5",
+        "www6",
+        "xml",
+        "yourbottomline.blogs",
+        "yourmoney.blogs",
+        "ypwr.blogs",
+        "z.cdn"
+    ],
+    "more": false
+}

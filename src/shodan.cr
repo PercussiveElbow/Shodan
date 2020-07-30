@@ -1,13 +1,16 @@
 require "http/client"
 require "json"
 require "./shodan/*"
+require "./shodan/parsers/*"
 
 module Shodan
     class Client
         def initialize(@api_key : String)
-
         end
 
+        ##########################
+        #   SEARCH  METHODS      # 
+        ##########################
         def host(host_ip : String)
             response = HTTP::Client.get("https://api.shodan.io/shodan/host/#{host_ip}?key=#{@api_key}")
             if response.status_code == 404
@@ -15,18 +18,50 @@ module Shodan
             end
             Client.check_status_code(response.status_code)
             begin
-                host_info = Shodan::Host.from_json(response.body)
-                return host_info
+                return Shodan::Host.from_json(response.body)
             rescue ex : JSON::Error
                 raise ShodanClientException.new(ex.to_s)
             end
         end
 
+        def host_count()
+
+
+        end
+
+        def host_search()
+
+        end
+
+        def filters()
+            response = HTTP::Client.get("https://api.shodan.io/shodan/host/search/filters?key=#{@api_key}")
+            Client.check_status_code(response.status_code)
+            begin 
+                return Array(String).from_json(response.body)
+            rescue ex : JSON::Error
+                raise ShodanClientException.new(ex.to_s)
+            end
+        end
+
+        def facets()
+            response = HTTP::Client.get("https://api.shodan.io/shodan/host/search/facets?key=#{@api_key}")
+            Client.check_status_code(response.status_code)
+            begin 
+                return Array(String).from_json(response.body)
+            rescue ex : JSON::Error
+                raise ShodanClientException.new(ex.to_s)
+            end
+        end
+
+        def tokens()
+
+        end
+
         def ports()
             response = HTTP::Client.get("https://api.shodan.io/shodan/ports?key=#{@api_key}")
+            Client.check_status_code(response.status_code)
             begin 
-                port_listing = Array(Int64).from_json(response.body)
-                return port_listing
+                return Array(Int64).from_json(response.body)
             rescue ex : JSON::Error
                 raise ShodanClientException.new(ex.to_s)
             end
@@ -37,15 +72,33 @@ module Shodan
         #   DIRECTORY  METHODS   # 
         ##########################
         def directory_query()
-
+            response = HTTP::Client.get("https://api.shodan.io/shodan/query?key=#{@api_key}")
+            Client.check_status_code(response.status_code)
+            begin 
+                return DirectoryQuery.from_json(response.body)
+            rescue ex : JSON::Error
+                raise ShodanClientException.new(ex.to_s)
+            end
         end
 
-        def directory_query_serach()
-
+        def directory_query_search(query : String)
+            response = HTTP::Client.get("https://api.shodan.io/shodan/query/search?query=#{query}&key=#{@api_key}")
+            Client.check_status_code(response.status_code)
+            begin 
+                return DirectoryQuery.from_json(response.body)
+            rescue ex : JSON::Error
+                raise ShodanClientException.new(ex.to_s)
+            end
         end
 
         def directory_query_tags()
-
+            response = HTTP::Client.get("https://api.shodan.io/shodan/query/tags?key=#{@api_key}")
+            Client.check_status_code(response.status_code)
+            begin 
+                return DirectoryQueryTags.from_json(response.body)
+            rescue ex : JSON::Error
+                raise ShodanClientException.new(ex.to_s)
+            end
         end
 
         ##########################
@@ -55,8 +108,7 @@ module Shodan
             response = HTTP::Client.get("https://api.shodan.io/account/profile?key=#{@api_key}")
             Client.check_status_code(response.status_code)
             begin 
-                account_info = Shodan::Account.from_json(response.body)
-                return account_info
+                return Shodan::Account.from_json(response.body)
             rescue ex : JSON::Error
                 raise ShodanClientException.new(ex.to_s)
             end
@@ -69,8 +121,7 @@ module Shodan
             response = HTTP::Client.get("https://api.shodan.io/api-info?key=#{@api_key}")
             Client.check_status_code(response.status_code)
             begin 
-                api_status = Shodan::APIStatus.from_json(response.body)
-                return api_status
+                return Shodan::APIStatus.from_json(response.body)
             rescue ex : JSON::Error
                 raise ShodanClientException.new(ex.to_s)
             end
@@ -83,8 +134,7 @@ module Shodan
             response = HTTP::Client.get("https://api.shodan.io/tools/httpheaders?key=#{@api_key}")
             Client.check_status_code(response.status_code)
             begin 
-                headers = Hash(String,String).from_json(response.body)
-                return headers
+                return Hash(String,String).from_json(response.body)
             rescue ex : JSON::Error
                 raise ShodanClientException.new(ex.to_s)
             end
@@ -94,8 +144,7 @@ module Shodan
             response = HTTP::Client.get("https://api.shodan.io/tools/myip?key=#{@api_key}")
             Client.check_status_code(response.status_code)
             begin 
-                my_ip_str = String.from_json(response.body)
-                return my_ip_str
+                return String.from_json(response.body)
             rescue ex : JSON::Error
                 raise ShodanClientException.new(ex.to_s)
             end
@@ -108,8 +157,7 @@ module Shodan
             response = HTTP::Client.get("https://api.shodan.io/dns/domain/#{domain}?key=#{@api_key}")
             Client.check_status_code(response.status_code)
             begin 
-                domain_info = Shodan::Domain.from_json(response.body)
-                return domain_info
+                return Shodan::Domain.from_json(response.body)
             rescue ex : JSON::Error
                 raise ShodanClientException.new(ex.to_s)
             end
@@ -120,8 +168,7 @@ module Shodan
             response = HTTP::Client.get("https://api.shodan.io/dns/resolve?hostnames=#{parsed_hostnames}&key=#{@api_key}")
             Client.check_status_code(response.status_code)
             begin 
-                domain_info = Hash(String,String).from_json(response.body)
-                return domain_info
+                return Hash(String,String).from_json(response.body)
             rescue ex : JSON::Error
                 raise ShodanClientException.new(ex.to_s)
             end
@@ -132,8 +179,7 @@ module Shodan
             response = HTTP::Client.get("https://api.shodan.io/dns/reverse?ips=#{parsed_ips}&key=#{@api_key}")
             Client.check_status_code(response.status_code)
             begin 
-                reverse_info = Hash(String,Array(String)).from_json(response.body)
-                return reverse_info
+                return Hash(String,Array(String)?).from_json(response.body)
             rescue ex : JSON::Error
                 raise ShodanClientException.new(ex.to_s)
             end
@@ -146,35 +192,17 @@ module Shodan
             response = HTTP::Client.get("https://api.shodan.io/labs/honeyscore/#{ip}&key=#{@api_key}")
             Client.check_status_code(response.status_code)
             begin 
-                honeyscore_value = Int64.from_json(response.body)
-                return honeyscore_value
+                return Int64.from_json(response.body)
             rescue ex : JSON::Error
                 raise ShodanClientException.new(ex.to_s)
             end
-
         end
 
         def self.check_status_code(status_code)
             if status_code != 200
-                if status_code == 401
-                    raise ShodanAuthorizationException.new("401 response. Likely invalid or expired API key.")
-                end
-                if status_code == 429
-                    raise ShodanRateLimitingException.new("Rate limit exceeded.")
-                end
+                raise ShodanAuthorizationException.new("HTTP 401 response. Likely invalid or expired API key.") if status_code == 401
+                raise ShodanRateLimitingException.new("HTTP 429 response. Rate limit exceeded.") if status_code == 429
             end
-        end
-
-        ## Exceptions
-        class ShodanClientException < Exception 
-        end
-        class ShodanAPIException < Exception 
-        end
-        class ShodanRateLimitingException < ShodanAPIException
-        end
-        class ShodanHostNotfoundException < ShodanAPIException
-        end
-        class ShodanAuthorizationException < ShodanClientException 
         end
     end
 end
