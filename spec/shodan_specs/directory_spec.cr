@@ -21,7 +21,7 @@ describe "Directory Endpoint" do
     end
 
     directory_query_tags_response = File.read("spec/example_responses/directory/directory_tags_example_1.json")
-    WebMock.stub(:get, "https://api.shodan.io/shodan/query/tags#{key_path}").to_return(status: 200, body: directory_query_tags_response)
+    WebMock.stub(:get, "https://api.shodan.io/shodan/query/tags#{key_path}&size=10").to_return(status: 200, body: directory_query_tags_response)
     it "should correctly parse an Directory Query Tags endpoint response" do
         directory_query__tags_result = client.directory_query_tags()
         directory_query__tags_result.total.should eq 7411
@@ -35,7 +35,7 @@ describe "Directory Endpoint" do
     end
 
     directory_query_Search_response = File.read("spec/example_responses/directory/directory_search_example_1.json")
-    WebMock.stub(:get, "https://api.shodan.io/shodan/query/search?query=compromised#{key_path_ampersand}").to_return(status: 200, body: directory_query_Search_response)
+    WebMock.stub(:get, "https://api.shodan.io/shodan/query/search#{key_path}&query=compromised&page=10").to_return(status: 200, body: directory_query_Search_response)
     it "should correctly parse an Directory Query Search endpoint response" do
         directory_query_search_results = client.directory_query_search("compromised")
         directory_query_search_results.total.should eq 4

@@ -24,13 +24,40 @@ module Shodan
             end
         end
 
-        def host_count()
+        private def host_search_call(search : Bool, page : Int32, minify : Bool, facets, search_query : String, **query_params)
+            if query_params.size() == 0 
+                raise ShodanClientException.new("Query string empty")
+            else
+                query_param_string = search_query.sub(" ","+")
+                query_params.each do | key, value |
+                    query_param_string += "+#{key}:#{value}"
+                end
 
-
+                if facets && facets.size() > 0
+                    facets_string = "&facets=" 
+                    facets.each do | key,value | 
+                        facets_string += "+#{key}:#{value}"
+                    end
+                else
+                    facets_string = ""
+                end
+                search_type = search ? "search" : "count"
+                response = HTTP::Client.get("https://api.shodan.io/shodan/host/#{search_type}?key=#{@api_key}&query=#{query_param_string}&page=#{page.to_s}&minify=#{minify.to_s}#{facets_string}")
+                Client.check_status_code(response.status_code)
+                begin 
+                    return Shodan::HostSearch.from_json(response.body)
+                rescue ex : JSON::Error
+                    raise ShodanClientException.new(ex.to_s)
+                end   
+            end    
         end
 
-        def host_search()
+        def host_count(search_query, facets = nil, **query_params)
+            host_search_call(false, 1, true, facets, search_query, **query_params)
+        end
 
+        def host_search(search_query, page : Int32 = 1, minify : Bool = true, facets = nil, **query_params)
+            host_search_call(true, page, minify, facets, search_query, **query_params)     
         end
 
         def filters()
@@ -67,7 +94,6 @@ module Shodan
             end
         end
 
-
         ##########################
         #   DIRECTORY  METHODS   # 
         ##########################
@@ -81,8 +107,8 @@ module Shodan
             end
         end
 
-        def directory_query_search(query : String)
-            response = HTTP::Client.get("https://api.shodan.io/shodan/query/search?query=#{query}&key=#{@api_key}")
+        def directory_query_search(query : String, page : Int32 = 10)
+            response = HTTP::Client.get("https://api.shodan.io/shodan/query/search?key=#{@api_key}&query=#{query}&page=#{page}")
             Client.check_status_code(response.status_code)
             begin 
                 return DirectoryQuery.from_json(response.body)
@@ -91,8 +117,8 @@ module Shodan
             end
         end
 
-        def directory_query_tags()
-            response = HTTP::Client.get("https://api.shodan.io/shodan/query/tags?key=#{@api_key}")
+        def directory_query_tags(size : Int64 = 10)
+            response = HTTP::Client.get("https://api.shodan.io/shodan/query/tags?key=#{@api_key}&size=#{size}")
             Client.check_status_code(response.status_code)
             begin 
                 return DirectoryQueryTags.from_json(response.body)

@@ -1,6 +1,17 @@
 require "./host/*"
 
 module Shodan
+    struct HostSearch include ::JSON::Serializable
+        property matches : Array(Shodan::Host::HostData)?
+        property total : Int64?
+        property facets : Hash(String,Array(HostSearchFacet))?
+    end
+
+    struct HostSearchFacet include ::JSON::Serializable
+        property count : Int64?
+        property value : String?
+    end
+
     struct Host include JSON::Serializable
         # ip isp asn
         property ip : Int64?
