@@ -1,4 +1,4 @@
-require "./host/*"
+require "./host_services/*"
 
 module Shodan
     struct HostSearch include ::JSON::Serializable
@@ -63,11 +63,39 @@ module Shodan
             # timestamp again
             property timestamp : String?
             property data : String?
-            # extra deets
+
             property location : HostDataLocation?
+
+
+            # Each possible service
+            property cassandra : HostDataCassandra?
+            property coap : HostDataCoAP?
+            property db2 : HostDataDB2? 
+            property docker : HostDataDocker?
             property dns : HostDataDNS?
+            property elastic : HostDataElastic?
+            property etcd : HostDataETCD? 
+            property ethernetip : HostDataEthernetIP?
+            property ftp : HostDataFTP?
+            property hive : HostDataHive? 
             property http : HostDataHTTP?
-            property ssl : HostDataSSL? 
+            property influxdb : HostDataInfluxDB? 
+            property isakmp : HostDataISAKMP? 
+            property lantronix : HostDataLANTronix?
+            property minecraft : HostDataMinecraft?
+            property monero : HostDataMonero?
+            property mongodb : HostDataMongoDB?
+            property mqtt : HostDataMQTT?
+            property ntp : HostDataNTP?
+            property netbios : HostDataNetBIOS?
+            property redis : HostDataRedis?
+            property rsync : HostDataRsync?
+            property rip : HostDataRIP?
+            property ssh : HostDataSSH?
+            property smb : HostDataSMB?
+            property snmp : HostDataSNMP?
+            property ssl : HostDataSSL?
+            property vertx : HostDataVertx?
         end
 
         struct HostDataLocation include JSON::Serializable # not sure why shodan duplicates this
@@ -81,13 +109,6 @@ module Shodan
             property postal_code : String?
             property dma_code : Int32? 
             property country_code : String? 
-        end
-
-        struct HostDataDNS include JSON::Serializable
-            property resolver_hostname : String?
-            property recursive : Bool?
-            property resolver_id : String?
-            property software : String?
         end
 
     end

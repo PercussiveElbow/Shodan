@@ -31,3 +31,4 @@ search_result = client.host_search("Minecraft Server", port: "25565", facets: { 
 ###  Enterprise endpoints (Not implemented)
 - [ ] Shodan Bulk Data (Enterprise)
 - [ ] Manage Organisation (Enterprise)
+- [ ] Internet Scanning (Enterprise/Research)

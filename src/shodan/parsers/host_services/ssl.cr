@@ -15,7 +15,7 @@ module Shodan
         property prime : String? 
         property public_key : String?
         property bits : Int32? 
-        property generator : Int32? 
+        property generator : Int64? 
         property fingerprint : String? 
     end
 

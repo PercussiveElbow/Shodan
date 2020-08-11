@@ -28,11 +28,13 @@ module Shodan
     struct HostDataHTTPRedirects include JSON::Serializable
         property host : String? 
         property data : String? 
+        property html : String? 
         property location : String?
     end
 
     struct HostDataHTTPFavicon include JSON::Serializable
         property hash : Int64?
         property data : String?
+        property location : String? 
     end
 end

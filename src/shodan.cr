@@ -13,6 +13,7 @@ module Shodan
         ##########################
         def host(host_ip : String)
             response = HTTP::Client.get("https://api.shodan.io/shodan/host/#{host_ip}?key=#{@api_key}")
+            # puts(response.body)
             if response.status_code == 404
                 raise ShodanHostNotfoundException.new("Host #{host_ip} not found on Shodan.")
             end
@@ -93,6 +94,48 @@ module Shodan
                 raise ShodanClientException.new(ex.to_s)
             end
         end
+        ##########################
+        #   ON DEMAND SCANS      # 
+        ##########################
+
+        def protocols()
+            response = HTTP::Client.get("https://api.shodan.io/shodan/protocols?key=#{@api_key}")
+            Client.check_status_code(response.status_code)
+            begin 
+                return Hash(String,String).from_json(response.body)
+            rescue ex : JSON::Error
+                raise ShodanClientException.new(ex.to_s)
+            end
+        end
+
+
+        def scan(ips : Array(String))
+            ips_to_scan = ips.join(",")
+
+            response = HTTP::Client.post("https://api.shodan.io/shodan/scan?key=#{@api_key}") # todo
+            Client.check_status_code(response.status_code)
+            begin 
+                return Hash(String,String).from_json(response.body)
+            rescue ex : JSON::Error
+                raise ShodanClientException.new(ex.to_s)
+            end
+        end
+
+        def scan_internet() # Enterprise only
+            puts("Not implemented")
+        end
+
+        def scan_status(scan_id : String)
+            response = HTTP::Client.get("https://api.shodan.io/shodan/scan/#{scan_id}?key=#{@api_key}")
+            Client.check_status_code(response.status_code)
+            begin 
+                return Hash(String,String).from_json(response.body)
+            rescue ex : JSON::Error
+                raise ShodanClientException.new(ex.to_s)
+            end
+        end
+
+
 
         ##########################
         #   DIRECTORY  METHODS   # 
