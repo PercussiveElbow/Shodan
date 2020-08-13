@@ -4,7 +4,7 @@ module Shodan
         property players : HostDataMinecraftPlayersInfo?
         property forgeData : HostDataMinecraftForgeInfo?
         property modinfo : HostDataMinecraftModInfo?
-        property description : String?
+        property description : JSON::Any? # doesn't seem consistent, sometimes string sometimes another keyval pair
         property favicon : String? 
         property whitelisted : Bool?  
 
