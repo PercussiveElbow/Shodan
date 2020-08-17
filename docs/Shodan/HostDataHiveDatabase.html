@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Crystal Docs 0.34.0">
+<meta name="crystal_docs.project_version" content="master-dev">
+<meta name="crystal_docs.project_name" content="shodan">
+
+
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/doc.js"></script>
+
+<svg class="hidden">
+  <symbol id="octicon-link" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
+  </symbol>
+</svg>
+
+  <meta id="repository-name" content="shodan">
+  <title>Shodan::HostDataHiveDatabase - shodan master-dev</title>
+  <script type="text/javascript">
+    CrystalDocs.base_path = "../";
+  </script>
+</head>
+<body>
+
+<div class="sidebar">
+  <div class="sidebar-header">
+    <div class="search-box">
+      <input type="search" class="search-input" placeholder="Search..." spellcheck="false" aria-label="Search">
+    </div>
+
+    <div class="project-summary">
+      <h1 class="project-name">
+        <a href="../index.html">
+          shodan
+        </a>
+      </h1>
+
+      <span class="project-version">
+        master-dev
+      </span>
+    </div>
+  </div>
+
+  <div class="search-results" class="hidden">
+    <ul class="search-list"></ul>
+  </div>
+
+  <div class="types-list">
+    <ul>
+  
+  <li class="parent open current" data-id="shodan/Shodan" data-name="shodan">
+      <a href="../Shodan.html">Shodan</a>
+      
+        <ul>
+  
+  <li class=" " data-id="shodan/Shodan/Account" data-name="shodan::account">
+      <a href="../Shodan/Account.html">Account</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/APIStatus" data-name="shodan::apistatus">
+      <a href="../Shodan/APIStatus.html">APIStatus</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/Client" data-name="shodan::client">
+      <a href="../Shodan/Client.html">Client</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/DirectoryQuery" data-name="shodan::directoryquery">
+      <a href="../Shodan/DirectoryQuery.html">DirectoryQuery</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/DirectoryQueryMatch" data-name="shodan::directoryquerymatch">
+      <a href="../Shodan/DirectoryQueryMatch.html">DirectoryQueryMatch</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/DirectoryQueryTagMatch" data-name="shodan::directoryquerytagmatch">
+      <a href="../Shodan/DirectoryQueryTagMatch.html">DirectoryQueryTagMatch</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/DirectoryQueryTags" data-name="shodan::directoryquerytags">
+      <a href="../Shodan/DirectoryQueryTags.html">DirectoryQueryTags</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/Domain" data-name="shodan::domain">
+      <a href="../Shodan/Domain.html">Domain</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/DomainData" data-name="shodan::domaindata">
+      <a href="../Shodan/DomainData.html">DomainData</a>
+      
+    </li>
+  
+  <li class="parent " data-id="shodan/Shodan/Host" data-name="shodan::host">
+      <a href="../Shodan/Host.html">Host</a>
+      
+        <ul>
+  
+  <li class=" " data-id="shodan/Shodan/Host/HostData" data-name="shodan::host::hostdata">
+      <a href="../Shodan/Host/HostData.html">HostData</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/Host/HostDataLocation" data-name="shodan::host::hostdatalocation">
+      <a href="../Shodan/Host/HostDataLocation.html">HostDataLocation</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataCassandra" data-name="shodan::hostdatacassandra">
+      <a href="../Shodan/HostDataCassandra.html">HostDataCassandra</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataCoAP" data-name="shodan::hostdatacoap">
+      <a href="../Shodan/HostDataCoAP.html">HostDataCoAP</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataDB2" data-name="shodan::hostdatadb2">
+      <a href="../Shodan/HostDataDB2.html">HostDataDB2</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataDNS" data-name="shodan::hostdatadns">
+      <a href="../Shodan/HostDataDNS.html">HostDataDNS</a>
+      
+    </li>
+  
+  <li class="parent " data-id="shodan/Shodan/HostDataDocker" data-name="shodan::hostdatadocker">
+      <a href="../Shodan/HostDataDocker.html">HostDataDocker</a>
+      
+        <ul>
+  
+  <li class="parent " data-id="shodan/Shodan/HostDataDocker/HostDataDockerComponent" data-name="shodan::hostdatadocker::hostdatadockercomponent">
+      <a href="../Shodan/HostDataDocker/HostDataDockerComponent.html">HostDataDockerComponent</a>
+      
+        <ul>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataDocker/HostDataDockerComponent/HostDataDockerComponentDetails" data-name="shodan::hostdatadocker::hostdatadockercomponent::hostdatadockercomponentdetails">
+      <a href="../Shodan/HostDataDocker/HostDataDockerComponent/HostDataDockerComponentDetails.html">HostDataDockerComponentDetails</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="shodan/Shodan/HostDataDocker/HostDataDockerContainer" data-name="shodan::hostdatadocker::hostdatadockercontainer">
+      <a href="../Shodan/HostDataDocker/HostDataDockerContainer.html">HostDataDockerContainer</a>
+      
+        <ul>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataDocker/HostDataDockerContainer/HostDataDockerContainerConfig" data-name="shodan::hostdatadocker::hostdatadockercontainer::hostdatadockercontainerconfig">
+      <a href="../Shodan/HostDataDocker/HostDataDockerContainer/HostDataDockerContainerConfig.html">HostDataDockerContainerConfig</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataDocker/HostDataDockerContainer/HostDataDockerContainerMounts" data-name="shodan::hostdatadocker::hostdatadockercontainer::hostdatadockercontainermounts">
+      <a href="../Shodan/HostDataDocker/HostDataDockerContainer/HostDataDockerContainerMounts.html">HostDataDockerContainerMounts</a>
+      
+    </li>
+  
+  <li class="parent " data-id="shodan/Shodan/HostDataDocker/HostDataDockerContainer/HostDataDockerContainerNetworkSettings" data-name="shodan::hostdatadocker::hostdatadockercontainer::hostdatadockercontainernetworksettings">
+      <a href="../Shodan/HostDataDocker/HostDataDockerContainer/HostDataDockerContainerNetworkSettings.html">HostDataDockerContainerNetworkSettings</a>
+      
+        <ul>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataDocker/HostDataDockerContainer/HostDataDockerContainerNetworkSettings/HostDataDockerContainerNetwork" data-name="shodan::hostdatadocker::hostdatadockercontainer::hostdatadockercontainernetworksettings::hostdatadockercontainernetwork">
+      <a href="../Shodan/HostDataDocker/HostDataDockerContainer/HostDataDockerContainerNetworkSettings/HostDataDockerContainerNetwork.html">HostDataDockerContainerNetwork</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataDocker/HostDataDockerContainer/HostDataDockerContainerPorts" data-name="shodan::hostdatadocker::hostdatadockercontainer::hostdatadockercontainerports">
+      <a href="../Shodan/HostDataDocker/HostDataDockerContainer/HostDataDockerContainerPorts.html">HostDataDockerContainerPorts</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataDocker/HostDataDockerPlatform" data-name="shodan::hostdatadocker::hostdatadockerplatform">
+      <a href="../Shodan/HostDataDocker/HostDataDockerPlatform.html">HostDataDockerPlatform</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElastic" data-name="shodan::hostdataelastic">
+      <a href="../Shodan/HostDataElastic.html">HostDataElastic</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticAttributes" data-name="shodan::hostdataelasticattributes">
+      <a href="../Shodan/HostDataElasticAttributes.html">HostDataElasticAttributes</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticCluster" data-name="shodan::hostdataelasticcluster">
+      <a href="../Shodan/HostDataElasticCluster.html">HostDataElasticCluster</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticCompletion" data-name="shodan::hostdataelasticcompletion">
+      <a href="../Shodan/HostDataElasticCompletion.html">HostDataElasticCompletion</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticCPUItem" data-name="shodan::hostdataelasticcpuitem">
+      <a href="../Shodan/HostDataElasticCPUItem.html">HostDataElasticCPUItem</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticCPULoad" data-name="shodan::hostdataelasticcpuload">
+      <a href="../Shodan/HostDataElasticCPULoad.html">HostDataElasticCPULoad</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticFailure" data-name="shodan::hostdataelasticfailure">
+      <a href="../Shodan/HostDataElasticFailure.html">HostDataElasticFailure</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticFailureCausedBy" data-name="shodan::hostdataelasticfailurecausedby">
+      <a href="../Shodan/HostDataElasticFailureCausedBy.html">HostDataElasticFailureCausedBy</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticFilterCache" data-name="shodan::hostdataelasticfiltercache">
+      <a href="../Shodan/HostDataElasticFilterCache.html">HostDataElasticFilterCache</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticFS" data-name="shodan::hostdataelasticfs">
+      <a href="../Shodan/HostDataElasticFS.html">HostDataElasticFS</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticIdCache" data-name="shodan::hostdataelasticidcache">
+      <a href="../Shodan/HostDataElasticIdCache.html">HostDataElasticIdCache</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticIndex" data-name="shodan::hostdataelasticindex">
+      <a href="../Shodan/HostDataElasticIndex.html">HostDataElasticIndex</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticIndexDocs" data-name="shodan::hostdataelasticindexdocs">
+      <a href="../Shodan/HostDataElasticIndexDocs.html">HostDataElasticIndexDocs</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticIndexFieldData" data-name="shodan::hostdataelasticindexfielddata">
+      <a href="../Shodan/HostDataElasticIndexFieldData.html">HostDataElasticIndexFieldData</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticIndexing" data-name="shodan::hostdataelasticindexing">
+      <a href="../Shodan/HostDataElasticIndexing.html">HostDataElasticIndexing</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticIndexMetric" data-name="shodan::hostdataelasticindexmetric">
+      <a href="../Shodan/HostDataElasticIndexMetric.html">HostDataElasticIndexMetric</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticIndexStats" data-name="shodan::hostdataelasticindexstats">
+      <a href="../Shodan/HostDataElasticIndexStats.html">HostDataElasticIndexStats</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticIndices" data-name="shodan::hostdataelasticindices">
+      <a href="../Shodan/HostDataElasticIndices.html">HostDataElasticIndices</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticIndicesShards" data-name="shodan::hostdataelasticindicesshards">
+      <a href="../Shodan/HostDataElasticIndicesShards.html">HostDataElasticIndicesShards</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticIngest" data-name="shodan::hostdataelasticingest">
+      <a href="../Shodan/HostDataElasticIngest.html">HostDataElasticIngest</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticJVM" data-name="shodan::hostdataelasticjvm">
+      <a href="../Shodan/HostDataElasticJVM.html">HostDataElasticJVM</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticJVMData" data-name="shodan::hostdataelasticjvmdata">
+      <a href="../Shodan/HostDataElasticJVMData.html">HostDataElasticJVMData</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticJVMMemory" data-name="shodan::hostdataelasticjvmmemory">
+      <a href="../Shodan/HostDataElasticJVMMemory.html">HostDataElasticJVMMemory</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticJVMVersion" data-name="shodan::hostdataelasticjvmversion">
+      <a href="../Shodan/HostDataElasticJVMVersion.html">HostDataElasticJVMVersion</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticModule" data-name="shodan::hostdataelasticmodule">
+      <a href="../Shodan/HostDataElasticModule.html">HostDataElasticModule</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticNetwork" data-name="shodan::hostdataelasticnetwork">
+      <a href="../Shodan/HostDataElasticNetwork.html">HostDataElasticNetwork</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticNetworkTypes" data-name="shodan::hostdataelasticnetworktypes">
+      <a href="../Shodan/HostDataElasticNetworkTypes.html">HostDataElasticNetworkTypes</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticNode" data-name="shodan::hostdataelasticnode">
+      <a href="../Shodan/HostDataElasticNode.html">HostDataElasticNode</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticNodeCount" data-name="shodan::hostdataelasticnodecount">
+      <a href="../Shodan/HostDataElasticNodeCount.html">HostDataElasticNodeCount</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticNodeCPUData" data-name="shodan::hostdataelasticnodecpudata">
+      <a href="../Shodan/HostDataElasticNodeCPUData.html">HostDataElasticNodeCPUData</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticNodeHTTP" data-name="shodan::hostdataelasticnodehttp">
+      <a href="../Shodan/HostDataElasticNodeHTTP.html">HostDataElasticNodeHTTP</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticNodeInfo" data-name="shodan::hostdataelasticnodeinfo">
+      <a href="../Shodan/HostDataElasticNodeInfo.html">HostDataElasticNodeInfo</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticNodes" data-name="shodan::hostdataelasticnodes">
+      <a href="../Shodan/HostDataElasticNodes.html">HostDataElasticNodes</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticNodesMore" data-name="shodan::hostdataelasticnodesmore">
+      <a href="../Shodan/HostDataElasticNodesMore.html">HostDataElasticNodesMore</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticNodeStat" data-name="shodan::hostdataelasticnodestat">
+      <a href="../Shodan/HostDataElasticNodeStat.html">HostDataElasticNodeStat</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticOpenFileDescriptiors" data-name="shodan::hostdataelasticopenfiledescriptiors">
+      <a href="../Shodan/HostDataElasticOpenFileDescriptiors.html">HostDataElasticOpenFileDescriptiors</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticOS" data-name="shodan::hostdataelasticos">
+      <a href="../Shodan/HostDataElasticOS.html">HostDataElasticOS</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticOsInfo" data-name="shodan::hostdataelasticosinfo">
+      <a href="../Shodan/HostDataElasticOsInfo.html">HostDataElasticOsInfo</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticOsMemory" data-name="shodan::hostdataelasticosmemory">
+      <a href="../Shodan/HostDataElasticOsMemory.html">HostDataElasticOsMemory</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticOSName" data-name="shodan::hostdataelasticosname">
+      <a href="../Shodan/HostDataElasticOSName.html">HostDataElasticOSName</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticPackagingType" data-name="shodan::hostdataelasticpackagingtype">
+      <a href="../Shodan/HostDataElasticPackagingType.html">HostDataElasticPackagingType</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticPercolate" data-name="shodan::hostdataelasticpercolate">
+      <a href="../Shodan/HostDataElasticPercolate.html">HostDataElasticPercolate</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticPlugin" data-name="shodan::hostdataelasticplugin">
+      <a href="../Shodan/HostDataElasticPlugin.html">HostDataElasticPlugin</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticPrettyName" data-name="shodan::hostdataelasticprettyname">
+      <a href="../Shodan/HostDataElasticPrettyName.html">HostDataElasticPrettyName</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticPrimaryInterface" data-name="shodan::hostdataelasticprimaryinterface">
+      <a href="../Shodan/HostDataElasticPrimaryInterface.html">HostDataElasticPrimaryInterface</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticProcess" data-name="shodan::hostdataelasticprocess">
+      <a href="../Shodan/HostDataElasticProcess.html">HostDataElasticProcess</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticProcessor" data-name="shodan::hostdataelasticprocessor">
+      <a href="../Shodan/HostDataElasticProcessor.html">HostDataElasticProcessor</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticQueryCache" data-name="shodan::hostdataelasticquerycache">
+      <a href="../Shodan/HostDataElasticQueryCache.html">HostDataElasticQueryCache</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticSegments" data-name="shodan::hostdataelasticsegments">
+      <a href="../Shodan/HostDataElasticSegments.html">HostDataElasticSegments</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticShardIndex" data-name="shodan::hostdataelasticshardindex">
+      <a href="../Shodan/HostDataElasticShardIndex.html">HostDataElasticShardIndex</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticStore" data-name="shodan::hostdataelasticstore">
+      <a href="../Shodan/HostDataElasticStore.html">HostDataElasticStore</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticSwap" data-name="shodan::hostdataelasticswap">
+      <a href="../Shodan/HostDataElasticSwap.html">HostDataElasticSwap</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataElasticTransport" data-name="shodan::hostdataelastictransport">
+      <a href="../Shodan/HostDataElasticTransport.html">HostDataElasticTransport</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataETCD" data-name="shodan::hostdataetcd">
+      <a href="../Shodan/HostDataETCD.html">HostDataETCD</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataETCDLeaderInfo" data-name="shodan::hostdataetcdleaderinfo">
+      <a href="../Shodan/HostDataETCDLeaderInfo.html">HostDataETCDLeaderInfo</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataEthernetIP" data-name="shodan::hostdataethernetip">
+      <a href="../Shodan/HostDataEthernetIP.html">HostDataEthernetIP</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataFTP" data-name="shodan::hostdataftp">
+      <a href="../Shodan/HostDataFTP.html">HostDataFTP</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataHive" data-name="shodan::hostdatahive">
+      <a href="../Shodan/HostDataHive.html">HostDataHive</a>
+      
+    </li>
+  
+  <li class=" current" data-id="shodan/Shodan/HostDataHiveDatabase" data-name="shodan::hostdatahivedatabase">
+      <a href="../Shodan/HostDataHiveDatabase.html">HostDataHiveDatabase</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataHiveTable" data-name="shodan::hostdatahivetable">
+      <a href="../Shodan/HostDataHiveTable.html">HostDataHiveTable</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataHTTP" data-name="shodan::hostdatahttp">
+      <a href="../Shodan/HostDataHTTP.html">HostDataHTTP</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataHTTPFavicon" data-name="shodan::hostdatahttpfavicon">
+      <a href="../Shodan/HostDataHTTPFavicon.html">HostDataHTTPFavicon</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataHTTPRedirects" data-name="shodan::hostdatahttpredirects">
+      <a href="../Shodan/HostDataHTTPRedirects.html">HostDataHTTPRedirects</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataInfluxDB" data-name="shodan::hostdatainfluxdb">
+      <a href="../Shodan/HostDataInfluxDB.html">HostDataInfluxDB</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataISAKMP" data-name="shodan::hostdataisakmp">
+      <a href="../Shodan/HostDataISAKMP.html">HostDataISAKMP</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataISAKMPAggressive" data-name="shodan::hostdataisakmpaggressive">
+      <a href="../Shodan/HostDataISAKMPAggressive.html">HostDataISAKMPAggressive</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataISAKMPFlags" data-name="shodan::hostdataisakmpflags">
+      <a href="../Shodan/HostDataISAKMPFlags.html">HostDataISAKMPFlags</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataLANTronix" data-name="shodan::hostdatalantronix">
+      <a href="../Shodan/HostDataLANTronix.html">HostDataLANTronix</a>
+      
+    </li>
+  
+  <li class="parent " data-id="shodan/Shodan/HostDataMinecraft" data-name="shodan::hostdataminecraft">
+      <a href="../Shodan/HostDataMinecraft.html">HostDataMinecraft</a>
+      
+        <ul>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataMinecraft/HostDataMinecraftForgeChannels" data-name="shodan::hostdataminecraft::hostdataminecraftforgechannels">
+      <a href="../Shodan/HostDataMinecraft/HostDataMinecraftForgeChannels.html">HostDataMinecraftForgeChannels</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataMinecraft/HostDataMinecraftForgeInfo" data-name="shodan::hostdataminecraft::hostdataminecraftforgeinfo">
+      <a href="../Shodan/HostDataMinecraft/HostDataMinecraftForgeInfo.html">HostDataMinecraftForgeInfo</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataMinecraft/HostDataMinecraftMod" data-name="shodan::hostdataminecraft::hostdataminecraftmod">
+      <a href="../Shodan/HostDataMinecraft/HostDataMinecraftMod.html">HostDataMinecraftMod</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataMinecraft/HostDataMinecraftModInfo" data-name="shodan::hostdataminecraft::hostdataminecraftmodinfo">
+      <a href="../Shodan/HostDataMinecraft/HostDataMinecraftModInfo.html">HostDataMinecraftModInfo</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataMinecraft/HostDataMinecraftModInfoItem" data-name="shodan::hostdataminecraft::hostdataminecraftmodinfoitem">
+      <a href="../Shodan/HostDataMinecraft/HostDataMinecraftModInfoItem.html">HostDataMinecraftModInfoItem</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataMinecraft/HostDataMinecraftPlayers" data-name="shodan::hostdataminecraft::hostdataminecraftplayers">
+      <a href="../Shodan/HostDataMinecraft/HostDataMinecraftPlayers.html">HostDataMinecraftPlayers</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataMinecraft/HostDataMinecraftPlayersInfo" data-name="shodan::hostdataminecraft::hostdataminecraftplayersinfo">
+      <a href="../Shodan/HostDataMinecraft/HostDataMinecraftPlayersInfo.html">HostDataMinecraftPlayersInfo</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataMinecraft/HostDataMinecraftServerVersion" data-name="shodan::hostdataminecraft::hostdataminecraftserverversion">
+      <a href="../Shodan/HostDataMinecraft/HostDataMinecraftServerVersion.html">HostDataMinecraftServerVersion</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataMonero" data-name="shodan::hostdatamonero">
+      <a href="../Shodan/HostDataMonero.html">HostDataMonero</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataMoneroAddress" data-name="shodan::hostdatamoneroaddress">
+      <a href="../Shodan/HostDataMoneroAddress.html">HostDataMoneroAddress</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataMongoBuildEnvironment" data-name="shodan::hostdatamongobuildenvironment">
+      <a href="../Shodan/HostDataMongoBuildEnvironment.html">HostDataMongoBuildEnvironment</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataMongoBuildInfo" data-name="shodan::hostdatamongobuildinfo">
+      <a href="../Shodan/HostDataMongoBuildInfo.html">HostDataMongoBuildInfo</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataMongoDatabase" data-name="shodan::hostdatamongodatabase">
+      <a href="../Shodan/HostDataMongoDatabase.html">HostDataMongoDatabase</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataMongoDB" data-name="shodan::hostdatamongodb">
+      <a href="../Shodan/HostDataMongoDB.html">HostDataMongoDB</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataMongoDBServerStatus" data-name="shodan::hostdatamongodbserverstatus">
+      <a href="../Shodan/HostDataMongoDBServerStatus.html">HostDataMongoDBServerStatus</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataMongoListDatabases" data-name="shodan::hostdatamongolistdatabases">
+      <a href="../Shodan/HostDataMongoListDatabases.html">HostDataMongoListDatabases</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataMongoOpenSSL" data-name="shodan::hostdatamongoopenssl">
+      <a href="../Shodan/HostDataMongoOpenSSL.html">HostDataMongoOpenSSL</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataMQTT" data-name="shodan::hostdatamqtt">
+      <a href="../Shodan/HostDataMQTT.html">HostDataMQTT</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataNetBIOS" data-name="shodan::hostdatanetbios">
+      <a href="../Shodan/HostDataNetBIOS.html">HostDataNetBIOS</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataNetBIOSName" data-name="shodan::hostdatanetbiosname">
+      <a href="../Shodan/HostDataNetBIOSName.html">HostDataNetBIOSName</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataNetMQTTMessage" data-name="shodan::hostdatanetmqttmessage">
+      <a href="../Shodan/HostDataNetMQTTMessage.html">HostDataNetMQTTMessage</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataNTP" data-name="shodan::hostdatantp">
+      <a href="../Shodan/HostDataNTP.html">HostDataNTP</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataRedis" data-name="shodan::hostdataredis">
+      <a href="../Shodan/HostDataRedis.html">HostDataRedis</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataRedisCPUData" data-name="shodan::hostdatarediscpudata">
+      <a href="../Shodan/HostDataRedisCPUData.html">HostDataRedisCPUData</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataRedisKeys" data-name="shodan::hostdatarediskeys">
+      <a href="../Shodan/HostDataRedisKeys.html">HostDataRedisKeys</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataRedisMemory" data-name="shodan::hostdataredismemory">
+      <a href="../Shodan/HostDataRedisMemory.html">HostDataRedisMemory</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataRedisOOMPrevention" data-name="shodan::hostdataredisoomprevention">
+      <a href="../Shodan/HostDataRedisOOMPrevention.html">HostDataRedisOOMPrevention</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataRedisPersistence" data-name="shodan::hostdataredispersistence">
+      <a href="../Shodan/HostDataRedisPersistence.html">HostDataRedisPersistence</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataRedisReplication" data-name="shodan::hostdataredisreplication">
+      <a href="../Shodan/HostDataRedisReplication.html">HostDataRedisReplication</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataRedisServer" data-name="shodan::hostdataredisserver">
+      <a href="../Shodan/HostDataRedisServer.html">HostDataRedisServer</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataRedisSSL" data-name="shodan::hostdataredisssl">
+      <a href="../Shodan/HostDataRedisSSL.html">HostDataRedisSSL</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataRIP" data-name="shodan::hostdatarip">
+      <a href="../Shodan/HostDataRIP.html">HostDataRIP</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataRIPAddress" data-name="shodan::hostdataripaddress">
+      <a href="../Shodan/HostDataRIPAddress.html">HostDataRIPAddress</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataRsync" data-name="shodan::hostdatarsync">
+      <a href="../Shodan/HostDataRsync.html">HostDataRsync</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataSMB" data-name="shodan::hostdatasmb">
+      <a href="../Shodan/HostDataSMB.html">HostDataSMB</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataSNMP" data-name="shodan::hostdatasnmp">
+      <a href="../Shodan/HostDataSNMP.html">HostDataSNMP</a>
+      
+    </li>
+  
+  <li class="parent " data-id="shodan/Shodan/HostDataSSH" data-name="shodan::hostdatassh">
+      <a href="../Shodan/HostDataSSH.html">HostDataSSH</a>
+      
+        <ul>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataSSH/HostDataSSHKex" data-name="shodan::hostdatassh::hostdatasshkex">
+      <a href="../Shodan/HostDataSSH/HostDataSSHKex.html">HostDataSSHKex</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataSSL" data-name="shodan::hostdatassl">
+      <a href="../Shodan/HostDataSSL.html">HostDataSSL</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataSSLCert" data-name="shodan::hostdatasslcert">
+      <a href="../Shodan/HostDataSSLCert.html">HostDataSSLCert</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataSSLCipher" data-name="shodan::hostdatasslcipher">
+      <a href="../Shodan/HostDataSSLCipher.html">HostDataSSLCipher</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataSSLDHParams" data-name="shodan::hostdatassldhparams">
+      <a href="../Shodan/HostDataSSLDHParams.html">HostDataSSLDHParams</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataSSLExtensions" data-name="shodan::hostdatasslextensions">
+      <a href="../Shodan/HostDataSSLExtensions.html">HostDataSSLExtensions</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataSSLTlsext" data-name="shodan::hostdatassltlsext">
+      <a href="../Shodan/HostDataSSLTlsext.html">HostDataSSLTlsext</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostDataVertx" data-name="shodan::hostdatavertx">
+      <a href="../Shodan/HostDataVertx.html">HostDataVertx</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostSearch" data-name="shodan::hostsearch">
+      <a href="../Shodan/HostSearch.html">HostSearch</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/HostSearchFacet" data-name="shodan::hostsearchfacet">
+      <a href="../Shodan/HostSearchFacet.html">HostSearchFacet</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/Scan" data-name="shodan::scan">
+      <a href="../Shodan/Scan.html">Scan</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/ShodanAPIException" data-name="shodan::shodanapiexception">
+      <a href="../Shodan/ShodanAPIException.html">ShodanAPIException</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/ShodanAuthorizationException" data-name="shodan::shodanauthorizationexception">
+      <a href="../Shodan/ShodanAuthorizationException.html">ShodanAuthorizationException</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/ShodanClientException" data-name="shodan::shodanclientexception">
+      <a href="../Shodan/ShodanClientException.html">ShodanClientException</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/ShodanHostNotfoundException" data-name="shodan::shodanhostnotfoundexception">
+      <a href="../Shodan/ShodanHostNotfoundException.html">ShodanHostNotfoundException</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/ShodanRateLimitingException" data-name="shodan::shodanratelimitingexception">
+      <a href="../Shodan/ShodanRateLimitingException.html">ShodanRateLimitingException</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/StartScan" data-name="shodan::startscan">
+      <a href="../Shodan/StartScan.html">StartScan</a>
+      
+    </li>
+  
+  <li class=" " data-id="shodan/Shodan/UsageLimits" data-name="shodan::usagelimits">
+      <a href="../Shodan/UsageLimits.html">UsageLimits</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+  </div>
+</div>
+
+
+<div class="main-content">
+<h1 class="type-name">
+
+  <span class="kind">struct</span> Shodan::HostDataHiveDatabase
+
+</h1>
+
+
+  <ul class="superclass-hierarchy"><li class="superclass"><a href="../Shodan/HostDataHiveDatabase.html">Shodan::HostDataHiveDatabase</a></li><li class="superclass">Struct</li><li class="superclass">Value</li><li class="superclass">Object</li></ul>
+
+
+
+
+
+
+
+
+  <h2>
+    <a id="included-modules" class="anchor" href="#included-modules">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+    Included Modules
+  </h2>
+  <ul class="other-types-list">
+    
+      <li class="other-type">JSON::Serializable</li>
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+  <h2>
+    <a id="defined-in" class="anchor" href="#defined-in">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+    Defined in:
+  </h2>
+  
+
+
+
+
+
+  <h2>
+    <a id="constructors" class="anchor" href="#constructors">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+    Constructors
+  </h2>
+  <ul class="list-summary">
+    
+      <li class="entry-summary">
+        <a href="#new(pull:JSON::PullParser)-class-method" class="signature"><strong>.new</strong>(pull : JSON::PullParser)</a>
+        
+      </li>
+    
+  </ul>
+
+
+
+
+
+  <h2>
+    <a id="instance-method-summary" class="anchor" href="#instance-method-summary">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+    Instance Method Summary
+  </h2>
+  <ul class="list-summary">
+    
+      <li class="entry-summary">
+        <a href="#name:String-instance-method" class="signature"><strong>#name</strong> : String</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#name=(name:String)-instance-method" class="signature"><strong>#name=</strong>(name : String)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#tables:Array(HostDataHiveTable)-instance-method" class="signature"><strong>#tables</strong> : Array(HostDataHiveTable)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#tables=(tables:Array(HostDataHiveTable))-instance-method" class="signature"><strong>#tables=</strong>(tables : Array(HostDataHiveTable))</a>
+        
+      </li>
+    
+  </ul>
+
+
+
+
+
+<div class="methods-inherited">
+  
+    
+
+
+    
+
+
+    
+
+
+  
+    
+
+
+    
+
+
+    
+
+
+  
+    
+
+
+    
+
+
+    
+
+
+  
+    
+
+
+    
+
+
+    
+
+
+  
+</div>
+
+
+  <h2>
+    <a id="constructor-detail" class="anchor" href="#constructor-detail">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+    Constructor Detail
+  </h2>
+  
+    <div class="entry-detail" id="new(pull:JSON::PullParser)-class-method">
+      <div class="signature">
+        
+        def self.<strong>new</strong>(pull : JSON::PullParser)
+
+        <a class="method-permalink" href="#new(pull:JSON::PullParser)-class-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+
+
+
+
+
+  <h2>
+    <a id="instance-method-detail" class="anchor" href="#instance-method-detail">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+    Instance Method Detail
+  </h2>
+  
+    <div class="entry-detail" id="name:String-instance-method">
+      <div class="signature">
+        
+        def <strong>name</strong> : String
+
+        <a class="method-permalink" href="#name:String-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="name=(name:String)-instance-method">
+      <div class="signature">
+        
+        def <strong>name=</strong>(name : String)
+
+        <a class="method-permalink" href="#name=(name:String)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="tables:Array(HostDataHiveTable)-instance-method">
+      <div class="signature">
+        
+        def <strong>tables</strong> : Array(<a href="../Shodan/HostDataHiveTable.html">HostDataHiveTable</a>)
+
+        <a class="method-permalink" href="#tables:Array(HostDataHiveTable)-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="tables=(tables:Array(HostDataHiveTable))-instance-method">
+      <div class="signature">
+        
+        def <strong>tables=</strong>(tables : Array(<a href="../Shodan/HostDataHiveTable.html">HostDataHiveTable</a>))
+
+        <a class="method-permalink" href="#tables=(tables:Array(HostDataHiveTable))-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+
+
+
+
+</div>
+
+</body>
+</html>
