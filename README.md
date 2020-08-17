@@ -17,15 +17,15 @@ search_result = client.host_search("Minecraft Server", port: "25565", facets: { 
 ## Current Shodan API support:
 
 - [X] Shodan Search Methods
-- [ ] Shodan On-Demand Scanning
-- [ ] Shodan Network Alerts
-- [ ] Notifiers
+- [X] Shodan On-Demand Scanning
 - [X] Shodan Directory Methods
 - [X] Account Methods
 - [X] DNS Methods
 - [X] Utility Methods
 - [X] API Status Methods
 - [X] Experimental
+- [ ] Shodan Network Alerts
+- [ ] Notifiers
 
 
 ###  Enterprise endpoints (Not implemented)
