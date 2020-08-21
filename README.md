@@ -4,6 +4,7 @@
 
 Crystal library for the Shodan [REST API](https://developer.shodan.io/api).
 
+Big thanks to https://github.com/shadowscatcher/shodan for existing - made figuring out JSON structures much easier.:+1:
 
 # Installation
 Add the library as a dependency within your _shards.yml_
