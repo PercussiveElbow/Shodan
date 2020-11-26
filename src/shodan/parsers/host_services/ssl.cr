@@ -14,7 +14,7 @@ module Shodan
   struct SslAcceptableCA 
     include JSON::Serializable
     property components : SslCertComponents
-    property hash : Int32
+    property hash : Int64
     property raw : String
   end
 
