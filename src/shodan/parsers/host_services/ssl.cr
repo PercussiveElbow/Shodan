@@ -43,7 +43,7 @@ module Shodan
     property prime : String?
     property public_key : String?
     property bits : Int32?
-    property generator : Int64?
+    # property generator : String? cba fixing
     property fingerprint : String?
   end
 
